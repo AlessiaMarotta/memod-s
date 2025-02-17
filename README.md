@@ -37,6 +37,7 @@ python memod-s.py
 Usage: bash memod-s.py 
                        
  Options:
+```
 
 ## 🐍 Workflow
 
