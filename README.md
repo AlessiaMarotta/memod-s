@@ -31,7 +31,7 @@ git clone https://github.com/
 Run `memod-s` without any arguments to see usage instructions:
 
 ```
-bash memod-s.py
+python memod-s.py
 ```
 ```
 Usage: bash memod-s.py 
