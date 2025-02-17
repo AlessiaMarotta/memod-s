@@ -25,7 +25,7 @@ This will create an environment called `memod` and start installing dependencies
 Clone this repo
 
 ```
-git clone https://github.com/
+git clone [https://github.com/](https://github.com/alenana99/memod_snake.git)
 ```
 
 Run `memod-s` without any arguments to see usage instructions:
