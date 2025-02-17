@@ -29,7 +29,7 @@ Clone this repo
 git clone https://github.com/alenana99/memod_snake.git
 ```
 
-Run `memod-s` with --help or -h arguments to see usage instructions:
+Run `memod-s` with *--help* or *-h* arguments to see usage instructions:
 
 ```
 python memod-s --help
