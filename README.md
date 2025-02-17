@@ -1,6 +1,7 @@
 # `memod-s`
 
-> An easy-to-use Snakemake-based workflow for genome-wide bacterial methylation analysis in Nanopore sequencing data.
+> **Note**
+> A standardised workflow to explore and analyse prokaryotic methylation patterns for Nanopore sequencing data
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Snakemake](https://img.shields.io/badge/Snakemake-green?style=for-the-badge) 
 
