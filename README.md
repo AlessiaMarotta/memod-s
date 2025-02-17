@@ -86,11 +86,11 @@ Options:
 
 ### Bonus
 
-1.  Screening of contigs for antimicrobial resistance or virulence genes with [Abricate](https://github.com/tseemann/abricate)
+1.  Antimicrobial resistance or virulence genes screening with [Abricate](https://github.com/tseemann/abricate)
 
 ## 🖇️ Publications
 
-The `memod-s` workflow BLAH BLAH
+The `memod-s` workflow 
 
 ```
 NOSTRO ARTICOLO
