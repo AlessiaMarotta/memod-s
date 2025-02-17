@@ -89,12 +89,12 @@ Options:
 
 1.  Antimicrobial resistance or virulence genes screening with [Abricate](https://github.com/tseemann/abricate)
 
-## 📦 Test memod-s
+## 🗂️ Test memod-s
 
 * You can use the sample data available at this [figshare link](https://figshare.com/account/items/28429985/edit) to test the workflow.
 
 
-## 🖇️ Publications
+## 📄 Publications
 
 The `memod-s` workflow 
 
