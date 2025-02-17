@@ -1,4 +1,4 @@
-# 'memod-s'
+# `memod-s`
 > **Note**
 > An easy-to-use workflow for generating BLAH BLAH
 [![Snakemake](https://img.shields.io/badge/Snakemake->=5.10.0,<5.31.1-green)](https://snakemake.readthedocs.io/en/stable/project_info/history.html#id407)
