@@ -102,5 +102,8 @@ Riccardi, Christopher, Iacopo Passeri, Lisa Cangioli, Camilla Fagorzi, Marco Fon
 International Journal of Molecular Sciences 24, no. 1: 159.
 https://doi.org/10.3390/ijms24010159
 
-[*MicrobeMod* work](https://www.biorxiv.org/content/10.1101/2023.11.13.566931v1)
+Crits-Christoph, Alexander, Shinyoung Clair Kang, Henry H. Lee, and Nili Ostrov.
+"MicrobeMod: A computational toolkit for identifying prokaryotic methylation and restriction-modification with nanopore sequencing."
+bioRxiv (2023): 2023-11.
+doi: https://doi.org/10.1101/2023.11.13.566931
 ```
