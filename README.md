@@ -44,7 +44,7 @@ Process files for downstream analysis.
 Options:
   -h, --help            show this help message and exit
   -i INPUT_DIRECTORY, --input_directory INPUT_DIRECTORY
-                        Specify the input directory containing fast5 or pod5 files
+                        Specify the input directory containing fast5 or/and pod5 files
   -o OUTPUT_DIRECTORY, --output_directory OUTPUT_DIRECTORY
                         Specify the output directory (default: ./memod)
   -dm DORADO_MODELS [DORADO_MODELS ...], --dorado_models DORADO_MODELS [DORADO_MODELS ...]
