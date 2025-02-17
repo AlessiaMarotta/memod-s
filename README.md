@@ -1,14 +1,15 @@
 # `memod-s`
 
-> An easy-to-use Snakemake-based workflow that integrates multiple state-of-the-art tools to perform a comprehensive analysis of nanopore sequencing data.
-> It combines genome-wide methylation profiles with genomic features, providing insights into bacterial methylation patterns and their potential biological implications.
+> An easy-to-use Snakemake-based workflow for genome-wide bacterial methylation analysis in Nanopore sequencing data.
 
 ![Snakemake](https://img.shields.io/badge/Snakemake-green?style=for-the-badge) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 
 Hi :blush:
 
-`memod-s` is a Snakemake workflow that BLAH BLAH
+`memod-s` is an easy-to-use Snakemake-based workflow that integrates multiple state-of-the-art tools to perform a comprehensive analysis of nanopore sequencing data.
+The workflow covers all critical steps, from basecalling, quality control, genome assembly, and annotation to methylation analysis.
+It combines genome-wide methylation profiles with genomic features, providing insights into bacterial methylation patterns and their potential biological implications.
 
 ## ⚙️ Installation
 
