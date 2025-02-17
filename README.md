@@ -85,7 +85,7 @@ Options:
 
 ### Bonus
 
-1.  Abricate 
+1.  Screening of contigs for antimicrobial resistance or virulence genes with [Abricate](https://github.com/tseemann/abricate)
 
 ## 🖇️ Publications
 
@@ -94,4 +94,9 @@ The `memod-s` workflow BLAH BLAH
 ```
 NOSTRO ARTICOLO
 ```
+## 🖇️ References
+```
+[Riccardi, Christopher, Iacopo Passeri, Lisa Cangioli, Camilla Fagorzi, Marco Fondi, and Alessio Mengoni. 2023. "Crossing Bacterial Genomic Features and Methylation Patterns with MeStudio: An Epigenomic Analysis Tool" International Journal of Molecular Sciences 24, no. 1: 159. https://doi.org/10.3390/ijms24010159](https://www.mdpi.com/1422-0067/24/1/159)
+
+[*MicrobeMod* work](https://www.biorxiv.org/content/10.1101/2023.11.13.566931v1)
 ```
