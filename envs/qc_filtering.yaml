@@ -1,0 +1,24 @@
+name: qc_filtering
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - nanoplot
+  - biopython
+  - libpng
+  - nanoget
+  - numpy
+  - pandas
+  - plotly
+  - pyarrow
+  - pysam
+  - python=3.8
+  - python-dateutil
+  - python-kaleido
+  - scipy
+  - filtlong
+  - zlib
+  - libgcc-ng
+  - libstdcxx-ng
+

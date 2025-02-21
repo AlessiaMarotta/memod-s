@@ -1,0 +1,32 @@
+name: basecalling
+channels:
+    - bioconda
+    - conda-forge
+    - nanoporetech
+    - defaults
+    - mamba
+    - hcc
+    - pkgs
+dependencies:
+    - samtools
+    - minimap2
+    - k8
+    - libgcc-ng
+    - libzlib
+    - zlib
+    - dorado
+    - pod5
+    - h5py
+    - iso8601
+    - lib-pod5
+    - more-itertools
+    - numpy
+    - packaging
+    - pyarrow
+    - python
+    - pytz
+    - tqdm
+    - h5py
+    - cuda
+    - pip:
+        - vbz-h5py-plugin

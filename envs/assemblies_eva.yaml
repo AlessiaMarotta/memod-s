@@ -1,0 +1,47 @@
+name: ass_pol_eva
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python
+  - dragonflye
+  - any2fasta
+  - assembly-scan
+  - bwa
+  - dnaapler
+  - fastp
+  - flye
+  - kmc
+  - medaka
+  - miniasm
+  - nanoq
+  - perl
+  - perl-file-spec
+  - perl-findbin
+  - pigz
+  - pilon
+  - polypolish
+  - porechop
+  - racon
+  - rasusa
+  - raven-assembler
+  - samclip
+  - samtools
+  - seqtk
+  - quast
+  - matplotlib-base
+  - bedtools
+  - bwa
+  - joblib
+  - simplejson
+  - glimmerhmm
+  - circos
+  - python_abi
+  - python
+  - libzlib
+  - libgcc
+  - libstdcxx
+  - openjdk
+  - minimap2
+  - blast

@@ -1,0 +1,41 @@
+name: annotation_feat
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - prokka
+  - aragorn
+  - barrnap
+  - blast
+  - hmmer
+  - infernal
+  - minced
+  - parallel
+  - perl
+  - perl-bioperl
+  - perl-xml-simple
+  - prodigal
+  - tbl2asn-forever
+  - eggnog-mapper
+  - wget
+  - hmmer
+  - prodigal
+  - mmseqs2
+  - easel
+  - python
+  - biopython
+  - psutil
+  - diamond
+  - xlsxwriter
+  - abricate
+  - zlib
+  - unzip
+  - perl-json
+  - perl-list-moreutils
+  - perl-lwp-simple
+  - any2fasta
+  - perl-lwp-protocol-https
+  - perl-path-tiny
+  - perl-bioperl
+  - blast
