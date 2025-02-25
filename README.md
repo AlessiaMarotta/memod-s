@@ -36,6 +36,53 @@ Run `memod-s` with *--help* or *-h* arguments to see usage instructions:
 python memod-s --help
 ```
 ```
+
+
+
+   ███▄ ▄███▓▓█████  ███▄ ▄███▓ ▒█████  ▓█████▄   ██████
+  ▓██▒▀█▀ ██▒▓█   ▀ ▓██▒▀█▀ ██▒▒██▒  ██▒▒██▀ ██▌▒██    ▒
+  ▓██    ▓██░▒███   ▓██    ▓██░▒██░  ██▒░██   █▌░ ▓██▄
+  ▒██    ▒██ ▒▓█  ▄ ▒██    ▒██ ▒██   ██░░▓█▄   ▌  ▒   ██▒
+  ▒██▒   ░██▒░▒████▒▒██▒   ░██▒░ ████▓▒░░▒████▓ ▒██████▒▒
+  ░ ▒░   ░  ░░░ ▒░ ░░ ▒░   ░  ░░ ▒░▒░▒░  ▒▒▓  ▒ ▒ ▒▓▒ ▒ ░
+  ░  ░      ░ ░ ░  ░░  ░      ░  ░ ▒ ▒░  ░ ▒  ▒ ░ ░▒  ░ ░
+  ░      ░      ░   ░      ░   ░ ░ ░ ▒   ░ ░  ░ ░  ░  ░
+         ░      ░  ░       ░       ░ ░     ░          ░
+                                         ░
+
+Welcome to memod-s
+usage: memod-s [-h] -i INPUT_DIRECTORY [-o OUTPUT_DIRECTORY] [-dm DORADO_MODELS [DORADO_MODELS ...]] [-ml FILTLONG_MIN_LENGTH] [-kp FILTLONG_KEEP_PERCENT]
+               [-rr RACON_ROUNDS] [-mr MEDAKA_ROUNDS] [-mm MEDAKA_MODEL] [-ed EGGNOG_DB] [-ab] [-ab_dir ABRICATE_DB_DIR] [-ab_db ABRICATE_DB_NAME] [-q]
+
+Process files for downstream analysis.
+
+options:
+  -h, --help            show this help message and exit
+  -i INPUT_DIRECTORY, --input_directory INPUT_DIRECTORY
+                        Specify the input directory containing fast5 or pod5 files
+  -o OUTPUT_DIRECTORY, --output_directory OUTPUT_DIRECTORY
+                        Specify the output directory (default: ./memod)
+  -dm DORADO_MODELS [DORADO_MODELS ...], --dorado_models DORADO_MODELS [DORADO_MODELS ...]
+                        Specify a list of Dorado models
+  -ml FILTLONG_MIN_LENGTH, --filtlong_min_length FILTLONG_MIN_LENGTH
+                        Specify Filtlong minimum read length
+  -kp FILTLONG_KEEP_PERCENT, --filtlong_keep_percent FILTLONG_KEEP_PERCENT
+                        Specify Filtlong percent
+  -rr RACON_ROUNDS, --racon_rounds RACON_ROUNDS
+                        Specify racon rounds
+  -mr MEDAKA_ROUNDS, --medaka_rounds MEDAKA_ROUNDS
+                        Specify medaka rounds
+  -mm MEDAKA_MODEL, --medaka_model MEDAKA_MODEL
+                        Specify medaka model
+  -ed EGGNOG_DB, --eggnog_db EGGNOG_DB
+                        Specify EggNOG database path
+  -ab, --abricate       Specify whether to use Abricate
+  -ab_dir ABRICATE_DB_DIR, --abricate_db_dir ABRICATE_DB_DIR
+                        Specify Abricate database directory
+  -ab_db ABRICATE_DB_NAME, --abricate_db_name ABRICATE_DB_NAME
+                        Specify Abricate database name
+  -q, --quiet           Minimal standard output
+
 Usage: memod-s [-h] -i INPUT_DIRECTORY [-o OUTPUT_DIRECTORY] [-dm DORADO_MODELS [DORADO_MODELS ...]] [-ml FILTLONG_MIN_LENGTH]
                [-kp FILTLONG_KEEP_PERCENT] [-rr RACON_ROUNDS] [-mr MEDAKA_ROUNDS] [-mm MEDAKA_MODEL] [-ed EGGNOG_DB] [-q]
 
