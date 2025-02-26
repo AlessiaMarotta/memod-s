@@ -14,19 +14,24 @@ It combines genome-wide methylation profiles with genomic features, providing in
 
 ## ⚙️ Installation
 
-You can start using `memod-s` on your cluster with just one line of code with the [mamba package manager](https://github.com/mamba-org/mamba)
+To set up `memod-s`, you first need to create an environment where Snakemake will be installed. Then, you can clone the repository and run the workflow. 
+Create a dedicated environment for `memod-s` using [mamba package manager](https://github.com/mamba-org/mamba):
 
 ```
-mamba create -n memod -c bioconda memod
+mamba create -n memod-s -c bioconda snakemake
 ```
 
-This will create an environment called `memod` and start installing dependencies.
+This will create an environment called `memod-s` and install Snakemake.
 
-
-Clone this repo
+Then, activate the environment:
+```
+conda activate memod-s
+```
+And clone the repo:
 
 ```
 git clone https://github.com/alenana99/memod-s.git
+cd memod-s
 ```
 ## 🔧 Usage
 
