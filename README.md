@@ -22,13 +22,13 @@ mamba create -n memod -c bioconda memod
 
 This will create an environment called `memod` and start installing dependencies.
 
-## 🔧 Usage
 
 Clone this repo
 
 ```
 git clone https://github.com/alenana99/memod-s.git
 ```
+## 🔧 Usage
 
 Run `memod-s` with *--help* or *-h* arguments to see usage instructions:
 
