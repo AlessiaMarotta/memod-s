@@ -41,18 +41,6 @@ Run `memod-s` with *--help* or *-h* arguments to see usage instructions:
 python memod-s --help
 ```
 ```
-
-   ███▄ ▄███▓▓█████  ███▄ ▄███▓ ▒█████  ▓█████▄   ██████
-  ▓██▒▀█▀ ██▒▓█   ▀ ▓██▒▀█▀ ██▒▒██▒  ██▒▒██▀ ██▌▒██    ▒
-  ▓██    ▓██░▒███   ▓██    ▓██░▒██░  ██▒░██   █▌░ ▓██▄
-  ▒██    ▒██ ▒▓█  ▄ ▒██    ▒██ ▒██   ██░░▓█▄   ▌  ▒   ██▒
-  ▒██▒   ░██▒░▒████▒▒██▒   ░██▒░ ████▓▒░░▒████▓ ▒██████▒▒
-  ░ ▒░   ░  ░░░ ▒░ ░░ ▒░   ░  ░░ ▒░▒░▒░  ▒▒▓  ▒ ▒ ▒▓▒ ▒ ░
-  ░  ░      ░ ░ ░  ░░  ░      ░  ░ ▒ ▒░  ░ ▒  ▒ ░ ░▒  ░ ░
-  ░      ░      ░   ░      ░   ░ ░ ░ ▒   ░ ░  ░ ░  ░  ░
-         ░      ░  ░       ░       ░ ░     ░          ░
-                                         ░
-
 Welcome to memod-s
 usage: memod-s [-h] -i INPUT_DIRECTORY [-o OUTPUT_DIRECTORY] [-dm DORADO_MODELS [DORADO_MODELS ...]] [-ml FILTLONG_MIN_LENGTH] [-kp FILTLONG_KEEP_PERCENT]
                [-rr RACON_ROUNDS] [-mr MEDAKA_ROUNDS] [-mm MEDAKA_MODEL] [-ed EGGNOG_DB] [-ab] [-ab_dir ABRICATE_DB_DIR] [-ab_db ABRICATE_DB_NAME] [-q]
