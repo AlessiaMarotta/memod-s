@@ -93,7 +93,7 @@ rule all:
         expand("{output_dir}/mestudio/results/{sample}_checkout.txt", output_dir=output_dir, sample=samples),
 
         #GSEA
-        expand("{output_dir}/gsea/{sample}/{sample}_checkout.txt", output_dir=output_dir, sample=samples)
+        expand("{output_dir}/mestudio/results/{sample}_checkout_gsea.txt", output_dir=output_dir, sample=samples)
 
 rule convert_fast5_to_pod5:
     message: "Converting .fast5 files to POD5 file before Dorado basecalling."
@@ -492,13 +492,12 @@ rule gsea_analysis:
     input:
         "{output_dir}/annotation_feat/eggnog/{sample}/out.emapper.annotations"
     output:
-        "{output_dir}/gsea/{sample}/{sample}_checkout.txt"
+        "{output_dir}/mestudio/results/{sample}_checkout_gsea.txt"
     conda:
         "envs/gsea.yaml"
     params:
         mscore_dir="{output_dir}/mestudio/results/{sample}/mscore"
     shell:
         """
-        mkdir -p {output_dir}/gsea/{wildcards.sample}
-        Rscript scripts/gsea.R {params.mscore_dir} {output} {input} > /dev/null 2>&1
+        Rscript scripts/gsea.R {params.mscore_dir} {input} {output}
         """
