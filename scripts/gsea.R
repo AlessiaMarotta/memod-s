@@ -132,3 +132,4 @@ for (motif_dir in motif_dirs) {
 # Salvataggio del plot
   ggsave(filename = file.path(gsea_dir, paste0(motif_name, "_gsea_plot.pdf")), plot = plot_gsea, width = 8, height = 6, dpi = 300)
 }
+file.create(output_file)
