@@ -17,6 +17,8 @@ eggnog_db = config["params"]["eggnog"]["db"]
 #db_dir=config.get("db_dir", "databases_directory") 
 threads = config.get("threads", os.cpu_count())
 print(samples)
+abricate_db_dir = config.get("abricate_db_dir", "")
+abricate_db_name = config.get("abricate_db_name", "")
 
 def sampleInfos(sample_config, basecalling_dir):
     fast5_dict = {}
@@ -76,7 +78,8 @@ rule all:
         #Annotation
         expand("{output_dir}/annotation_feat/prokka/{sample}/{sample}_anno.faa", output_dir=output_dir, sample=samples),
         expand("{output_dir}/annotation_feat/eggnog/{sample}/out.emapper.annotations", output_dir=output_dir, sample=samples),
-        #expand("{output_dir}/annotation_feat/abricate/{sample}_abricate.txt", output_dir=output_dir, sample=samples) if abricate else [],
+        #expand("{output_dir}/annotation_feat/abricate/{sample}_abricate.txt", output_dir=output_dir, sample=samples) 
+        #if config.get("abricate_db_dir", "") and config.get("abricate_db_name", "") else [],
         f"{eggnog_db}",
 
         #Microbemod
