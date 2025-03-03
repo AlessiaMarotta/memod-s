@@ -142,7 +142,7 @@ for (motif_dir in motif_dirs) {
     geom_bar(stat = "identity", position = "dodge") +
     scale_fill_manual(values = c("Positive" = "skyblue", "Negative" = "deeppink")) +
     coord_flip() +  
-    labs(title = paste0("Top significant pathways - ", motif_name), x = "Pathway", y = "-log10(padj)") +
+    labs(title = paste0("Top significant pathways - ", motif_name), x = "Pathway", y = "Normalized Enrichment Score (NES)") +
     theme_minimal()
 
   #Salvataggio del plot
