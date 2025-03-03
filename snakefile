@@ -14,8 +14,7 @@ medaka_rounds=config["params"]["dragonflye"]["medaka_rounds"]
 medaka_model=config["params"]["dragonflye"]["model"]
 db_dir = config["folder"]["db_dir"]
 eggnog_db = config["params"]["eggnog"]["db"]
-#db_dir=config.get("db_dir", "databases_directory")
-#eggnog_db=config["params"]["eggnog"].get("db", "eggnog_db") 
+#db_dir=config.get("db_dir", "databases_directory") 
 threads = config.get("threads", os.cpu_count())
 print(samples)
 
