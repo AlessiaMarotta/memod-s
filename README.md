@@ -107,7 +107,7 @@ memod-s -i /path/to/your/input_dir/with/fast5/or/pod5
 
 ## 🗂️ Test memod-s
 
-* You can use the sample data available at this [figshare link](https://figshare.com/account/items/28429985/edit) to test the workflow.
+* You can use the sample data available at this [link] to test the workflow.
 
 
 ## 📄 Publications
