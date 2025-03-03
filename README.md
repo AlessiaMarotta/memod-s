@@ -30,7 +30,7 @@ conda activate memod-s
 And clone the repo:
 
 ```
-git clone https://github.com/alenana99/memod-s.git
+git clone https://github.com/AlessiaMarotta/memod-s.git
 cd memod-s
 ```
 ## 🔧 Usage
