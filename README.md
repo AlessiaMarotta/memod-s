@@ -75,10 +75,26 @@ options:
   -q, --quiet           Minimal standard output
 
 ```
-Basic usage example:
+🛠 Basic usage, to run `memod-s` with default parameters:
 
 ```
 memod-s -i /path/to/your/input_dir/with/fast5/or/pod5
+```
+🔬 Advanced Usage, for a full analysis with specific parameters:
+
+```
+memod-s -i /path/to/your/input_dir/with/fast5/or/pod5 \
+        -o /path/to/output_dir \
+        -ml 1500 \
+        -kp 80 \
+        -rr 5 \
+        -mr 2 \
+        -mm r1041_e82_400bps_sup_v4.3.0 \
+        -dm dna_r10.4.1_e8.2_400bps_sup@v5.0.0_6mA@v1 \
+            dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v1 \
+        -ab \
+        -ab_db vfdb \
+        -q
 ```
 
 ## 🐍 Workflow
