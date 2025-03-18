@@ -1,4 +1,4 @@
-# `memod-s`
+# 🧬 `memod-s`
 
 > **Note**
 > A standardised workflow to explore and analyse prokaryotic methylation patterns for Nanopore sequencing data
@@ -80,7 +80,7 @@ options:
 ```
 memod-s -i /path/to/your/input_dir/with/fast5/or/pod5
 ```
-🔬 Advanced Usage, for a full analysis with specific parameters:
+🔬 Advanced usage, for a full analysis with specific parameters:
 
 ```
 memod-s -i /path/to/your/input_dir/with/fast5/or/pod5 \
