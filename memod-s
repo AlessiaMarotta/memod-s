@@ -29,29 +29,27 @@ def print_banner():
 
     print(f"Welcome to memod-s")
 
-#facciamo che il nome sia: FAT17171_pass_eae0f6a7_45.fast5
 def fast5(file_):
     fileName = os.path.basename(file_)
     try:
         baseName = fileName.split(".")[0]
         baseSplit = baseName.split("_")
-        sample = baseSplit[0]  # Primo elemento: sample (ad esempio "FAT17171")
-        type = baseSplit[1]  # Secondo elemento: pass (ad esempio "pass")
-        id_ = baseSplit[2]  # Terzo elemento: id (ad esempio "eae0f6a7")
-        number = int(baseSplit[-1])  # Quarto elemento: numero (ad esempio "45"), convertito in intero
+        sample = baseSplit[0] 
+        type = baseSplit[1]  
+        id_ = baseSplit[2]
+        number = int(baseSplit[-1]) 
     except (ValueError, IndexError):
         raise ValueError(
             f"{fileName} does not appear to be a valid Fast5 file name. Please check file naming convention."
         )
     return file_, fileName, sample, number, "fast5"
 
-#se invece il file è: FAT17171.pod5
 def pod5(file_):
     fileName = os.path.basename(file_)
     try:
         baseName = fileName.split(".")[0]
         baseSplit = baseName.split("_")
-        sample = baseSplit[0]  # Nel caso "FAT17171.pod5", sample è "FAT17171"
+        sample = baseSplit[0] 
         number = "N"
     except (ValueError, IndexError):
         raise ValueError(
