@@ -25,7 +25,7 @@ This will create an environment called `memod-s` and install Snakemake.
 
 Then, activate the environment:
 ```
-conda activate memod-s
+mamba activate memod-s
 ```
 And clone the repo:
 
