@@ -37,7 +37,7 @@ cd memod-s
 Run `memod-s` with *--help* or *-h* arguments to see usage instructions:
 
 ```
-python memod-s --help
+./memod-s --help
 ```
 ```
 Welcome to memod-s
@@ -77,12 +77,12 @@ options:
 🛠 Basic usage, to run `memod-s` with default parameters:
 
 ```
-python memod-s -i /path/to/your/input_dir/with/fast5/or/pod5
+./memod-s -i /path/to/your/input_dir/with/fast5/or/pod5
 ```
-🔬 Advanced usage, for a full analysis with specific parameters:
+🔬 More advanced usage:
 
 ```
-python memod-s --input_directory /path/to/your/input_dir/with/fast5/or/pod5 \
+./memod-s --input_directory /path/to/your/input_dir/with/fast5/or/pod5 \
         --output_directory /path/to/output_dir \
         --filtlong_min_length 1500 \
         --filtlong_keep_percent 80 \
