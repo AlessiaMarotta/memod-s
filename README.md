@@ -52,7 +52,7 @@ options:
   -i INPUT_DIRECTORY, --input_directory INPUT_DIRECTORY
                         input directory containing FAST5 or POD5 files. (default: None)
   -o OUTPUT_DIRECTORY, --output_directory OUTPUT_DIRECTORY
-                        output directory. (default: /media/shared1/alessiam/snakemake_env_prova/project_xxx/prova_project_xxx/memod)
+                        output directory. (default: ./memod)
 
 filtering options:
   -ml FILTLONG_MIN_LENGTH, --filtlong_min_length FILTLONG_MIN_LENGTH
