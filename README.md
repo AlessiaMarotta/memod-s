@@ -41,37 +41,50 @@ Run `memod-s` with *--help* or *-h* arguments to see usage instructions:
 ```
 ```
 Welcome to memod-s
-usage: memod-s [-h] -i INPUT_DIRECTORY [-o OUTPUT_DIRECTORY] [-dm DORADO_MODELS [DORADO_MODELS ...]] [-ml FILTLONG_MIN_LENGTH] [-kp FILTLONG_KEEP_PERCENT]
-               [-rr RACON_ROUNDS] [-mr MEDAKA_ROUNDS] [-mm MEDAKA_MODEL] [-ed EGGNOG_DB] [-ab] [-ab_dir ABRICATE_DB_DIR] [-ab_db ABRICATE_DB_NAME] [-q]
+usage: memod-s2 [-h] -i INPUT_DIRECTORY [-o OUTPUT_DIRECTORY] [-ml FILTLONG_MIN_LENGTH] [-kp FILTLONG_KEEP_PERCENT] [-rr RACON_ROUNDS]
+                [-mr MEDAKA_ROUNDS] [-mm MEDAKA_MODEL] [-ed EGGNOG_DB] [-ab] [-ab_dir ABRICATE_DB_DIR] [-ab_db ABRICATE_DB_NAME]
+                [-dm DORADO_MODELS [DORADO_MODELS ...]] [-q]
 
-Process files for downstream analysis.
+Snakefile wrapper for memod-s. For more details visit: https://github.com/AlessiaMarotta/memod-s
 
 options:
   -h, --help            show this help message and exit
   -i INPUT_DIRECTORY, --input_directory INPUT_DIRECTORY
-                        Specify the input directory containing fast5 or pod5 files
+                        input directory containing FAST5 or POD5 files. (default: None)
   -o OUTPUT_DIRECTORY, --output_directory OUTPUT_DIRECTORY
-                        Specify the output directory (default: ./memod)
-  -dm DORADO_MODELS [DORADO_MODELS ...], --dorado_models DORADO_MODELS [DORADO_MODELS ...]
-                        Specify a list of Dorado models
+                        output directory. (default: /media/shared1/alessiam/snakemake_env_prova/project_xxx/prova_project_xxx/memod)
+
+filtering options:
   -ml FILTLONG_MIN_LENGTH, --filtlong_min_length FILTLONG_MIN_LENGTH
-                        Specify Filtlong minimum read length
+                        minimum read length for filtlong. (default: 1000)
   -kp FILTLONG_KEEP_PERCENT, --filtlong_keep_percent FILTLONG_KEEP_PERCENT
-                        Specify Filtlong percent
+                        percentage of best reads to keep. (default: 90)
+
+assembly options:
   -rr RACON_ROUNDS, --racon_rounds RACON_ROUNDS
-                        Specify racon rounds
+                        number of racon polishing rounds. (default: 4)
   -mr MEDAKA_ROUNDS, --medaka_rounds MEDAKA_ROUNDS
-                        Specify medaka rounds
+                        number of medaka polishing rounds. (default: 1)
   -mm MEDAKA_MODEL, --medaka_model MEDAKA_MODEL
-                        Specify medaka model
+                        medaka model to use. (default: r1041_e82_400bps_sup_v4.3.0)
+
+annotation options:
   -ed EGGNOG_DB, --eggnog_db EGGNOG_DB
-                        Specify EggNOG database path
-  -ab, --abricate       Specify whether to use Abricate
+                        path to eggNOG database. (default: eggnog_db)
+  -ab, --abricate       use abricate for resistance gene analysis. (default: False)
   -ab_dir ABRICATE_DB_DIR, --abricate_db_dir ABRICATE_DB_DIR
-                        Specify Abricate database directory
+                        directory for abricate databases. (default: abricate_db_dir)
   -ab_db ABRICATE_DB_NAME, --abricate_db_name ABRICATE_DB_NAME
-                        Specify Abricate database name
-  -q, --quiet           Minimal standard output
+                        abricate database name. (default: vfdb)
+
+dorado models:
+  -dm DORADO_MODELS [DORADO_MODELS ...], --dorado_models DORADO_MODELS [DORADO_MODELS ...]
+                        list of dorado models for basecalling. (default: ['dna_r10.4.1_e8.2_400bps_sup@v4.1.0',
+                        'dna_r10.4.1_e8.2_400bps_sup@v5.0.0_6mA@v1', 'dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v1'])
+
+general options:
+  -q, --quiet           suppress non-essential output. (default: False)
+
 
 ```
 🛠 Basic usage, to run `memod-s` with default parameters:
