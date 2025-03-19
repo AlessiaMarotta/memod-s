@@ -111,23 +111,56 @@ def run_snakemake(config_path, is_quiet=False):
 def main():
     print_banner()
 
-    parser = argparse.ArgumentParser(description="Process files for downstream analysis.")
-    parser.add_argument("-i", "--input_directory", required=True, help="Specify the input directory containing fast5 or pod5 files")
-    parser.add_argument("-o", "--output_directory", default=os.path.join(os.getcwd(), "memod"), help="Specify the output directory (default: ./memod)")
-    parser.add_argument("-dm", "--dorado_models", nargs="+", default=[
+    parser = argparse.ArgumentParser(
+        description=f"{Fore.YELLOW}Snakefile wrapper for memod-s.\nFor more details visit: {Fore.BLUE}https://github.com/AlessiaMarotta/memod-s{Sty>
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter
+    )
+
+    parser.add_argument("-i", "--input_directory", required=True,
+                        help="input directory containing FAST5 or POD5 files.")
+    parser.add_argument("-o", "--output_directory", default=os.path.join(os.getcwd(), "memod"),
+                        help="output directory.")
+
+    # Filtering options
+    filtering_group = parser.add_argument_group(f"{Fore.GREEN}filtering options{Style.RESET_ALL}")
+    filtering_group.add_argument("-ml", "--filtlong_min_length", type=int, default=1000,
+                                 help="minimum read length for filtlong.")
+    filtering_group.add_argument("-kp", "--filtlong_keep_percent", type=int, default=90,
+                                 help="percentage of best reads to keep.")
+
+    # Assembly options
+    assembly_group = parser.add_argument_group(f"{Fore.GREEN}assembly options{Style.RESET_ALL}")
+    assembly_group.add_argument("-rr", "--racon_rounds", type=int, default=4,
+                                 help="number of racon polishing rounds.")
+    assembly_group.add_argument("-mr", "--medaka_rounds", type=int, default=1,
+                                 help="number of medaka polishing rounds.")
+    assembly_group.add_argument("-mm", "--medaka_model", default="r1041_e82_400bps_sup_v4.3.0",
+                                 help="medaka model to use.")
+
+    # Annotation options
+    annotation_group = parser.add_argument_group(f"{Fore.GREEN}annotation options{Style.RESET_ALL}")
+    annotation_group.add_argument("-ed", "--eggnog_db", default="eggnog_db",
+                                  help="path to eggNOG database.")
+    annotation_group.add_argument("-ab", "--abricate", action="store_true",
+                                  help="use abricate for resistance gene analysis.")
+    annotation_group.add_argument("-ab_dir", "--abricate_db_dir", default="abricate_db_dir",
+                                  help="directory for abricate databases.")
+    annotation_group.add_argument("-ab_db", "--abricate_db_name", default="vfdb",
+                                  help="abricate database name.")
+
+    # Dorado models
+    dorado_group = parser.add_argument_group(f"{Fore.GREEN}dorado models{Style.RESET_ALL}")
+    dorado_group.add_argument("-dm", "--dorado_models", nargs="+", default=[
         "dna_r10.4.1_e8.2_400bps_sup@v4.1.0",
         "dna_r10.4.1_e8.2_400bps_sup@v5.0.0_6mA@v1",
-        "dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v1"], help="Specify a list of Dorado models")
-    parser.add_argument("-ml", "--filtlong_min_length", type=int, default=1000, help="Specify Filtlong minimum read length")
-    parser.add_argument("-kp", "--filtlong_keep_percent", type=int, default=90, help="Specify Filtlong percent")
-    parser.add_argument("-rr", "--racon_rounds", type=int, default=4, help="Specify racon rounds")
-    parser.add_argument("-mr", "--medaka_rounds", type=int, default=1, help="Specify medaka rounds")
-    parser.add_argument("-mm", "--medaka_model", default="r1041_e82_400bps_sup_v4.3.0", help="Specify medaka model")
-    parser.add_argument("-ed", "--eggnog_db", default="eggnog_db", help="Specify EggNOG database path")
-    parser.add_argument("-ab", "--abricate", action="store_true", help="Specify whether to use Abricate")
-    parser.add_argument("-ab_dir", "--abricate_db_dir", default="abricate_db_dir", help="Specify Abricate database directory")
-    parser.add_argument("-ab_db", "--abricate_db_name", default="vfdb", help="Specify Abricate database name")
-    parser.add_argument("-q", "--quiet", action="store_true", help="Minimal standard output")
+        "dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v1"
+    ], help="list of dorado models for basecalling.")
+
+    # General options
+    general_group = parser.add_argument_group(f"{Fore.GREEN}general options{Style.RESET_ALL}")
+    general_group.add_argument("-q", "--quiet", action="store_true",
+                                help="suppress non-essential output.")
+
     try:
         args = parser.parse_args()
         # Conditionally remove abricate-related arguments if 'abricate' is not set
