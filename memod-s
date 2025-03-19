@@ -140,7 +140,7 @@ def main():
     input_dir = args.input_directory
     output_dir = args.output_directory
     eggnog_db = args.eggnog_db if args.eggnog_db else os.path.join("db_dir", "eggnog_db")
-    abricate_db = args.abricate_db_name if args.abricate_db_name else os.path.join("db_dir", "abricate_db")
+    abricate_db = args.abricate_db_dir if args.abricate_db_dir else os.path.join("db_dir", "abricate_db")
     is_quiet = args.quiet
 
     # Create output directory if it doesn't exist
