@@ -104,7 +104,7 @@ general options:
         --medaka_model r1041_e82_400bps_sup_v4.3.0 \
         --dorado_models dna_r10.4.1_e8.2_400bps_sup@v5.0.0_6mA@v1 \
             dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v1 \
-        --quiet
+        --ab ---ab_dir /path/to/abricate/db -ab_db vfdb
 ```
 
 ## 🐍 Workflow
