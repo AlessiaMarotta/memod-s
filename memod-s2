@@ -1,0 +1,223 @@
+#!/usr/bin/env python3
+
+import argparse
+import glob
+import os
+import sys
+import yaml
+import subprocess
+import re
+from colorama import Fore, Style
+
+def print_banner():
+    red = "\033[91m"
+    reset = "\033[0m"
+    banner = """
+
+
+   ███▄ ▄███▓▓█████  ███▄ ▄███▓ ▒█████  ▓█████▄   ██████
+  ▓██▒▀█▀ ██▒▓█   ▀ ▓██▒▀█▀ ██▒▒██▒  ██▒▒██▀ ██▌▒██    ▒
+  ▓██    ▓██░▒███   ▓██    ▓██░▒██░  ██▒░██   █▌░ ▓██▄
+  ▒██    ▒██ ▒▓█  ▄ ▒██    ▒██ ▒██   ██░░▓█▄   ▌  ▒   ██▒
+  ▒██▒   ░██▒░▒████▒▒██▒   ░██▒░ ████▓▒░░▒████▓ ▒██████▒▒
+  ░ ▒░   ░  ░░░ ▒░ ░░ ▒░   ░  ░░ ▒░▒░▒░  ▒▒▓  ▒ ▒ ▒▓▒ ▒ ░
+  ░  ░      ░ ░ ░  ░░  ░      ░  ░ ▒ ▒░  ░ ▒  ▒ ░ ░▒  ░ ░
+  ░      ░      ░   ░      ░   ░ ░ ░ ▒   ░ ░  ░ ░  ░  ░
+         ░      ░  ░       ░       ░ ░     ░          ░
+                                         ░
+    """
+    print(red + banner + reset)
+
+    print(f"Welcome to memod-s")
+
+def fast5(file_):
+    fileName = os.path.basename(file_)
+    try:
+        baseName = fileName.split(".")[0]
+        baseSplit = baseName.split("_")
+        sample = baseSplit[0]
+        type = baseSplit[1]
+        id_ = baseSplit[2]
+        number = int(baseSplit[-1])
+    except (ValueError, IndexError):
+        raise ValueError(
+            f"{fileName} does not appear to be a valid Fast5 file name. Please check file naming convention."
+        )
+    return file_, fileName, sample, number, "fast5"
+
+def pod5(file_):
+    fileName = os.path.basename(file_)
+    try:
+        baseName = fileName.split(".")[0]
+        baseSplit = baseName.split("_")
+        sample = baseSplit[0]
+        number = "N"
+    except (ValueError, IndexError):
+        raise ValueError(
+            f"{fileName} does not appear to be a valid Pod5 file name. Please check file naming convention."
+        )
+    return file_, fileName, sample, number, "pod5"
+
+def create_config_yaml(input_dir, output_dir, metainfo, dorado_models, dorado_pu,
+			filtlong_min_length, filtlong_keep_percent, racon_rounds, medaka_rounds,
+			medaka_model, eggnog_db, abricate, abricate_db_dir, abricate_db_name):
+    abricate_d = {}
+    if abricate:
+        abricate_d = {"abricate_db_dir": os.path.join(output_dir, "db_dir", abricate_db_dir),
+                      "abricate_db_name" : abricate_db_name}
+
+    config = {
+        "folder": {
+            "input_dir": input_dir,
+            "output_dir": output_dir,
+            "scripts": "scripts",
+            "logs": "logs",
+            "db_dir": "db_dir"
+        },
+        "params": {
+            "sample_tab": os.path.join(output_dir, "sample.tab"),
+            "sample": list(set(f[1].split(".")[0].split("_")[0] for f in metainfo)),
+            "dorado_models": dorado_models,
+            "dorado_pu": dorado_pu,
+            "filtlong": {
+                "min_length": filtlong_min_length,
+                "keep_percent": filtlong_keep_percent
+            },
+            "dragonflye": {
+                "racon_rounds": racon_rounds,
+                "medaka_rounds": medaka_rounds,
+                "model": medaka_model
+            },
+            "eggnog": {
+                "db": eggnog_db,
+                "cpu": os.cpu_count()/2.,
+                "itype": "proteins",
+                "target_orthologs": "all"
+            }
+        }
+}
+    config["params"].update(abricate_d)
+    config_path = os.path.join(output_dir, "config.yaml")
+    with open(config_path, "w") as f:
+        yaml.dump(config,f)
+    return config_path
+
+def run_snakemake(config_path, is_quiet=False):
+    args = ["snakemake", "--configfile", config_path, "--cores", "all", "--nolock", "--use-conda"]
+    if is_quiet: args += ["--quiet", "all"]
+    try: subprocess.run(args, check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Error running Snakemake with config file '{config_path}': {e}")
+        sys.exit(1)
+
+def main():
+    print_banner()
+
+    parser = argparse.ArgumentParser(
+        description=f"{Fore.YELLOW}Snakefile wrapper for memod-s.\nFor more details visit: {Fore.BLUE}https://github.com/AlessiaMarotta/memod-s{Style.RESET_ALL}",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter
+    )
+
+    parser.add_argument("-i", "--input_directory", required=True,
+                        help="input directory containing FAST5 or POD5 files.")
+    parser.add_argument("-o", "--output_directory", default=os.path.join(os.getcwd(), "memod"),
+                        help="output directory.")
+
+    # Filtering options
+    filtering_group = parser.add_argument_group(f"{Fore.GREEN}filtering options{Style.RESET_ALL}")
+    filtering_group.add_argument("-ml", "--filtlong_min_length", type=int, default=1000,
+                                 help="minimum read length for filtlong.")
+    filtering_group.add_argument("-kp", "--filtlong_keep_percent", type=int, default=90,
+                                 help="percentage of best reads to keep.")
+
+    # Assembly options
+    assembly_group = parser.add_argument_group(f"{Fore.GREEN}assembly options{Style.RESET_ALL}")
+    assembly_group.add_argument("-rr", "--racon_rounds", type=int, default=4,
+                                 help="number of racon polishing rounds.")
+    assembly_group.add_argument("-mr", "--medaka_rounds", type=int, default=1,
+                                 help="number of medaka polishing rounds.")
+    assembly_group.add_argument("-mm", "--medaka_model", default="r1041_e82_400bps_sup_v4.3.0",
+                                 help="medaka model to use.")
+
+    # Annotation options
+    annotation_group = parser.add_argument_group(f"{Fore.GREEN}annotation options{Style.RESET_ALL}")
+    annotation_group.add_argument("-ed", "--eggnog_db", default="eggnog_db",
+                                  help="path to eggNOG database.")
+    annotation_group.add_argument("-ab", "--abricate", action="store_true",
+                                  help="use abricate for resistance gene analysis.")
+    annotation_group.add_argument("-ab_dir", "--abricate_db_dir", default="abricate_db_dir",
+                                  help="directory for abricate databases.")
+    annotation_group.add_argument("-ab_db", "--abricate_db_name", default="vfdb",
+                                  help="abricate database name.")
+
+    # Dorado
+    dorado_group = parser.add_argument_group(f"{Fore.GREEN}dorado models{Style.RESET_ALL}")
+    dorado_group.add_argument("-dm", "--dorado_models", nargs="+", default=[
+        "dna_r10.4.1_e8.2_400bps_sup@v4.1.0",
+        "dna_r10.4.1_e8.2_400bps_sup@v5.0.0_6mA@v1",
+        "dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v1"
+    ], help="list of dorado models for basecalling.")
+    dorado_group.add_argument("-dp", "--dorado_pu", default="cuda:all",
+                              help="If you don't have a GPU available, enter \"cpu\" as the processing unit to use for Dorado.")
+
+     # General options
+    general_group = parser.add_argument_group(f"{Fore.GREEN}general options{Style.RESET_ALL}")
+    general_group.add_argument("-q", "--quiet", action="store_true",
+                                help="suppress non-essential output.")
+
+    try:
+        args = parser.parse_args()
+        # Conditionally remove abricate-related arguments if 'abricate' is not set
+        if not args.abricate:
+            args.abricate_db_dir = None
+            args.abricate_db_name = None
+    except SystemExit:
+        sys.exit(0)
+
+    input_dir = args.input_directory
+    output_dir = args.output_directory
+    eggnog_db = args.eggnog_db if args.eggnog_db else os.path.join("db_dir", "eggnog_db")
+    abricate_db = args.abricate_db_dir if args.abricate_db_dir else os.path.join("db_dir", "abricate_db")
+    is_quiet = args.quiet
+
+    # Create output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
+
+    file_patterns = ["*.fast5", "*.pod5"]
+    files = [
+        file
+        for pattern in file_patterns
+        for file in glob.glob(os.path.join(input_dir, pattern))]
+
+    if not files:
+        print("No matching files found in the input directory")
+        sys.exit(1)
+
+    metainfo = []
+    for f in files:
+        for fxn in (fast5, pod5):
+            try:
+                metainfo.append(fxn(f))
+                break
+            except ValueError:
+                continue
+
+    if not metainfo:
+        print("No valid files found")
+        sys.exit(1)
+
+    metainfo.sort(key=lambda x: (x[2], int(x[3]) if x[3] != "N" else float("inf")))
+    sample_tab_path = os.path.join(output_dir, "sample.tab")
+
+    with open(sample_tab_path, "w") as sf:
+        for file_path, fileName, sample, number, file_type in metainfo:
+            file_path = os.path.abspath(file_path)
+            sf.write(f"{sample} {number} {file_path} {file_type}\n")
+
+    config_path = create_config_yaml(
+        input_dir, output_dir, metainfo, args.dorado_models, args.dorado_pu, args.filtlong_min_length, args.filtlong_keep_percent, args.racon_rounds,
+        args.medaka_rounds, args.medaka_model, args.eggnog_db, args.abricate, args.abricate_db_dir, args.abricate_db_name)
+    run_snakemake(config_path)
+
+if __name__ == "__main__":
+    main()
