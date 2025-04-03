@@ -82,7 +82,7 @@ dorado models:
                         list of dorado models for basecalling. (default: ['dna_r10.4.1_e8.2_400bps_sup@v4.1.0',
                         'dna_r10.4.1_e8.2_400bps_sup@v5.0.0_6mA@v1', 'dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v1'])
   -dp DORADO_PU, --dorado_pu DORADO_PU
-                         If you don't have a GPU available, enter \"cpu\" as the processing unit to use for Dorado. (default: ["cuda:all"])
+                         If you don't have a GPU available, enter "cpu" as the processing unit to use for Dorado. (default: "cuda:all")
 
 general options:
   -q, --quiet           suppress non-essential output. (default: False)
