@@ -43,7 +43,7 @@ Run `memod-s` with *--help* or *-h* arguments to see usage instructions:
 Welcome to memod-s
 usage: memod-s [-h] -i INPUT_DIRECTORY [-o OUTPUT_DIRECTORY] [-ml FILTLONG_MIN_LENGTH] [-kp FILTLONG_KEEP_PERCENT] [-rr RACON_ROUNDS]
                 [-mr MEDAKA_ROUNDS] [-mm MEDAKA_MODEL] [-ed EGGNOG_DB] [-ab] [-ab_dir ABRICATE_DB_DIR] [-ab_db ABRICATE_DB_NAME]
-                [-dm DORADO_MODELS [DORADO_MODELS ...]] [-q]
+                [-dm DORADO_MODELS [DORADO_MODELS ...]] [-dp DORADO_PU] [-q]
 
 Snakefile wrapper for memod-s. For more details visit: https://github.com/AlessiaMarotta/memod-s
 
@@ -81,6 +81,8 @@ dorado models:
   -dm DORADO_MODELS [DORADO_MODELS ...], --dorado_models DORADO_MODELS [DORADO_MODELS ...]
                         list of dorado models for basecalling. (default: ['dna_r10.4.1_e8.2_400bps_sup@v4.1.0',
                         'dna_r10.4.1_e8.2_400bps_sup@v5.0.0_6mA@v1', 'dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v1'])
+  -dp DORADO_PU, --dorado_pu DORADO_PU
+                         If you don't have a GPU available, enter \"cpu\" as the processing unit to use for Dorado. (default: ["cuda:all"])
 
 general options:
   -q, --quiet           suppress non-essential output. (default: False)
