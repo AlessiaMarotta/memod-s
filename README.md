@@ -1,4 +1,4 @@
-![Untitled (13)](https://github.com/user-attachments/assets/08913ff7-98bc-4a0f-a0fe-99d43e60da12)# 🧬 `memod-s`
+# 🧬 `memod-s`
 
 > **Note**
 > A standardised workflow to explore and analyse prokaryotic methylation patterns for Nanopore sequencing data
