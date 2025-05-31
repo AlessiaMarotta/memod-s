@@ -1,7 +1,11 @@
+################################################
+####                 memod-s                ####
+################################################
+
 import os
 import glob
 
-#Directories and parameters
+##### DIRECTORIES AND PARAMETERS ######
 input_dir = config["folder"]["input_dir"]
 output_dir = config["folder"]["output_dir"]
 sample_tab = config["params"]["sample_tab"]
