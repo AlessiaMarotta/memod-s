@@ -1,4 +1,4 @@
-# 🧬 `memod-s`
+![Untitled (13)](https://github.com/user-attachments/assets/08913ff7-98bc-4a0f-a0fe-99d43e60da12)# 🧬 `memod-s`
 
 > **Note**
 > A standardised workflow to explore and analyse prokaryotic methylation patterns for Nanopore sequencing data
@@ -10,6 +10,8 @@
 `memod-s` is an easy-to-use Snakemake-based workflow that integrates multiple state-of-the-art tools to perform a comprehensive analysis of nanopore sequencing data.
 The workflow covers all critical steps, from basecalling, quality control, genome assembly, and annotation to methylation analysis.
 It combines genome-wide methylation profiles with genomic features, providing insights into bacterial methylation patterns and their potential biological implications.
+
+(![memod-s scheme](https://github.com/user-attachments/assets/49da3727-1f49-4349-bdf2-d44dfde4aba4))
 
 ## ⚙️ Installation
 
