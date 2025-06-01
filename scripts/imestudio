@@ -7,7 +7,7 @@
 ## Linux script provided by Univeristy of Florence; The Florence Computational Biology Group;
 ## https://www.bio.unifi.it/vp-175-our-research.html
 
-INSTALLATION_DIR=/media/shared1/alessiam/icandoit/mestudio/MeStudio/src
+INSTALLATION_DIR=$(dirname "$(readlink -f "$0")")
 #MD5="6b5b40be4a3cbb5d12b5744a7174b781"
 replacer="$INSTALLATION_DIR/ms_replacR.py"
 mscheck="$INSTALLATION_DIR/mscheck.o"
