@@ -471,6 +471,7 @@ rule mestudio:
     threads: threads
     conda:
         "envs/mestudio.yaml"
+    priority: 2
     shell:
         """
         bash scripts/imestudio -f {input.assembly} -anno {input.anno} -smart {input.smart} -mo {input.motiflist} -o {output.mestudio_results}
@@ -483,6 +484,7 @@ rule circular_plots:
     threads: threads
     conda:
         "envs/mestudio.yaml"
+    priority: 1
     params:
         mscore_dir="{output_dir}/mestudio/results/{sample}/mscore"
     shell:
@@ -497,6 +499,7 @@ rule gsea_analysis:
         "{output_dir}/mestudio/results/{sample}_checkout_gsea.txt"
     conda:
         "envs/gsea.yaml"
+    priority: 0
     params:
         mscore_dir="{output_dir}/mestudio/results/{sample}/mscore"
     shell:
