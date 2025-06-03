@@ -471,7 +471,6 @@ rule mestudio:
     threads: threads
     conda:
         "envs/mestudio.yaml"
-    priority: 2
     shell:
         """
         bash scripts/imestudio -f {input.assembly} -anno {input.anno} -smart {input.smart} -mo {input.motiflist} -o {output.mestudio_results}
@@ -479,12 +478,13 @@ rule mestudio:
 
 rule circular_plots:
     message: "Generating circular density plot for each motif"
+    input:
+        mscore_dir=directory("{output_dir}/mestudio/results/{sample}")
     output:
         "{output_dir}/mestudio/results/{sample}_checkout.txt"
     threads: threads
     conda:
         "envs/mestudio.yaml"
-    priority: 1
     params:
         mscore_dir="{output_dir}/mestudio/results/{sample}/mscore"
     shell:
@@ -494,15 +494,15 @@ rule circular_plots:
 
 rule gsea_analysis:
     input:
-        "{output_dir}/annotation_feat/eggnog/{sample}/out.emapper.annotations"
+        emapper="{output_dir}/annotation_feat/eggnog/{sample}/out.emapper.annotations",
+        mscore_dir=directory("{output_dir}/mestudio/results/{sample}")
     output:
         "{output_dir}/mestudio/results/{sample}_checkout_gsea.txt"
     conda:
         "envs/gsea.yaml"
-    priority: 0
     params:
         mscore_dir="{output_dir}/mestudio/results/{sample}/mscore"
     shell:
         """
-        Rscript scripts/gsea.R {params.mscore_dir} {input} {output}
+        Rscript scripts/gsea.R {params.mscore_dir} {input.emapper} {output}
         """
