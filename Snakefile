@@ -479,7 +479,7 @@ rule mestudio:
 rule circular_plots:
     message: "Generating circular density plot for each motif"
     input:
-        mscore_dir=directory("{output_dir}/mestudio/results/{sample}")
+        mscore_dir="{output_dir}/mestudio/results/{sample}"
     output:
         "{output_dir}/mestudio/results/{sample}_checkout.txt"
     threads: threads
@@ -495,7 +495,7 @@ rule circular_plots:
 rule gsea_analysis:
     input:
         emapper="{output_dir}/annotation_feat/eggnog/{sample}/out.emapper.annotations",
-        mscore_dir=directory("{output_dir}/mestudio/results/{sample}")
+        mscore_dir="{output_dir}/mestudio/results/{sample}"
     output:
         "{output_dir}/mestudio/results/{sample}_checkout_gsea.txt"
     conda:
