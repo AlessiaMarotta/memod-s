@@ -127,9 +127,10 @@ general options:
 10. Genome annotation with [prokka](https://github.com/tseemann/prokka)
 11. Functional annotation with [eggnog-mapper](https://github.com/eggnogdb/eggnog-mapper)
 12. Call methylation with [MicrobeMod](https://github.com/cultivarium/MicrobeMod)
-13. Combine genome-wide methylation profiles with genomic features with [MeStudio](https://github.com/combogenomics/MeStudio) 
-14. Circular density plot for each motif with [Circlize](https://github.com/jokergoo/circlize)
-15. Gene Set Enrichment Analysis with [fgsea](https://github.com/alserglab/fgsea)
+13. Restriction-Modification systems annotation with [MicrobeMod](https://github.com/cultivarium/MicrobeMod)
+14. Combine genome-wide methylation profiles with genomic features with [MeStudio](https://github.com/combogenomics/MeStudio) 
+15. Circular density plot for each motif with [Circlize](https://github.com/jokergoo/circlize)
+16. Gene Set Enrichment Analysis with [fgsea](https://github.com/alserglab/fgsea)
 
 ### Bonus
 
