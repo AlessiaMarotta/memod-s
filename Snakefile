@@ -85,6 +85,7 @@ rule all:
         expand("{output_dir}/basecalling/{sample}/{sample}_basecalling.mapped.bam", output_dir=output_dir, sample=samples),
         expand("{output_dir}/microbemod/MicrobeMod/.installed", output_dir=output_dir),
         expand("{output_dir}/microbemod/results/{sample}/{sample}_methylated_sites.tsv", output_dir=output_dir, sample=samples),
+        expand("{output_dir}/microbemod/results/{sample}/annotate_rm/{sample}.rm.genes.tsv", output_dir=output_dir, sample=samples),
 
         #MeStudio
         expand("{output_dir}/mestudio/{sample}/{sample}_smart.gff", output_dir=output_dir, sample=samples),
