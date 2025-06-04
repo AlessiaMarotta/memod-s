@@ -399,6 +399,23 @@ rule microbemod_call_methylation:
         MicrobeMod call_methylation -b {input.mapped_bam_file} -r {input.assembly} -t 10 > /dev/null 2>&1
         """
 
+rule microbemod_annotate_rm:
+    message: "MicrobeMod annotate restriction-modification systems"
+    wildcard_constraints: sample="[^/\\.]+"
+    input:
+        assembly="{output_dir}/assemblies_eva/{sample}/{sample}.fa"
+    output:
+        microbemod_ms="{output_dir}/microbemod/results/{sample}/annotate_rm/{sample}.rm.genes.tsv"
+    threads: threads
+    conda:
+        "envs/microbemod.yaml"
+    shell:
+        """
+        mkdir -p {output_dir}/microbemod/results/{wildcards.sample}/annotate_rm
+        cd {output_dir}/microbemod/results/{wildcards.sample}/annotate_rm
+        MicrobeMod annotate_rm -f {input.assembly} -o {wildcards.sample} -t 10 > /dev/null 2>&1
+        """
+
 rule process_methylated_sites:
     message: "Create smart.gff file from microbemod output"
     wildcard_constraints: sample="[^/\\.]+"
