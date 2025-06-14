@@ -158,12 +158,12 @@ For example, in the circular plots below, upstream regions displayed a higher de
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/3f88e676-9f01-484e-94ab-0f18393bc8db" width="300"/><br/>
-      <sub><b>Motif A</b></sub>
+      <img src="https://github.com/user-attachments/assets/3f88e676-9f01-484e-94ab-0f18393bc8db" width="500"/><br/>
+      <sub><b>Motif YGATCR</b></sub>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/05b0c8cf-48c8-4cdd-ba21-08939094f1a9" width="300"/><br/>
-      <sub><b>Motif B</b></sub>
+      <img src="https://github.com/user-attachments/assets/05b0c8cf-48c8-4cdd-ba21-08939094f1a9" width="500"/><br/>
+      <sub><b>Motif CGSCG</b></sub>
     </td>
   </tr>
 </table>
