@@ -151,8 +151,13 @@ The `methylated_sites.tsv` output file is extensive and includes data on every m
 
 [MeStudio](https://github.com/combogenomics/MeStudio) generates a BED file for each feature, which includes (i) the seqid column indicating the name of each contig, (ii) the start and (iii) end positions of the feature, (iv) the gene ID present within the interval, (v) the number of methylations detected for that gene ID, and (vi) the corresponding protein product. 
 
-Circular density plots are generated for the motifs across the genome, providing a visualization of methylation density in different genomic contexts. The outer circle of the plot displayed the genome annotation of the contigs, while each inner circle represents the different categories of methylated sites (CDS, nCDS, tIG and US). The plots can reveal distinct methylation patterns for each category within each motif. For example, in this circular plot, upstream regions displayed a higher density of methylation compared to tIG regions, indicating a potential role of methylation in promoter regions.
-![Vaes_YGATCR-1](https://github.com/user-attachments/assets/117ff0ba-bbbc-4c86-b162-799475618599)
+Circular density plots are generated for the motifs across the genome, providing a visualization of methylation density in different genomic contexts. The outer circle of the plot displayed the genome annotation of the contigs, while each inner circle represents the different categories of methylated sites (CDS, nCDS, tIG and US). The plots can reveal distinct methylation patterns for each category within each motif. 
+
+For example, in this circular plot, upstream regions displayed a higher density of methylation compared to tIG regions, indicating a potential role of methylation in promoter regions:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/117ff0ba-bbbc-4c86-b162-799475618599" alt="Vaes_YGATCR-1" width="400"/>
+</p>
 
 ## 🗂️ Test memod-s
 
