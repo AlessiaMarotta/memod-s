@@ -146,6 +146,7 @@ The output file `motifs.tsv` describe the consensus motif sequences called (Moti
 | 1     | No Motif Assigned | NA                    | 6mA              | NA           | 11373            | NA                   | 0.75                                 | NA                     | NA                            | NA                     | NA                            |
 | 2     | CGSCG             | 1-NNHWNCGSCGNWDNN     | 5mC              | 8268         | 8216             | 0.994                | 0.82                                 | 2                      | 48.685                        | 4                      | 48.685                        |
 | 3     | No Motif Assigned | NA                    | 5mC              | NA           | 279              | NA                   | 0.73                                 | NA                     | NA                            | NA                     | NA                            |
+
 The `methylated_sites.tsv` output file is extensive and includes data on every methylated genomic site.
 
 ## 🗂️ Test memod-s
