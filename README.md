@@ -136,8 +136,19 @@ general options:
 
 1.  Antimicrobial resistance or virulence genes screening with [Abricate](https://github.com/tseemann/abricate)
 
-## 💡 Result interpretation
-
+## 💡 Results interpretation
+### Methylation output
+The two primary processed output files will be two tab-separated tables, one describing information for all methylated sites and one describing output for methylated motifs.
+The output file `motifs.tsv` describe the consensus motif sequences called (Motif), the raw motif called by STREME before cleaning up by MicrobeMod (Motif raw), the methylation type (Methylation type), the number of occurrence of the motif in the genome (Genome sites), the number of times the motif was methylated in the genome (Methylated sites), the ratio between genome sites and methylated sites (Methylation coverage), the mean of the percent of mapped reads that were methylated at all sites of the motif, with higher percentages indicating higher confidence in methylation calls (Average Percent Methylation per site).
+| Column                      | Description                                                                                                      |
+|----------------------------|------------------------------------------------------------------------------------------------------------------|
+| Motif                      | The consensus motif sequences called                                                                             |
+| Motif raw                  | The raw motif called by STREME before cleanup by MicrobeMod                                                      |
+| Methylation type           | The type of methylation (e.g., 6mA, 5mC)                                                                          |
+| Genome sites               | The number of occurrences of the motif in the genome                                                             |
+| Methylated sites           | The number of times the motif was methylated in the genome                                                       |
+| Methylation coverage       | The ratio between methylated sites and total genome sites                                                        |
+| Average Percent Methylation per site | The mean percentage of mapped reads that were methylated at all sites of the motif (higher = higher confidence) |
 
 ## 🗂️ Test memod-s
 
