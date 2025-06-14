@@ -168,6 +168,21 @@ For example, in the circular plots below, upstream regions displayed a higher de
   </tr>
 </table>
 
+### Gene Set Enrichment Analysis
+To assess whether methylation has a non-random impact on specific pathways—i.e., whether certain functional processes are more or less methylated than expected—a gene set enrichment analysis (GSEA) is performed. For each motif, genes are ranked according to the ratio between observed and expected methylation levels, with the expected values estimated using a statistical model. The fgsea package is then used to evaluate whether the genes associated with each pathway are randomly distributed or tended to cluster toward the top or bottom of the ranked list. The figures below display the top 16 enriched pathways: those with a positive enrichment score correspond to pathways with higher-than-expected methylation, whereas those with a negative score represent pathways with lower-than-expected methylation. Functional interpretation is conducted by mapping these pathways to the KEGG ontology database.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/254bd7ee-65c8-49d2-9dc7-007b7f388cb4" width="500"/><br/>
+      <sub><b>Top Significant Pathways YGATCR</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/bd1d440f-c506-408a-b268-2b75a5b4b9cd" width="500"/><br/>
+      <sub><b>Top Significant Pathways CGSCG</b></sub>
+    </td>
+  </tr>
+</table>
 
 ## 🗂️ Test memod-s
 
