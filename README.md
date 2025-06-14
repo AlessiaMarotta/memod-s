@@ -149,6 +149,11 @@ The output file `motifs.tsv` describe the consensus motif sequences called (Moti
 
 The `methylated_sites.tsv` output file is extensive and includes data on every methylated genomic site.
 
+[MeStudio](https://github.com/combogenomics/MeStudio) generates a BED file for each feature, which includes (i) the seqid column indicating the name of each contig, (ii) the start and (iii) end positions of the feature, (iv) the gene ID present within the interval, (v) the number of methylations detected for that gene ID, and (vi) the corresponding protein product. 
+
+Circular density plots are generated for the motifs across the genome, providing a visualization of methylation density in different genomic contexts. The outer circle of the plot displayed the genome annotation of the contigs, while each inner circle represents the different categories of methylated sites (CDS, nCDS, tIG and US). The plots can reveal distinct methylation patterns for each category within each motif. For example, in this circular plot, upstream regions displayed a higher density of methylation compared to tIG regions, indicating a potential role of methylation in promoter regions.
+
+
 ## 🗂️ Test memod-s
 
 * You can use the sample data available at this [link](https://zenodo.org/records/15586873?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImM0NmU4YmVmLTQyYmUtNGQwZC1iOTAxLWI5MDA4NGYyYTc1ZCIsImRhdGEiOnt9LCJyYW5kb20iOiJiOGE0YTM3ZTg3NzU3ZjhhZTI1ZGEzMTZiM2Q3NDk4OSJ9.JOW0TFS_n7Imwjdel5Iffidzh6-a_FdT49jOQxdiUDuSvv0Sq9FcC1nTCSk69nAb1JTWwjpPl8Dup6vINTB8OQ) to test the workflow. This dataset contains a POD5 file from Nanopore sequencing of Vibrio aestuarianus. The file serves as an example input for users who wish to test the Snakemake-based memod-s workflow for methylation calling and analysis from Nanopore sequencing data.
