@@ -139,16 +139,13 @@ general options:
 ## 💡 Results interpretation
 ### Methylation output
 The two primary processed output files will be two tab-separated tables, one describing information for all methylated sites and one describing output for methylated motifs.
-The output file `motifs.tsv` describe the consensus motif sequences called (Motif), the raw motif called by STREME before cleaning up by MicrobeMod (Motif raw), the methylation type (Methylation type), the number of occurrence of the motif in the genome (Genome sites), the number of times the motif was methylated in the genome (Methylated sites), the ratio between genome sites and methylated sites (Methylation coverage), the mean of the percent of mapped reads that were methylated at all sites of the motif, with higher percentages indicating higher confidence in methylation calls (Average Percent Methylation per site).
-| Column                      | Description                                                                                                      |
-|----------------------------|------------------------------------------------------------------------------------------------------------------|
-| Motif                      | The consensus motif sequences called                                                                             |
-| Motif raw                  | The raw motif called by STREME before cleanup by MicrobeMod                                                      |
-| Methylation type           | The type of methylation (e.g., 6mA, 5mC)                                                                          |
-| Genome sites               | The number of occurrences of the motif in the genome                                                             |
-| Methylated sites           | The number of times the motif was methylated in the genome                                                       |
-| Methylation coverage       | The ratio between methylated sites and total genome sites                                                        |
-| Average Percent Methylation per site | The mean percentage of mapped reads that were methylated at all sites of the motif (higher = higher confidence) |
+The output file `motifs.tsv` describe the consensus motif sequences called (Motif), the raw motif called by STREME before cleaning up by MicrobeMod (Motif raw), the methylation type (Methylation type), the number of occurrence of the motif in the genome (Genome sites), the number of times the motif was methylated in the genome (Methylated sites), the ratio between genome sites and methylated sites (Methylation coverage), the mean of the percent of mapped reads that were methylated at all sites of the motif, with higher percentages indicating higher confidence in methylation calls (Average Percent Methylation per site). It might look something like:
+| Index | Motif             | Motif_raw             | Methylation_type | Genome_sites | Methylated_sites | Methylation_coverage | Average_Percent_Methylation_per_site | Methylated_position_1 | Methylated_position_1_percent | Methylated_position_2 | Methylated_position_2_percent |
+|-------|-------------------|-----------------------|------------------|--------------|------------------|----------------------|--------------------------------------|------------------------|-------------------------------|------------------------|-------------------------------|
+| 0     | YGATCR            | 1-NNDNBYGATCRVNHNN    | 6mA              | 10690        | 9668             | 0.904                | 0.78                                 | 3                      | 50.0                          | 4                      | 50.0                          |
+| 1     | No Motif Assigned | NA                    | 6mA              | NA           | 11373            | NA                   | 0.75                                 | NA                     | NA                            | NA                     | NA                            |
+| 2     | CGSCG             | 1-NNHWNCGSCGNWDNN     | 5mC              | 8268         | 8216             | 0.994                | 0.82                                 | 2                      | 48.685                        | 4                      | 48.685                        |
+| 3     | No Motif Assigned | NA                    | 5mC              | NA           | 279              | NA                   | 0.73                                 | NA                     | NA                            | NA                     | NA                            |
 
 ## 🗂️ Test memod-s
 
