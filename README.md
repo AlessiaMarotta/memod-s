@@ -153,11 +153,21 @@ The `methylated_sites.tsv` output file is extensive and includes data on every m
 
 Circular density plots are generated for the motifs across the genome, providing a visualization of methylation density in different genomic contexts. The outer circle of the plot displayed the genome annotation of the contigs, while each inner circle represents the different categories of methylated sites (CDS, nCDS, tIG and US). The plots can reveal distinct methylation patterns for each category within each motif. 
 
-For example, in this circular plot, upstream regions displayed a higher density of methylation compared to tIG regions, indicating a potential role of methylation in promoter regions:
+For example, in the circular plots below, upstream regions displayed a higher density of methylation compared to tIG regions, indicating a potential role of methylation in promoter regions:
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/3f88e676-9f01-484e-94ab-0f18393bc8db" alt="Vaes_YGATCR-1" width="800"/>
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/3f88e676-9f01-484e-94ab-0f18393bc8db" width="250"/><br/>
+      <sub><b>Motif A</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/117ff0ba-bbbc-4c86-b162-799475618599" width="250"/><br/>
+      <sub><b>Motif B</b></sub>
+    </td>
+  </tr>
+</table>
+
 
 ## 🗂️ Test memod-s
 
