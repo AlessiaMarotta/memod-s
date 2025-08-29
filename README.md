@@ -33,6 +33,7 @@ And clone the repo:
 ```
 git clone https://github.com/AlessiaMarotta/memod-s.git
 cd memod-s
+bash setup.sh
 ```
 ## 🔧 Usage
 
