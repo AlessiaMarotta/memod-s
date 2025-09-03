@@ -186,6 +186,12 @@ To assess whether methylation has a non-random impact on specific pathways—i.e
   </tr>
 </table>
 
+### Differentially Methylated Regions Analysis
+In this step, the main goal is to identify specific regions (DMRs) in the genome where differential methylation occurs between different experimental samples. This can involve examining methylation changes under stress conditions like temperature shifts or antibiotic exposure (treated and untreated samples), or different time points in a time-course experiment.
+
+<img width="800" height="600" alt="sample1_vs_sample2_volcano" src="https://github.com/user-attachments/assets/3ebde351-7d8c-4fca-9f37-408f5869428a" />
+
+
 ## 🗂️ Test memod-s
 
 * You can use the sample data available at this [link](https://zenodo.org/records/15586873?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImM0NmU4YmVmLTQyYmUtNGQwZC1iOTAxLWI5MDA4NGYyYTc1ZCIsImRhdGEiOnt9LCJyYW5kb20iOiJiOGE0YTM3ZTg3NzU3ZjhhZTI1ZGEzMTZiM2Q3NDk4OSJ9.JOW0TFS_n7Imwjdel5Iffidzh6-a_FdT49jOQxdiUDuSvv0Sq9FcC1nTCSk69nAb1JTWwjpPl8Dup6vINTB8OQ) to test the workflow. This dataset contains a POD5 file from Nanopore sequencing of Vibrio aestuarianus. The file serves as an example input for users who wish to test the Snakemake-based memod-s workflow for methylation calling and analysis from Nanopore sequencing data.
