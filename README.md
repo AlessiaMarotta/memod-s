@@ -189,6 +189,10 @@ To assess whether methylation has a non-random impact on specific pathways—i.e
 ### Differentially Methylated Regions Analysis
 In this step, the main goal is to identify specific regions (DMRs) in the genome where differential methylation occurs between different experimental samples. This can involve examining methylation changes under stress conditions like temperature shifts or antibiotic exposure (treated and untreated samples), or different time points in a time-course experiment.
 
+| Contig | Window | Modified_bases_sample1 | Unmodified_bases_sample1 | Modified_bases_sample2 | Unmodified_bases_sample2 | Percent_sample1 | Percent_sample2 | delta_percent | p_value | log2FC | neg_log10_p |
+|--------|--------|------------------------|--------------------------|------------------------|--------------------------|-----------------|-----------------|---------------|---------|--------|-------------|
+
+
 <img width="800" height="600" alt="sample1_vs_sample2_volcano" src="https://github.com/user-attachments/assets/3ebde351-7d8c-4fca-9f37-408f5869428a" />
 
 
