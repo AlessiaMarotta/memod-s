@@ -198,20 +198,12 @@ The tsv output of DMRs analysis contains the following fields:
 | Unmodified_bases_sample1 | Number of unmodified bases of sample 1 in each window  |
 | Modified_bases_sample2   | Number of modified bases of sample 2 in each window    |
 | Unmodified_bases_sample2 | Number of unmodified bases of sample 2 in each window  |
-| ------------------------ | ------------------------------------------------------ |
 | Percent_sample1          | Sample1 methylated bases percent for each window       |
-| ------------------------ | ------------------------------------------------------ |
 | Percent_sample2          | Sample2 methylated bases percent for each window       |
-| ------------------------ | ------------------------------------------------------ |
 | delta_percent            | Difference between Percent_sample2 and Percent_sample1 |
-| ------------------------ | ------------------------------------------------------ |
 | p_value                  | P-value associated to the DMR                          |
-| ------------------------ | ------------------------------------------------------ |
 | log2FC                   | log2 Fold Change (Percent sample2/ Percent sample1)    |
-| ------------------------ | ------------------------------------------------------ |
-|                          | P-value in negative logarithmic scal to convert it     |
-| neg_log10_p              | into positive values suitable for display on a graph   |
-| ------------------------ | ------------------------------------------------------ |
+| neg_log10_p              | P-value in negative logarithmic scale                  |
 
 
 <img width="800" height="600" alt="sample1_vs_sample2_volcano" src="https://github.com/user-attachments/assets/3ebde351-7d8c-4fca-9f37-408f5869428a" />
