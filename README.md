@@ -193,15 +193,10 @@ The tsv output of DMRs analysis contains the following fields:
 |          COLUMN          |                      DESCRIPTION                       |
 | ------------------------ | ------------------------------------------------------ |
 | Contig                   | Contig                                                 |
-| ------------------------ | ------------------------------------------------------ |
 | Window                   | Window's number                                        |
-| ------------------------ | ------------------------------------------------------ |
 | Modified_bases_sample1   | Number of modified bases of sample 1 in each window    |
-| ------------------------ | ------------------------------------------------------ |
 | Unmodified_bases_sample1 | Number of unmodified bases of sample 1 in each window  |
-| ------------------------ | ------------------------------------------------------ |
 | Modified_bases_sample2   | Number of modified bases of sample 2 in each window    |
-| ------------------------ | ------------------------------------------------------ |
 | Unmodified_bases_sample2 | Number of unmodified bases of sample 2 in each window  |
 | ------------------------ | ------------------------------------------------------ |
 | Percent_sample1          | Sample1 methylated bases percent for each window       |
