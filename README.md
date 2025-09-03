@@ -136,6 +136,7 @@ general options:
 ### Bonus
 
 1.  Antimicrobial resistance or virulence genes screening with [Abricate](https://github.com/tseemann/abricate)
+2.  Differentially Methylated Regions (DMRs) analysis of paired samples.
 
 ## 💡 Results interpretation
 ### Methylation output
