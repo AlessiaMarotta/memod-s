@@ -136,7 +136,7 @@ general options:
 ### Bonus
 
 1.  Antimicrobial resistance or virulence genes screening with [Abricate](https://github.com/tseemann/abricate)
-2.  Differentially Methylated Regions (DMRs) analysis of paired samples.
+2.  Differentially Methylated Regions (DMRs) analysis of paired samples. [work in progress]
 
 ## 💡 Results interpretation
 ### Methylation output
@@ -186,7 +186,7 @@ To assess whether methylation has a non-random impact on specific pathways—i.e
   </tr>
 </table>
 
-### Differentially Methylated Regions Analysis
+### Differentially Methylated Regions Analysis [work in progress]
 In this step, the main goal is to identify specific regions (DMRs) in the genome where differential methylation occurs between different experimental samples. This can involve examining methylation changes under stress conditions like temperature shifts or antibiotic exposure (treated and untreated samples), or different time points in a time-course experiment.
 The tsv output of DMRs analysis contains the following fields:
 
