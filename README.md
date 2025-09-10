@@ -205,6 +205,28 @@ The tsv output of DMRs analysis contains the following fields:
 | log2FC                   | log2 Fold Change (Percent sample2/ Percent sample1)    |
 | neg_log10_p              | P-value in negative logarithmic scale                  |
 
+|          COLUMN          |                      DESCRIPTION                       |
+| ------------------------ | ------------------------------------------------------ |
+| Contig                   | Name/ID of the contig where the window is located.     |
+| Start window             | Index (number) of the first window in the segment.     |
+| End window               | Index (number) of the last window in the segment.      |
+| Start bp                 | Genomic coordinate (bp) of the start of the segment.   |
+| End bp                   | Genomic coordinate (bp) of the end of the segment.     |
+| N window                 | Number of windows included in the segment.             |
+| Modified_bases_sample1   | Number of modified bases of sample 1 in each segment.  |
+| Unmodified_bases_sample1 | Number of unmodified bases of sample 1 in each segment.|
+| Modified_bases_sample2   | Number of modified bases of sample 2 in each segment.  |
+| Unmodified_bases_sample2 | Number of unmodified bases of sample 2 in each segment.|
+| Percent_sample1          | Sample1 methylation percent.                           |
+| Percent_sample2          | Sample2 methylation percent.                           |
+| delta_percent            | Difference between Percent_sample2 and Percent_sample1.|
+| p_value                  | Fisher’s exact test p-value between samples.           |
+| log2FC                   | log2 Fold Change (Percent sample2/ Percent sample1)    |
+| Adj_p                    | Benjamini–Hochberg adjusted p-value (FDR).             |
+| FDR Significan           | True if the segment is significant (Adj_p < 0.05).     |
+| neg_log10_p              | –log₁₀(p-value), used for volcano plot visualization.  |
+| Abs log2FC               | Absolute value of log₂FC, highlight strong changes.    |
+
 
 <img width="800" height="600" alt="sample1_vs_sample2_volcano" src="https://github.com/user-attachments/assets/3ebde351-7d8c-4fca-9f37-408f5869428a" />
 
