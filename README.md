@@ -188,22 +188,33 @@ To assess whether methylation has a non-random impact on specific pathways—i.e
 
 ### Differentially Methylated Regions Analysis [work in progress]
 In this step, the main goal is to identify specific regions (DMRs) in the genome where differential methylation occurs between different experimental samples. This can involve examining methylation changes under stress conditions like temperature shifts or antibiotic exposure (treated and untreated samples), or different time points in a time-course experiment.
-The tsv output of DMRs analysis contains the following fields:
+
+Window-level results file (*_window_results.tsv): Each row corresponds to a sliding genomic window of fixed length (default: 50 bp) across each contig.
 
 |          COLUMN          |                      DESCRIPTION                       |
 | ------------------------ | ------------------------------------------------------ |
-| Contig                   | Contig                                                 |
-| Window                   | Window's number                                        |
-| Modified_bases_sample1   | Number of modified bases of sample 1 in each window    |
-| Unmodified_bases_sample1 | Number of unmodified bases of sample 1 in each window  |
-| Modified_bases_sample2   | Number of modified bases of sample 2 in each window    |
-| Unmodified_bases_sample2 | Number of unmodified bases of sample 2 in each window  |
-| Percent_sample1          | Sample1 methylated bases percent for each window       |
-| Percent_sample2          | Sample2 methylated bases percent for each window       |
-| delta_percent            | Difference between Percent_sample2 and Percent_sample1 |
-| p_value                  | P-value associated to the DMR                          |
-| log2FC                   | log2 Fold Change (Percent sample2/ Percent sample1)    |
-| neg_log10_p              | P-value in negative logarithmic scale                  |
+| Contig                   | Contig where the window is located                     |
+| Window_index             | Index of the window                                    |
+| start_bp                 | Genomic coordinate of the first base in the window     |
+| end_bp                   | Genomic coordinate of the last base in the window      |
+| Modified_bases_sample1   | Number of modified bases in sample1 within the window  |
+| Unmodified_bases_sample1 | Number of unmodified bases in sample1 within the window|
+| Modified_bases_sample2   | Number of modified bases in sample2 within the window  |
+| Unmodified_bases_sample2 | Number of unmodified bases in sample2 within the window|
+| total_sample1            | Total coverage (Mod + Unmod) in sample1                |
+| total_sample2            | Total coverage (Mod + Unmod) in sample2                |
+| tot_cov                  | Combined coverage from both samples                    |
+| Percent_sample1          | Proportion of modified bases in sample1                |
+| Percent_sample2          | Proportion of modified bases in sample2                |
+| delta_percent            | Difference in methylation percentage between samples   |
+| p_value                  | Fisher’s exact test p-value within the window          |
+| log2FC                   | Log2FC of methylation percentage between samples       |
+| ratio_diff               | Normalized difference in the number of modified bases  |
+| neg_log10_p              | Negative log10-transformed p-value                     |
+
+
+Segment-level results file (*_segments.tsv):
+Each row represents a genomic segment — a contiguous region of windows with similar methylation patterns — obtained after statistical segmentation of the genome using the ruptures algorithm.
 
 |          COLUMN          |                      DESCRIPTION                       |
 | ------------------------ | ------------------------------------------------------ |
@@ -212,7 +223,7 @@ The tsv output of DMRs analysis contains the following fields:
 | End window               | Index (number) of the last window in the segment.      |
 | Start bp                 | Genomic coordinate (bp) of the start of the segment.   |
 | End bp                   | Genomic coordinate (bp) of the end of the segment.     |
-| N window                 | Number of windows included in the segment.             |
+| N windows                | Number of windows included in the segment.             |
 | Modified_bases_sample1   | Number of modified bases of sample 1 in each segment.  |
 | Unmodified_bases_sample1 | Number of unmodified bases of sample 1 in each segment.|
 | Modified_bases_sample2   | Number of modified bases of sample 2 in each segment.  |
@@ -222,14 +233,15 @@ The tsv output of DMRs analysis contains the following fields:
 | delta_percent            | Difference between Percent_sample2 and Percent_sample1.|
 | p_value                  | Fisher’s exact test p-value between samples.           |
 | log2FC                   | log2 Fold Change (Percent sample2/ Percent sample1)    |
+| ratio_diff               | Ratio of meth. diff. between samples normalized        |
 | Adj_p                    | Benjamini–Hochberg adjusted p-value (FDR).             |
-| FDR Significan           | True if the segment is significant (Adj_p < 0.05).     |
-| neg_log10_p              | –log₁₀(p-value), used for volcano plot visualization.  |
+| FDR Significant          | True if the segment is significant (Adj_p < 0.05).     |
+| neg_log10_p              | –log₁₀(p-value)                                        |
+| neg_log10_adj_p          | −log10(FDR-adjusted p-value) for visualization purposes|
 | Abs log2FC               | Absolute value of log₂FC, highlight strong changes.    |
 
 
-<img width="800" height="600" alt="sample1_vs_sample2_volcano" src="https://github.com/user-attachments/assets/3ebde351-7d8c-4fca-9f37-408f5869428a" />
-
+<img width="900" height="600" alt="sample1_vs_sample2_volcano" src="https://github.com/user-attachments/assets/c0879ec6-5bc3-4328-a5c0-419666d909f9" />
 
 ## 🗂️ Test memod-s
 
@@ -240,7 +252,7 @@ The tsv output of DMRs analysis contains the following fields:
 The `memod-s` workflow 
 
 ```
-NOSTRO ARTICOLO
+ARTICOLO
 ```
 ## 🖇️ References
 ```
