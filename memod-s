@@ -60,7 +60,7 @@ def pod5(file_):
 
 def create_config_yaml(input_dir, output_dir, metainfo, dorado_models, dorado_pu,
 			filtlong_min_length, filtlong_keep_percent, racon_rounds, medaka_rounds,
-			medaka_model, eggnog_db, abricate, abricate_db_dir, abricate_db_name):
+			medaka_model, eggnog_db, abricate, abricate_db_dir, abricate_db_name, dmr_window, dmr_pairs):
     abricate_d = {}
     if abricate:
         abricate_d = {"abricate_db_dir": os.path.join(output_dir, "db_dir", abricate_db_dir),
@@ -93,7 +93,9 @@ def create_config_yaml(input_dir, output_dir, metainfo, dorado_models, dorado_pu
                 "cpu": os.cpu_count()/2.,
                 "itype": "proteins",
                 "target_orthologs": "all"
-            }
+            },
+            "dmr_window": dmr_window,
+            "dmr_pairs": dmr_pairs
         }
 }
     config["params"].update(abricate_d)
@@ -160,7 +162,12 @@ def main():
     dorado_group.add_argument("-dp", "--dorado_pu", default="cuda:all",
                               help="If you don't have a GPU available, enter \"cpu\" as the processing unit to use for Dorado.")
 
-     # General options
+    # DMRs
+    dmr_group = parser.add_argument_group(f"{Fore.GREEN}DMRs options{Style.RESET_ALL}")
+    dmr_group.add_argument("--dmr_window", type=int, default="50", help="lenght of DMR window (bp)")
+    dmr_group.add_argument("--dmr_pairs", nargs="+", help="Pairs of samples for Differentially Methylation Regions Analysis. Format: sample1,sample2 sample3,sample4")
+
+ # General options
     general_group = parser.add_argument_group(f"{Fore.GREEN}general options{Style.RESET_ALL}")
     general_group.add_argument("-q", "--quiet", action="store_true",
                                 help="suppress non-essential output.")
@@ -173,6 +180,11 @@ def main():
             args.abricate_db_name = None
     except SystemExit:
         sys.exit(0)
+
+    if args.dmr_pairs:
+        dmr_pairs = [pair.split(",") for pair in args.dmr_pairs]
+    else:
+        dmr_pairs = []
 
     input_dir = args.input_directory
     output_dir = args.output_directory
@@ -216,7 +228,7 @@ def main():
 
     config_path = create_config_yaml(
         input_dir, output_dir, metainfo, args.dorado_models, args.dorado_pu, args.filtlong_min_length, args.filtlong_keep_percent, args.racon_rounds,
-        args.medaka_rounds, args.medaka_model, args.eggnog_db, args.abricate, args.abricate_db_dir, args.abricate_db_name)
+        args.medaka_rounds, args.medaka_model, args.eggnog_db, args.abricate, args.abricate_db_dir, args.abricate_db_name, args.dmr_window, dmr_pairs)
     run_snakemake(config_path)
 
 if __name__ == "__main__":
