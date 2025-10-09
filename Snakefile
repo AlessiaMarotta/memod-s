@@ -4,6 +4,7 @@
 
 import os
 import glob
+from datetime import datetime
 
 ##### DIRECTORIES AND PARAMETERS ######
 input_dir = config["folder"]["input_dir"]
@@ -23,6 +24,9 @@ dorado_pu=config["params"]["dorado_pu"]
 print(samples)
 abricate_db_dir = config["params"].get("abricate_db_dir", "")
 abricate_db_name = config["params"].get("abricate_db_name", "")
+dmr_window = config["params"].get("dmr_window", 50)
+dmr_pairs = config["params"].get("dmr_pairs", [])
+
 
 def sampleInfos(sample_config, basecalling_dir):
     fast5_dict = {}
@@ -57,6 +61,9 @@ def getPodFilesDict(wildcards, d=sample_d_pod5):
     out = {wildcards.sample: d[wildcards.sample]}
     print(out)
     return out
+
+start_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+print(start_time)
 
 rule all:
     input:
@@ -96,6 +103,13 @@ rule all:
 
         #GSEA
         expand("{output_dir}/mestudio/results/{sample}_checkout_gsea.txt", output_dir=output_dir, sample=samples)
+
+        #DMRs
+        expand("{output_dir}/DMRs/{control}_vs_{treated}_volcano.png", output_dir=output_dir,
+               control=[pair[0] for pair in dmr_pairs], treated=[pair[1] for pair in dmr_pairs]),
+        expand("{output_dir}/DMRs/{control}_vs_{treated}_window_results.tsv", output_dir=output_dir,
+               control=[pair[0] for pair in dmr_pairs], treated=[pair[1] for pair in dmr_pairs])
+
 
 rule convert_fast5_to_pod5:
     message: "Converting .fast5 files to POD5 file before Dorado basecalling."
@@ -524,3 +538,45 @@ rule gsea_analysis:
         """
         Rscript scripts/gsea.R {params.mscore_dir} {input.emapper} {output}
         """
+
+rule get_contig_lengths:
+    message: "Generating contig length file from assembly."
+    input:
+        assembly="{output_dir}/assemblies_eva/{sample}/{sample}.fa"
+    output:
+        contig_lengths="{output_dir}/assemblies_eva/{sample}/contig_lengths.tsv"
+    run:
+        from Bio import SeqIO
+        import pandas as pd
+        lengths = []
+        for sample in samples:
+            fa = f"{output_dir}/assemblies_eva/{sample}/{sample}.fa"
+            for record in SeqIO.parse(fa, "fasta"):
+                lengths.append({"contig": record.id, "length": len(record.seq)})
+        pd.DataFrame(lengths).to_csv(output.contig_lengths, sep="\t", index=False)
+
+for control, treated in dmr_pairs:
+    rule dmr_analysis:
+        message: f"DMR analysis: comparing {control} vs {treated}"
+        input:
+            control="{output_dir}/microbemod/results/{control}/{control}_methylated_sites.tsv",
+            treated="{output_dir}/microbemod/results/{treated}/{treated}_methylated_sites.tsv",
+            contig="{output_dir}/assemblies_eva/{control}/contig_lengths.tsv"
+        output:
+            volcano="{output_dir}/DMRs/{control}_vs_{treated}_volcano.png",
+            windows="{output_dir}/DMRs/{control}_vs_{treated}_window_results.tsv"
+        params:
+            window=dmr_window
+        conda:
+            "envs/dmr.yaml"
+        shell:
+            """
+            mkdir -p {output_dir}/DMRs
+            python scripts/dmr.py \
+                --control {input.control} \
+                --treated {input.treated} \
+                --contig_lengths {input.contig} \
+                --window {params.window} \
+                --output {output.volcano} \
+                --results {output.windows}
+            """
