@@ -260,7 +260,7 @@ Each row represents a genomic segment — a contiguous region of windows with si
 The `memod-s` workflow 
 
 ```
-ARTICOLO
+
 ```
 ## 🖇️ References
 ```
