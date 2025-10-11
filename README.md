@@ -88,6 +88,12 @@ dorado models:
   -dp DORADO_PU, --dorado_pu DORADO_PU
                          If you don't have a GPU available, enter "cpu" as the processing unit to use for Dorado. (default: "cuda:all")
 
+DMRs options:
+  --dmr_window DMR_WINDOW
+                        lenght of DMR window (bp) (default: 50)
+  --dmr_pairs DMR_PAIRS [DMR_PAIRS ...]
+                        Pairs of samples for Differentially Methylation Regions Analysis. Format: sample1,sample2 sample3,sample4 (default: None)
+
 general options:
   -q, --quiet           suppress non-essential output. (default: False)
 
@@ -110,7 +116,8 @@ general options:
         --medaka_model r1041_e82_400bps_sup_v4.3.0 \
         --dorado_models dna_r10.4.1_e8.2_400bps_sup@v5.0.0_6mA@v1 \
             dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v1 \
-        --ab ---ab_dir /path/to/abricate/db -ab_db vfdb
+        --ab ---ab_dir /path/to/abricate/db -ab_db vfdb \
+        --dmr_window 50 --dmr_pairs sample1,sample2
 ```
 
 ## 🐍 Workflow
@@ -137,7 +144,7 @@ general options:
 ### Bonus
 
 1.  Antimicrobial resistance or virulence genes screening with [Abricate](https://github.com/tseemann/abricate)
-2.  Differentially Methylated Regions (DMRs) analysis of paired samples. [work in progress]
+2.  Differentially Methylated Regions (DMRs) analysis of paired samples.
 
 ## 💡 Results interpretation
 ### Methylation output
