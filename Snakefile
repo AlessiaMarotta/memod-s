@@ -102,7 +102,7 @@ rule all:
         expand("{output_dir}/mestudio/results/{sample}_checkout.txt", output_dir=output_dir, sample=samples),
 
         #GSEA
-        expand("{output_dir}/mestudio/results/{sample}_checkout_gsea.txt", output_dir=output_dir, sample=samples)
+        expand("{output_dir}/mestudio/results/{sample}_checkout_gsea.txt", output_dir=output_dir, sample=samples),
 
         #DMRs
         expand("{output_dir}/DMRs/{control}_vs_{treated}_volcano.png", output_dir=output_dir,
