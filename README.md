@@ -46,7 +46,7 @@ Run `memod-s` with *--help* or *-h* arguments to see usage instructions:
 ```
 Welcome to memod-s
 usage: memod-s [-h] -i INPUT_DIRECTORY [-o OUTPUT_DIRECTORY] [-ml FILTLONG_MIN_LENGTH] [-kp FILTLONG_KEEP_PERCENT] [-rr RACON_ROUNDS]
-                [-mr MEDAKA_ROUNDS] [-mm MEDAKA_MODEL] [-ed EGGNOG_DB] [-ab] [-ab_dir ABRICATE_DB_DIR] [-ab_db ABRICATE_DB_NAME]
+                [-ed EGGNOG_DB] [-ab] [-ab_dir ABRICATE_DB_DIR] [-ab_db ABRICATE_DB_NAME]
                 [-dm DORADO_MODELS [DORADO_MODELS ...]] [-dp DORADO_PU] [--dmr_window DMR_WINDOW] [--dmr_pairs [DMR_PAIRS ...]] [-q]
 
 Snakefile wrapper for memod-s. For more details visit: https://github.com/AlessiaMarotta/memod-s
@@ -67,10 +67,6 @@ filtering options:
 assembly options:
   -rr RACON_ROUNDS, --racon_rounds RACON_ROUNDS
                         number of racon polishing rounds. (default: 4)
-  -mr MEDAKA_ROUNDS, --medaka_rounds MEDAKA_ROUNDS
-                        number of medaka polishing rounds. (default: 1)
-  -mm MEDAKA_MODEL, --medaka_model MEDAKA_MODEL
-                        medaka model to use. (default: r1041_e82_400bps_sup_v4.3.0)
 
 annotation options:
   -ed EGGNOG_DB, --eggnog_db EGGNOG_DB
@@ -112,8 +108,6 @@ general options:
         --filtlong_min_length 1500 \
         --filtlong_keep_percent 80 \
         --racon_rounds 5 \
-        --medaka_rounds 2 \
-        --medaka_model r1041_e82_400bps_sup_v4.3.0 \
         --dorado_models dna_r10.4.1_e8.2_400bps_sup@v5.0.0_6mA@v1 \
             dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v1 \
         --ab ---ab_dir /path/to/abricate/db -ab_db vfdb \
