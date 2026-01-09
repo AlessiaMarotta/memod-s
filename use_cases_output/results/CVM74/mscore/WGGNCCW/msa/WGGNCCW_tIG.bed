@@ -1,0 +1,19 @@
+seqid	start	end	attribute	score	gene-annotation
+contig00001	1	6030	GMIHNLDN_00006	8	hypothetical protein
+contig00001	409442	415772	GMIHNLDN_00377	8	Diacetyl reductase [(S)-acetoin forming]
+contig00001	3331933	3338448	GMIHNLDN_02982	8	Vitamin B12 transporter BtuB
+contig00001	1788688	1794971	GMIHNLDN_01596	8	Threonine--tRNA ligase
+contig00001	349069	349237	GMIHNLDN_00306	1	hypothetical protein
+contig00001	1159537	1159803	GMIHNLDN_01071	1	hypothetical protein
+contig00001	1166024	1166604	GMIHNLDN_01074	1	Kappa-carrageenase
+contig00001	1251616	1252352	GMIHNLDN_01161	1	hypothetical protein
+contig00001	1989965	1990111	GMIHNLDN_01765	1	hypothetical protein
+contig00001	823700	824157	GMIHNLDN_00759	1	hypothetical protein
+contig00001	1990676	1990839	GMIHNLDN_01766	1	hypothetical protein
+contig00001	2429122	2429399	GMIHNLDN_02168	1	hypothetical protein
+contig00001	2886817	2886957	GMIHNLDN_02604	1	Protein RecA
+contig00001	2794356	2794640	GMIHNLDN_02494	1	hypothetical protein
+contig00001	3021112	3022198	GMIHNLDN_02711	1	Putative sugar phosphate isomerase YwlF
+contig00001	3384260	3384317	GMIHNLDN_03024	1	hypothetical protein
+contig00001	3414376	3414530	GMIHNLDN_03059	1	hypothetical protein
+contig00001	3488350	3488451	GMIHNLDN_03138	1	hypothetical protein

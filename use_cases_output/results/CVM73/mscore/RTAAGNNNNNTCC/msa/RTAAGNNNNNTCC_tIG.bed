@@ -1,0 +1,5 @@
+seqid	start	end	attribute	score	gene-annotation
+contig00001	401683	401780	LKKNONAN_00357	1	DNA repair protein RecO
+contig00001	830987	831229	LKKNONAN_00788	1	hypothetical protein
+contig00001	1730952	1731336	LKKNONAN_01638	1	hypothetical protein
+contig00001	2396679	2396726	LKKNONAN_02265	1	hypothetical protein

@@ -1,0 +1,524 @@
+seqid	start	end	attribute	score	gene-annotation
+contig00001	3563712	3565196	GMIHNLDN_03212	3	hypothetical protein
+contig00001	2988050	2991526	GMIHNLDN_02694	3	hypothetical protein
+contig00001	787700	790480	GMIHNLDN_00730	3	hypothetical protein
+contig00001	3433056	3433721	GMIHNLDN_03077	3	hypothetical protein
+contig00001	857894	860188	GMIHNLDN_00790	3	Adaptive-response sensory-kinase SasA
+contig00001	3244702	3250212	GMIHNLDN_02900	3	hypothetical protein
+contig00001	2111135	2117170	GMIHNLDN_01888	3	hypothetical protein
+contig00001	3204781	3207225	GMIHNLDN_02859	3	hypothetical protein
+contig00001	2554156	2556831	GMIHNLDN_02281	3	hypothetical protein
+contig00001	2682892	2683794	GMIHNLDN_02393	3	hypothetical protein
+contig00001	466553	467632	GMIHNLDN_00418	2	DNA replication and repair protein RecF
+contig00001	3084555	3085952	GMIHNLDN_02762	2	hypothetical protein
+contig00001	339069	341327	GMIHNLDN_00295	2	Inner membrane protein YccS
+contig00001	457280	458347	GMIHNLDN_00408	2	hypothetical protein
+contig00001	449807	451033	GMIHNLDN_00403	2	Protease HtpX
+contig00001	1816330	1822635	GMIHNLDN_01619	2	ATP-dependent RNA helicase SrmB
+contig00001	359661	360506	GMIHNLDN_00320	2	Formyltetrahydrofolate deformylase
+contig00001	864164	865495	GMIHNLDN_00795	2	Cytochrome bd-I ubiquinol oxidase subunit 1
+contig00001	3071466	3072221	GMIHNLDN_02749	2	hypothetical protein
+contig00001	3095684	3096610	GMIHNLDN_02775	2	putative sugar kinase YdjH
+contig00001	881628	883052	GMIHNLDN_00822	2	hypothetical protein
+contig00001	3068634	3071399	GMIHNLDN_02748	2	hypothetical protein
+contig00001	3502359	3504098	GMIHNLDN_03152	2	putative ABC transporter ATP-binding protein
+contig00001	3065375	3068353	GMIHNLDN_02747	2	TonB-dependent receptor P26
+contig00001	1829306	1832143	GMIHNLDN_01622	2	RNA polymerase-associated protein RapA
+contig00001	2632618	2635095	GMIHNLDN_02351	2	Ribonucleoside-diphosphate reductase 1 subunit alpha
+contig00001	2664741	2667374	GMIHNLDN_02378	2	Vitamin B12 transporter BtuB
+contig00001	640339	641172	GMIHNLDN_00584	2	hypothetical protein
+contig00001	2595582	2600021	GMIHNLDN_02319	2	DNA polymerase III subunit alpha
+contig00001	3292215	3293861	GMIHNLDN_02943	2	Glucose-6-phosphate isomerase
+contig00001	2692970	2694382	GMIHNLDN_02399	2	Adaptive-response sensory-kinase SasA
+contig00001	2556877	2560218	GMIHNLDN_02282	2	Transcription-repair-coupling factor
+contig00001	587726	593395	GMIHNLDN_00534	2	hypothetical protein
+contig00001	2697235	2698485	GMIHNLDN_02403	2	3-deoxy-D-manno-octulosonic acid transferase
+contig00001	342912	343991	GMIHNLDN_00298	2	hypothetical protein
+contig00001	2518782	2519717	GMIHNLDN_02242	2	hypothetical protein
+contig00001	3124621	3127707	GMIHNLDN_02796	2	hypothetical protein
+contig00001	797358	799007	GMIHNLDN_00734	2	hypothetical protein
+contig00001	1418362	1418970	GMIHNLDN_01303	2	hypothetical protein
+contig00001	507024	508331	GMIHNLDN_00451	2	hypothetical protein
+contig00001	1686167	1688068	GMIHNLDN_01534	2	hypothetical protein
+contig00001	3390125	3391369	GMIHNLDN_03033	2	Modification methylase HhaI
+contig00001	1689791	1693066	GMIHNLDN_01537	2	TonB-dependent receptor P3
+contig00001	808283	809497	GMIHNLDN_00743	2	hypothetical protein
+contig00001	2542650	2543654	GMIHNLDN_02267	2	hypothetical protein
+contig00001	662804	663490	GMIHNLDN_00599	2	hypothetical protein
+contig00001	183764	184726	GMIHNLDN_00159	2	hypothetical protein
+contig00001	203043	204506	GMIHNLDN_00181	2	hypothetical protein
+contig00001	3638701	3641640	GMIHNLDN_03283	2	Beta-hexosaminidase
+contig00001	2234835	2236841	GMIHNLDN_01995	2	Stage V sporulation protein D
+contig00001	3618974	3620017	GMIHNLDN_03267	2	hypothetical protein
+contig00001	3692281	3693759	GMIHNLDN_03323	2	hypothetical protein
+contig00001	1026506	1027756	GMIHNLDN_00936	2	hypothetical protein
+contig00001	3641653	3643104	GMIHNLDN_03284	2	hypothetical protein
+contig00001	1056250	1057368	GMIHNLDN_00968	2	hypothetical protein
+contig00001	1920703	1921344	GMIHNLDN_01695	2	hypothetical protein
+contig00001	3673487	3674971	GMIHNLDN_03308	2	(6-4) photolyase
+contig00001	2261754	2263667	GMIHNLDN_02022	2	hypothetical protein
+contig00001	123539	126040	GMIHNLDN_00113	2	Vitamin B12 transporter BtuB
+contig00001	3562159	3563532	GMIHNLDN_03211	2	hypothetical protein
+contig00001	2107356	2109452	GMIHNLDN_01886	2	hypothetical protein
+contig00001	2767491	2767838	GMIHNLDN_02471	2	hypothetical protein
+contig00001	2761256	2764864	GMIHNLDN_02467	2	hypothetical protein
+contig00001	2756557	2757546	GMIHNLDN_02464	2	Delta-aminolevulinic acid dehydratase
+contig00001	316016	318547	GMIHNLDN_00267	2	Beta-galactosidase BoGH2A
+contig00001	939466	943167	GMIHNLDN_00873	2	hypothetical protein
+contig00001	2874207	2875133	GMIHNLDN_02589	2	hypothetical protein
+contig00001	3528904	3530163	GMIHNLDN_03176	2	Imidazolonepropionase
+contig00001	1078429	1079913	GMIHNLDN_00989	2	3'%2C5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+contig00001	98151	99419	GMIHNLDN_00088	2	hypothetical protein
+contig00001	2810381	2811670	GMIHNLDN_02513	2	Branched-chain amino acid transport system 2 carrier protein
+contig00001	2691327	2692178	GMIHNLDN_02397	1	hypothetical protein
+contig00001	2694512	2694877	GMIHNLDN_02400	1	hypothetical protein
+contig00001	2836480	2837175	GMIHNLDN_02549	1	hypothetical protein
+contig00001	2837639	2838166	GMIHNLDN_02551	1	hypothetical protein
+contig00001	2687607	2691323	GMIHNLDN_02396	1	hypothetical protein
+contig00001	2843415	2845046	GMIHNLDN_02558	1	hypothetical protein
+contig00001	2678012	2680234	GMIHNLDN_02389	1	Fe(2+) transporter FeoB
+contig00001	2669873	2672965	GMIHNLDN_02381	1	TonB-dependent receptor P3
+contig00001	2871097	2871480	GMIHNLDN_02584	1	hypothetical protein
+contig00001	2877171	2877734	GMIHNLDN_02593	1	hypothetical protein
+contig00001	2883550	2884308	GMIHNLDN_02600	1	hypothetical protein
+contig00001	2660703	2660954	GMIHNLDN_02375	1	hypothetical protein
+contig00001	2826750	2827463	GMIHNLDN_02535	1	hypothetical protein
+contig00001	2742895	2743836	GMIHNLDN_02449	1	putative epimerase/dehydratase
+contig00001	2734522	2735883	GMIHNLDN_02440	1	Succinate semialdehyde dehydrogenase [NAD(P)+] Sad
+contig00001	2733321	2734421	GMIHNLDN_02439	1	hypothetical protein
+contig00001	2754221	2755519	GMIHNLDN_02462	1	hypothetical protein
+contig00001	2771796	2773055	GMIHNLDN_02476	1	Glutamyl-tRNA reductase
+contig00001	2773262	2774152	GMIHNLDN_02477	1	HTH-type transcriptional activator RhaR
+contig00001	2731313	2732872	GMIHNLDN_02437	1	hypothetical protein
+contig00001	2775022	2778531	GMIHNLDN_02479	1	hypothetical protein
+contig00001	2724475	2725842	GMIHNLDN_02428	1	4%2C4'-diaponeurosporen-aldehyde dehydrogenase
+contig00001	2794977	2795522	GMIHNLDN_02495	1	hypothetical protein
+contig00001	2728788	2729447	GMIHNLDN_02434	1	ABC transporter ATP-binding protein YxdL
+contig00001	2795519	2796088	GMIHNLDN_02496	1	Pentapeptide repeat protein
+contig00001	2800834	2801760	GMIHNLDN_02502	1	hypothetical protein
+contig00001	2806749	2808194	GMIHNLDN_02509	1	FeS cluster assembly protein SufB
+contig00001	2711635	2713362	GMIHNLDN_02415	1	putative symporter YidK
+contig00001	2704815	2705216	GMIHNLDN_02408	1	hypothetical protein
+contig00001	2817761	2818474	GMIHNLDN_02522	1	hypothetical protein
+contig00001	2778748	2779779	GMIHNLDN_02480	1	Ferrochelatase
+contig00001	2345748	2347160	GMIHNLDN_02098	1	hypothetical protein
+contig00001	2343535	2344296	GMIHNLDN_02096	1	HTH-type transcriptional activator RhaR
+contig00001	2335491	2338118	GMIHNLDN_02085	1	DNA mismatch repair protein MutS
+contig00001	2327462	2328976	GMIHNLDN_02079	1	hypothetical protein
+contig00001	2311775	2312599	GMIHNLDN_02061	1	Thymidylate synthase 2
+contig00001	2296188	2298956	GMIHNLDN_02050	1	hypothetical protein
+contig00001	2292785	2294074	GMIHNLDN_02048	1	O-acetyl-L-homoserine sulfhydrylase
+contig00001	2288048	2289211	GMIHNLDN_02046	1	O-succinylhomoserine sulfhydrylase
+contig00001	2263732	2264184	GMIHNLDN_02023	1	D-aminoacyl-tRNA deacylase
+contig00001	2259693	2261708	GMIHNLDN_02021	1	hypothetical protein
+contig00001	2258104	2259333	GMIHNLDN_02019	1	3-phosphoshikimate 1-carboxyvinyltransferase
+contig00001	2255716	2256759	GMIHNLDN_02017	1	Dual-specificity RNA methyltransferase RlmN
+contig00001	2248398	2250371	GMIHNLDN_02010	1	DNA primase
+contig00001	2247266	2248372	GMIHNLDN_02009	1	putative protein
+contig00001	2880282	2881382	GMIHNLDN_02597	1	hypothetical protein
+contig00001	2229579	2230772	GMIHNLDN_01991	1	Peptidoglycan glycosyltransferase MrdB
+contig00001	2223060	2225033	GMIHNLDN_01986	1	Cell division protein FtsZ
+contig00001	2219130	2221121	GMIHNLDN_01981	1	hypothetical protein
+contig00001	2210928	2215439	GMIHNLDN_01976	1	Ferredoxin-dependent glutamate synthase 1
+contig00001	2203345	2204556	GMIHNLDN_01969	1	Folylpolyglutamate synthase
+contig00001	2198815	2199657	GMIHNLDN_01965	1	hypothetical protein
+contig00001	2175239	2176015	GMIHNLDN_01944	1	hypothetical protein
+contig00001	2167358	2168983	GMIHNLDN_01937	1	hypothetical protein
+contig00001	2165630	2166310	GMIHNLDN_01935	1	7-alpha-hydroxysteroid dehydrogenase
+contig00001	2144963	2147476	GMIHNLDN_01914	1	hypothetical protein
+contig00001	2138135	2138638	GMIHNLDN_01910	1	hypothetical protein
+contig00001	2133856	2135601	GMIHNLDN_01905	1	hypothetical protein
+contig00001	2129726	2131741	GMIHNLDN_01902	1	Oligopeptidase A
+contig00001	2117221	2118678	GMIHNLDN_01889	1	Major cardiolipin synthase ClsA
+contig00001	2230791	2232125	GMIHNLDN_01992	1	UDP-N-acetylmuramoylalanine--D-glutamate ligase
+contig00001	2643750	2644559	GMIHNLDN_02360	1	hypothetical protein
+contig00001	2627893	2629860	GMIHNLDN_02347	1	hypothetical protein
+contig00001	2626621	2627202	GMIHNLDN_02345	1	hypothetical protein
+contig00001	2614758	2617052	GMIHNLDN_02336	1	Vitamin B12 transporter BtuB
+contig00001	2609171	2609551	GMIHNLDN_02329	1	hypothetical protein
+contig00001	2603645	2605093	GMIHNLDN_02325	1	hypothetical protein
+contig00001	2584926	2585945	GMIHNLDN_02308	1	hypothetical protein
+contig00001	2579624	2581084	GMIHNLDN_02301	1	hypothetical protein
+contig00001	2578518	2579651	GMIHNLDN_02300	1	hypothetical protein
+contig00001	2552145	2552900	GMIHNLDN_02278	1	hypothetical protein
+contig00001	2550694	2551404	GMIHNLDN_02276	1	hypothetical protein
+contig00001	2549175	2549900	GMIHNLDN_02274	1	hypothetical protein
+contig00001	2485617	2487071	GMIHNLDN_02218	1	Arylsulfatase
+contig00001	2481896	2485126	GMIHNLDN_02216	1	Beta-galactosidase
+contig00001	2388528	2395646	GMIHNLDN_02138	1	hypothetical protein
+contig00001	2474525	2475535	GMIHNLDN_02210	1	L-rhamnose-proton symporter
+contig00001	2473056	2474360	GMIHNLDN_02209	1	Gnt-II system L-idonate transporter
+contig00001	2451738	2453189	GMIHNLDN_02185	1	RNA polymerase sigma-54 factor
+contig00001	2439753	2442377	GMIHNLDN_02175	1	hypothetical protein
+contig00001	2436282	2439122	GMIHNLDN_02173	1	DNA polymerase I
+contig00001	2429400	2432753	GMIHNLDN_02168	1	hypothetical protein
+contig00001	2415521	2417260	GMIHNLDN_02158	1	hypothetical protein
+contig00001	2410124	2411929	GMIHNLDN_02153	1	Alternative cytochrome c oxidase subunit 1
+contig00001	2409169	2409993	GMIHNLDN_02152	1	hypothetical protein
+contig00001	2408870	2409106	GMIHNLDN_02151	1	Holliday junction ATP-dependent DNA helicase RuvB
+contig00001	2406231	2407340	GMIHNLDN_02148	1	2-iminoacetate synthase
+contig00001	2405462	2406238	GMIHNLDN_02147	1	Thiazole synthase
+contig00001	2402222	2404081	GMIHNLDN_02144	1	Phosphomethylpyrimidine synthase
+contig00001	2399680	2401716	GMIHNLDN_02142	1	Polyphosphate kinase
+contig00001	2475617	2476783	GMIHNLDN_02211	1	D-galactarolactone cycloisomerase
+contig00001	3537195	3538925	GMIHNLDN_03185	1	hypothetical protein
+contig00001	3533800	3534735	GMIHNLDN_03181	1	hypothetical protein
+contig00001	3530144	3531724	GMIHNLDN_03177	1	Histidine ammonia-lyase
+contig00001	3517473	3518420	GMIHNLDN_03165	1	Formimidoylglutamase
+contig00001	3516266	3517423	GMIHNLDN_03164	1	Homogentisate 1%2C2-dioxygenase
+contig00001	3513428	3513883	GMIHNLDN_03161	1	tRNA (cytidine(34)-2'-O)-methyltransferase
+contig00001	3511075	3511881	GMIHNLDN_03158	1	hypothetical protein
+contig00001	3510181	3511071	GMIHNLDN_03157	1	hypothetical protein
+contig00001	3506447	3507529	GMIHNLDN_03154	1	hypothetical protein
+contig00001	3498301	3498933	GMIHNLDN_03146	1	hypothetical protein
+contig00001	3491778	3494603	GMIHNLDN_03141	1	hypothetical protein
+contig00001	3475762	3476319	GMIHNLDN_03125	1	hypothetical protein
+contig00001	3472583	3475636	GMIHNLDN_03124	1	hypothetical protein
+contig00001	3032633	3034843	GMIHNLDN_02722	1	hypothetical protein
+contig00001	3447865	3448773	GMIHNLDN_03094	1	hypothetical protein
+contig00001	3418451	3421444	GMIHNLDN_03064	1	hypothetical protein
+contig00001	3411635	3412345	GMIHNLDN_03055	1	hypothetical protein
+contig00001	3408078	3409817	GMIHNLDN_03052	1	hypothetical protein
+contig00001	3398442	3399776	GMIHNLDN_03039	1	Dihydroorotase
+contig00001	3392990	3395263	GMIHNLDN_03035	1	Tol-Pal system protein TolB
+contig00001	3389388	3390152	GMIHNLDN_03032	1	hypothetical protein
+contig00001	3387342	3388238	GMIHNLDN_03029	1	hypothetical protein
+contig00001	3386087	3387235	GMIHNLDN_03028	1	Adaptive-response sensory-kinase SasA
+contig00001	3385728	3386084	GMIHNLDN_03027	1	hypothetical protein
+contig00001	3379840	3381378	GMIHNLDN_03021	1	hypothetical protein
+contig00001	3376315	3377643	GMIHNLDN_03016	1	Adenosylhomocysteinase
+contig00001	3375126	3376229	GMIHNLDN_03015	1	hypothetical protein
+contig00001	3451457	3452101	GMIHNLDN_03099	1	hypothetical protein
+contig00001	3738659	3741796	GMIHNLDN_03361	1	TonB-dependent receptor P39
+contig00001	3731614	3733305	GMIHNLDN_03355	1	Lysine--tRNA ligase%2C heat inducible
+contig00001	3729361	3730866	GMIHNLDN_03353	1	hypothetical protein
+contig00001	3721646	3722488	GMIHNLDN_03347	1	hypothetical protein
+contig00001	3720748	3721653	GMIHNLDN_03346	1	D-cysteine desulfhydrase
+contig00001	3705843	3707030	GMIHNLDN_03333	1	Glycerate 3-kinase
+contig00001	3687788	3688996	GMIHNLDN_03318	1	Inner membrane transport protein YdhP
+contig00001	3686694	3687647	GMIHNLDN_03317	1	Outer membrane protein assembly factor BamB
+contig00001	3663604	3664887	GMIHNLDN_03301	1	hypothetical protein
+contig00001	3659355	3660728	GMIHNLDN_03297	1	Nitrate/nitrite binding protein NrtA
+contig00001	3658402	3659127	GMIHNLDN_03296	1	Transcriptional activator protein Anr
+contig00001	3654929	3657442	GMIHNLDN_03294	1	Nitrite reductase [NAD(P)H]
+contig00001	221337	222482	GMIHNLDN_00199	1	hypothetical protein
+contig00001	3543913	3544995	GMIHNLDN_03191	1	hypothetical protein
+contig00001	3635675	3637585	GMIHNLDN_03281	1	putative ABC transporter ATP-binding protein YheS
+contig00001	3624250	3625482	GMIHNLDN_03272	1	hypothetical protein
+contig00001	3621843	3623285	GMIHNLDN_03270	1	tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase
+contig00001	3613771	3616020	GMIHNLDN_03262	1	Vitamin B12 transporter BtuB
+contig00001	3612613	3613065	GMIHNLDN_03260	1	Free methionine-R-sulfoxide reductase
+contig00001	3610985	3612517	GMIHNLDN_03259	1	Bifunctional purine biosynthesis protein PurH
+contig00001	3587967	3588890	GMIHNLDN_03239	1	hypothetical protein
+contig00001	3579682	3579969	GMIHNLDN_03230	1	hypothetical protein
+contig00001	3579307	3579594	GMIHNLDN_03229	1	hypothetical protein
+contig00001	3578932	3579219	GMIHNLDN_03228	1	hypothetical protein
+contig00001	3565199	3565888	GMIHNLDN_03213	1	putative glycosyltransferase
+contig00001	82336	83430	GMIHNLDN_00074	1	GTP cyclohydrolase 1 type 2 
+contig00001	3554416	3555480	GMIHNLDN_03203	1	Succinyl-diaminopimelate desuccinylase
+contig00001	3553116	3554390	GMIHNLDN_03202	1	Argininosuccinate lyase
+contig00001	3653908	3654495	GMIHNLDN_03292	1	hypothetical protein
+contig00001	3107207	3109939	GMIHNLDN_02782	1	hypothetical protein
+contig00001	3096659	3098557	GMIHNLDN_02776	1	Amidophosphoribosyltransferase
+contig00001	3081908	3082597	GMIHNLDN_02760	1	hypothetical protein
+contig00001	3063819	3065369	GMIHNLDN_02746	1	SusD-like protein
+contig00001	3057014	3059278	GMIHNLDN_02742	1	Beta-xylosidase
+contig00001	3056075	3057004	GMIHNLDN_02741	1	hypothetical protein
+contig00001	3054435	3056072	GMIHNLDN_02740	1	N-acetylglucosamine-6-O-sulfatase
+contig00001	3048587	3049600	GMIHNLDN_02735	1	hypothetical protein
+contig00001	3047985	3048398	GMIHNLDN_02733	1	Ethylmalonyl-CoA/methylmalonyl-CoA epimerase
+contig00001	3042044	3043840	GMIHNLDN_02728	1	Elongation factor 4
+contig00001	3028131	3029990	GMIHNLDN_02719	1	hypothetical protein
+contig00001	3023601	3024806	GMIHNLDN_02714	1	hypothetical protein
+contig00001	3001063	3015411	GMIHNLDN_02702	1	hypothetical protein
+contig00001	3362144	3363475	GMIHNLDN_03005	1	hypothetical protein
+contig00001	2981773	2982195	GMIHNLDN_02688	1	hypothetical protein
+contig00001	2980027	2981400	GMIHNLDN_02687	1	Sensor histidine kinase RcsC
+contig00001	2952715	2953947	GMIHNLDN_02664	1	hypothetical protein
+contig00001	2943307	2944245	GMIHNLDN_02655	1	hypothetical protein
+contig00001	2932080	2932862	GMIHNLDN_02646	1	hypothetical protein
+contig00001	2929149	2929814	GMIHNLDN_02642	1	hypothetical protein
+contig00001	2925401	2926141	GMIHNLDN_02638	1	Bacitracin transport ATP-binding protein BcrA
+contig00001	2922662	2925211	GMIHNLDN_02637	1	hypothetical protein
+contig00001	2914205	2915665	GMIHNLDN_02626	1	hypothetical protein
+contig00001	2905872	2906726	GMIHNLDN_02620	1	hypothetical protein
+contig00001	2904029	2905855	GMIHNLDN_02619	1	hypothetical protein
+contig00001	2902377	2903951	GMIHNLDN_02618	1	hypothetical protein
+contig00001	2899333	2900010	GMIHNLDN_02615	1	hypothetical protein
+contig00001	2894822	2895475	GMIHNLDN_02611	1	putative succinyl-CoA:3-ketoacid coenzyme A transferase subunit B
+contig00001	2996495	2998750	GMIHNLDN_02698	1	hypothetical protein
+contig00001	3341263	3342786	GMIHNLDN_02983	1	hypothetical protein
+contig00001	3338449	3341253	GMIHNLDN_02982	1	Vitamin B12 transporter BtuB
+contig00001	3326323	3327168	GMIHNLDN_02973	1	Pantothenate synthetase
+contig00001	3321258	3322304	GMIHNLDN_02968	1	Protein tas
+contig00001	3317125	3318024	GMIHNLDN_02963	1	hypothetical protein
+contig00001	3305240	3308641	GMIHNLDN_02954	1	Isoleucine--tRNA ligase
+contig00001	3298575	3300836	GMIHNLDN_02948	1	hypothetical protein
+contig00001	3296125	3296904	GMIHNLDN_02946	1	hypothetical protein
+contig00001	3262227	3262814	GMIHNLDN_02919	1	hypothetical protein
+contig00001	3243413	3243883	GMIHNLDN_02898	1	hypothetical protein
+contig00001	3241136	3242689	GMIHNLDN_02896	1	Alpha-ketoglutaric semialdehyde dehydrogenase
+contig00001	3231687	3232040	GMIHNLDN_02886	1	hypothetical protein
+contig00001	3221987	3222262	GMIHNLDN_02877	1	hypothetical protein
+contig00001	3121868	3123391	GMIHNLDN_02794	1	hypothetical protein
+contig00001	3199778	3202192	GMIHNLDN_02857	1	hypothetical protein
+contig00001	3196556	3198985	GMIHNLDN_02855	1	hypothetical protein
+contig00001	3189434	3190684	GMIHNLDN_02851	1	Multidrug resistance protein MdtA
+contig00001	3180870	3181502	GMIHNLDN_02844	1	Homoserine/homoserine lactone efflux protein
+contig00001	3173686	3175428	GMIHNLDN_02837	1	hypothetical protein
+contig00001	3156995	3158593	GMIHNLDN_02819	1	Bicarbonate transporter BicA
+contig00001	3152292	3153095	GMIHNLDN_02812	1	hypothetical protein
+contig00001	3149321	3152137	GMIHNLDN_02810	1	hypothetical protein
+contig00001	3144350	3147817	GMIHNLDN_02808	1	TonB-dependent receptor P3
+contig00001	3143129	3144247	GMIHNLDN_02807	1	hypothetical protein
+contig00001	3135013	3136710	GMIHNLDN_02802	1	hypothetical protein
+contig00001	3133439	3134956	GMIHNLDN_02801	1	hypothetical protein
+contig00001	3132330	3133376	GMIHNLDN_02800	1	Beta-1%2C4-mannooligosaccharide phosphorylase
+contig00001	3127923	3129074	GMIHNLDN_02797	1	Regulator of RpoS
+contig00001	3211912	3213003	GMIHNLDN_02866	1	Adaptive-response sensory-kinase SasA
+contig00001	720849	723059	GMIHNLDN_00666	1	Isocitrate dehydrogenase [NADP] 2
+contig00001	717284	717517	GMIHNLDN_00663	1	hypothetical protein
+contig00001	710339	710845	GMIHNLDN_00656	1	hypothetical protein
+contig00001	702515	703270	GMIHNLDN_00646	1	hypothetical protein
+contig00001	699280	701154	GMIHNLDN_00644	1	Energy-dependent translational throttle protein EttA
+contig00001	693776	697138	GMIHNLDN_00638	1	Protein translocase subunit SecA
+contig00001	652527	658679	GMIHNLDN_00595	1	hypothetical protein
+contig00001	648937	649515	GMIHNLDN_00592	1	hypothetical protein
+contig00001	647068	647580	GMIHNLDN_00590	1	hypothetical protein
+contig00001	636778	639507	GMIHNLDN_00582	1	hypothetical protein
+contig00001	634658	636643	GMIHNLDN_00580	1	UvrABC system protein B
+contig00001	633519	633926	GMIHNLDN_00578	1	hypothetical protein
+contig00001	626563	627177	GMIHNLDN_00570	1	hypothetical protein
+contig00001	619911	622334	GMIHNLDN_00563	1	Fe(3+) dicitrate transport protein FecA
+contig00001	1978383	1978757	GMIHNLDN_01752	1	hypothetical protein
+contig00001	616048	617256	GMIHNLDN_00560	1	hypothetical protein
+contig00001	615054	615920	GMIHNLDN_00559	1	Hydroxymethylglutaryl-CoA lyase YngG
+contig00001	607111	608868	GMIHNLDN_00550	1	putative multidrug resistance ABC transporter ATP-binding/permease protein YheI
+contig00001	604065	606581	GMIHNLDN_00548	1	hypothetical protein
+contig00001	603041	603595	GMIHNLDN_00546	1	Thiol-disulfide oxidoreductase ResA
+contig00001	580800	582665	GMIHNLDN_00527	1	Vitamin B12 transporter BtuB
+contig00001	578243	579274	GMIHNLDN_00525	1	Hemin transport system permease protein HmuU
+contig00001	577431	578039	GMIHNLDN_00524	1	Iron(3+)-hydroxamate import ATP-binding protein FhuC
+contig00001	572530	574233	GMIHNLDN_00519	1	hypothetical protein
+contig00001	570987	571616	GMIHNLDN_00517	1	hypothetical protein
+contig00001	561803	562396	GMIHNLDN_00508	1	Pyridoxine/pyridoxamine 5'-phosphate oxidase
+contig00001	550601	551149	GMIHNLDN_00497	1	hypothetical protein
+contig00001	535775	536581	GMIHNLDN_00478	1	hypothetical protein
+contig00001	519144	520991	GMIHNLDN_00460	1	Membrane protein insertase YidC
+contig00001	618551	619930	GMIHNLDN_00562	1	hypothetical protein
+contig00001	1032851	1033639	GMIHNLDN_00945	1	hypothetical protein
+contig00001	1014032	1014490	GMIHNLDN_00926	1	hypothetical protein
+contig00001	1005930	1006514	GMIHNLDN_00917	1	hypothetical protein
+contig00001	998679	1000523	GMIHNLDN_00909	1	hypothetical protein
+contig00001	997215	998015	GMIHNLDN_00907	1	hypothetical protein
+contig00001	979824	991634	GMIHNLDN_00897	1	hypothetical protein
+contig00001	975625	976950	GMIHNLDN_00894	1	Xylose isomerase
+contig00001	968110	972831	GMIHNLDN_00891	1	hypothetical protein
+contig00001	952832	959566	GMIHNLDN_00885	1	hypothetical protein
+contig00001	952059	952829	GMIHNLDN_00884	1	hypothetical protein
+contig00001	937036	938595	GMIHNLDN_00872	1	hypothetical protein
+contig00001	923772	924197	GMIHNLDN_00860	1	hypothetical protein
+contig00001	910569	912506	GMIHNLDN_00847	1	hypothetical protein
+contig00001	896620	896994	GMIHNLDN_00837	1	hypothetical protein
+contig00001	728097	729503	GMIHNLDN_00673	1	hypothetical protein
+contig00001	884991	885650	GMIHNLDN_00825	1	hypothetical protein
+contig00001	870772	870984	GMIHNLDN_00805	1	hypothetical protein
+contig00001	854563	855393	GMIHNLDN_00786	1	hypothetical protein
+contig00001	840953	841861	GMIHNLDN_00772	1	hypothetical protein
+contig00001	825264	825596	GMIHNLDN_00761	1	hypothetical protein
+contig00001	804439	805152	GMIHNLDN_00739	1	hypothetical protein
+contig00001	803331	804422	GMIHNLDN_00738	1	hypothetical protein
+contig00001	802043	803308	GMIHNLDN_00737	1	hypothetical protein
+contig00001	776405	777910	GMIHNLDN_00723	1	hypothetical protein
+contig00001	769177	771588	GMIHNLDN_00716	1	Metal-pseudopaline receptor CntO
+contig00001	750363	751364	GMIHNLDN_00697	1	hypothetical protein
+contig00001	745619	746827	GMIHNLDN_00693	1	Cysteine/Cysteine sulfinic acid decarboxylase
+contig00001	736650	737516	GMIHNLDN_00683	1	hypothetical protein
+contig00001	734013	735437	GMIHNLDN_00680	1	Chromosomal replication initiator protein DnaA
+contig00001	729616	730389	GMIHNLDN_00674	1	Diaminopimelate epimerase
+contig00001	893210	893752	GMIHNLDN_00832	1	hypothetical protein
+contig00001	259758	261377	GMIHNLDN_00228	1	hypothetical protein
+contig00001	241156	244410	GMIHNLDN_00218	1	hypothetical protein
+contig00001	237647	238519	GMIHNLDN_00215	1	hypothetical protein
+contig00001	235543	237504	GMIHNLDN_00214	1	hypothetical protein
+contig00001	233120	233956	GMIHNLDN_00212	1	15-cis-phytoene synthase
+contig00001	232150	232608	GMIHNLDN_00210	1	hypothetical protein
+contig00001	231467	232150	GMIHNLDN_00209	1	hypothetical protein
+contig00001	225244	226197	GMIHNLDN_00203	1	hypothetical protein
+contig00001	217613	218851	GMIHNLDN_00197	1	hypothetical protein
+contig00001	214226	215314	GMIHNLDN_00194	1	hypothetical protein
+contig00001	181734	182687	GMIHNLDN_00156	1	hypothetical protein
+contig00001	179705	181723	GMIHNLDN_00155	1	hypothetical protein
+contig00001	165331	166281	GMIHNLDN_00151	1	hypothetical protein
+contig00001	154026	158324	GMIHNLDN_00147	1	DNA-directed RNA polymerase subunit beta'
+contig00001	516123	517013	GMIHNLDN_00457	1	hypothetical protein
+contig00001	138839	140911	GMIHNLDN_00128	1	hypothetical protein
+contig00001	131433	132425	GMIHNLDN_00120	1	Anthranilate phosphoribosyltransferase
+contig00001	108399	108854	GMIHNLDN_00100	1	Phosphopantetheine adenylyltransferase
+contig00001	3643109	3644662	GMIHNLDN_03285	1	hypothetical protein
+contig00001	80157	81500	GMIHNLDN_00072	1	Kynurenine 3-monooxygenase
+contig00001	78627	79325	GMIHNLDN_00070	1	hypothetical protein
+contig00001	76112	76672	GMIHNLDN_00067	1	hypothetical protein
+contig00001	72813	73358	GMIHNLDN_00064	1	hypothetical protein
+contig00001	56211	63647	GMIHNLDN_00055	1	hypothetical protein
+contig00001	51049	51474	GMIHNLDN_00049	1	hypothetical protein
+contig00001	42814	44121	GMIHNLDN_00039	1	Na(+)-translocating NADH-quinone reductase subunit F
+contig00001	36645	37889	GMIHNLDN_00033	1	hypothetical protein
+contig00001	29849	30190	GMIHNLDN_00027	1	hypothetical protein
+contig00001	18733	21309	GMIHNLDN_00017	1	hypothetical protein
+contig00001	3741825	3743438	GMIHNLDN_03362	1	hypothetical protein
+contig00001	140921	141796	GMIHNLDN_00129	1	hypothetical protein
+contig00001	515538	516074	GMIHNLDN_00456	1	hypothetical protein
+contig00001	490062	498485	GMIHNLDN_00441	1	hypothetical protein
+contig00001	486928	488652	GMIHNLDN_00439	1	Beta-hexosaminidase
+contig00001	484633	485844	GMIHNLDN_00437	1	Bicyclomycin resistance protein
+contig00001	482171	483535	GMIHNLDN_00434	1	Methylmalonyl-CoA mutase
+contig00001	478162	479067	GMIHNLDN_00431	1	putative chromosome-partitioning protein ParB
+contig00001	468526	469008	GMIHNLDN_00420	1	6%2C7-dimethyl-8-ribityllumazine synthase
+contig00001	466001	466426	GMIHNLDN_00417	1	hypothetical protein
+contig00001	432032	432982	GMIHNLDN_00387	1	hypothetical protein
+contig00001	428350	430677	GMIHNLDN_00385	1	hypothetical protein
+contig00001	426082	428346	GMIHNLDN_00384	1	Exo-oligoalginate lyase
+contig00001	422632	425733	GMIHNLDN_00383	1	TonB-dependent receptor P3
+contig00001	421161	422606	GMIHNLDN_00382	1	SusD-like protein
+contig00001	416580	418208	GMIHNLDN_00378	1	Sialic acid transporter NanT
+contig00001	268742	269989	GMIHNLDN_00235	1	hypothetical protein
+contig00001	374870	375940	GMIHNLDN_00337	1	Branched-chain-amino-acid aminotransferase 2
+contig00001	374203	374391	GMIHNLDN_00335	1	hypothetical protein
+contig00001	366173	367582	GMIHNLDN_00325	1	hypothetical protein
+contig00001	349829	350362	GMIHNLDN_00307	1	hypothetical protein
+contig00001	342237	342905	GMIHNLDN_00297	1	Haloacetate dehalogenase H-2
+contig00001	336037	336741	GMIHNLDN_00290	1	hypothetical protein
+contig00001	335040	335819	GMIHNLDN_00289	1	3-oxoadipate enol-lactonase 2
+contig00001	334646	334840	GMIHNLDN_00288	1	hypothetical protein
+contig00001	331255	332535	GMIHNLDN_00285	1	hypothetical protein
+contig00001	326885	327799	GMIHNLDN_00279	1	hypothetical protein
+contig00001	310459	311859	GMIHNLDN_00262	1	N-acetylgalactosamine-6-O-sulfatase
+contig00001	283272	286145	GMIHNLDN_00245	1	Beta-galactosidase
+contig00001	278606	280438	GMIHNLDN_00242	1	hypothetical protein
+contig00001	274346	275647	GMIHNLDN_00239	1	Bifunctional sulfatase/alpha-L-rhamnosidase
+contig00001	272743	274125	GMIHNLDN_00238	1	hypothetical protein
+contig00001	405459	406835	GMIHNLDN_00368	1	Histidine--tRNA ligase
+contig00001	1874359	1875777	GMIHNLDN_01658	1	Outer membrane protein OprM
+contig00001	1864597	1867629	GMIHNLDN_01653	1	TonB-dependent receptor P3
+contig00001	1853492	1854640	GMIHNLDN_01646	1	Galactokinase
+contig00001	1852003	1852452	GMIHNLDN_01644	1	Chloramphenicol acetyltransferase 3
+contig00001	1810115	1811386	GMIHNLDN_01612	1	Tyrosine recombinase XerC
+contig00001	1809065	1809217	GMIHNLDN_01609	1	hypothetical protein
+contig00001	1794972	1796915	GMIHNLDN_01596	1	Threonine--tRNA ligase
+contig00001	1769830	1771866	GMIHNLDN_01580	1	Ribonuclease Y
+contig00001	1761887	1763812	GMIHNLDN_01574	1	Neopullulanase 2
+contig00001	1757478	1758854	GMIHNLDN_01571	1	hypothetical protein
+contig00001	1742966	1743919	GMIHNLDN_01562	1	hypothetical protein
+contig00001	1726083	1729124	GMIHNLDN_01557	1	TonB-dependent receptor P3
+contig00001	1722971	1725784	GMIHNLDN_01556	1	hypothetical protein
+contig00001	1715673	1718744	GMIHNLDN_01554	1	TonB-dependent receptor P3
+contig00001	1033668	1036025	GMIHNLDN_00946	1	putative TonB-dependent receptor
+contig00001	1679378	1680901	GMIHNLDN_01528	1	hypothetical protein
+contig00001	1677310	1678731	GMIHNLDN_01526	1	putative cardiolipin synthase YwiE
+contig00001	1671365	1673944	GMIHNLDN_01520	1	Adaptive-response sensory-kinase SasA
+contig00001	1667889	1669274	GMIHNLDN_01516	1	Succinate semialdehyde dehydrogenase [NAD(P)+] Sad
+contig00001	1665237	1666256	GMIHNLDN_01512	1	Putative transport protein
+contig00001	1661908	1663065	GMIHNLDN_01509	1	hypothetical protein
+contig00001	1652999	1656082	GMIHNLDN_01503	1	TonB-dependent receptor P3
+contig00001	1642718	1645840	GMIHNLDN_01497	1	TonB-dependent receptor P3
+contig00001	1640168	1641214	GMIHNLDN_01495	1	8-amino-7-oxononanoate synthase
+contig00001	1625509	1626831	GMIHNLDN_01479	1	hypothetical protein
+contig00001	1600517	1601701	GMIHNLDN_01455	1	hypothetical protein
+contig00001	1581815	1582267	GMIHNLDN_01442	1	hypothetical protein
+contig00001	1573847	1574875	GMIHNLDN_01437	1	hypothetical protein
+contig00001	1570410	1572239	GMIHNLDN_01433	1	Lipid A export ATP-binding/permease protein MsbA
+contig00001	1703323	1704705	GMIHNLDN_01547	1	Thiol-disulfide oxidoreductase ResA
+contig00001	2102370	2103665	GMIHNLDN_01882	1	hypothetical protein
+contig00001	2099693	2101111	GMIHNLDN_01879	1	hypothetical protein
+contig00001	2096036	2096773	GMIHNLDN_01875	1	Putative TrmH family tRNA/rRNA methyltransferase
+contig00001	2079454	2079930	GMIHNLDN_01866	1	30S ribosomal protein S7
+contig00001	2055218	2056990	GMIHNLDN_01831	1	Arginine--tRNA ligase
+contig00001	2051856	2054390	GMIHNLDN_01829	1	hypothetical protein
+contig00001	2050961	2051869	GMIHNLDN_01828	1	hypothetical protein
+contig00001	2039418	2039786	GMIHNLDN_01816	1	hypothetical protein
+contig00001	2036495	2037211	GMIHNLDN_01812	1	hypothetical protein
+contig00001	2024747	2026114	GMIHNLDN_01801	1	L-fucose-proton symporter
+contig00001	2017925	2018914	GMIHNLDN_01792	1	hypothetical protein
+contig00001	2013813	2014376	GMIHNLDN_01787	1	hypothetical protein
+contig00001	2004384	2006810	GMIHNLDN_01777	1	Vitamin B12 transporter BtuB
+contig00001	1998520	2000721	GMIHNLDN_01772	1	Flavohemoprotein
+contig00001	1880442	1881152	GMIHNLDN_01662	1	Transcriptional regulatory protein SrrA
+contig00001	93428	94756	GMIHNLDN_00085	1	hypothetical protein
+contig00001	1976193	1977128	GMIHNLDN_01749	1	hypothetical protein
+contig00001	1958683	1959162	GMIHNLDN_01731	1	hypothetical protein
+contig00001	1957181	1957567	GMIHNLDN_01728	1	putative acyl-CoA thioester hydrolase
+contig00001	1950625	1953612	GMIHNLDN_01721	1	Cell division coordinator CpoB
+contig00001	1933143	1934099	GMIHNLDN_01708	1	Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase
+contig00001	1925598	1927100	GMIHNLDN_01702	1	hypothetical protein
+contig00001	1921373	1922068	GMIHNLDN_01696	1	hypothetical protein
+contig00001	1911369	1912205	GMIHNLDN_01685	1	Dihydropteroate synthase
+contig00001	1909550	1910644	GMIHNLDN_01683	1	hypothetical protein
+contig00001	1908605	1909114	GMIHNLDN_01681	1	hypothetical protein
+contig00001	1907718	1908467	GMIHNLDN_01680	1	Triosephosphate isomerase
+contig00001	1898735	1901098	GMIHNLDN_01673	1	hypothetical protein
+contig00001	1896790	1897875	GMIHNLDN_01671	1	hypothetical protein
+contig00001	1881203	1882477	GMIHNLDN_01663	1	hypothetical protein
+contig00001	1987001	1988215	GMIHNLDN_01762	1	hypothetical protein
+contig00001	1263657	1264523	GMIHNLDN_01169	1	UDP-2%2C3-diacylglucosamine hydrolase
+contig00001	1252353	1254311	GMIHNLDN_01161	1	hypothetical protein
+contig00001	1249444	1251615	GMIHNLDN_01160	1	Endonuclease MutS2
+contig00001	1230255	1232765	GMIHNLDN_01142	1	hypothetical protein
+contig00001	1214652	1215659	GMIHNLDN_01124	1	Zinc-type alcohol dehydrogenase-like protein
+contig00001	1200453	1201916	GMIHNLDN_01110	1	hypothetical protein
+contig00001	1198278	1199120	GMIHNLDN_01108	1	hypothetical protein
+contig00001	1186567	1188234	GMIHNLDN_01098	1	hypothetical protein
+contig00001	1181398	1181868	GMIHNLDN_01091	1	Guanine deaminase
+contig00001	1174326	1175357	GMIHNLDN_01084	1	hypothetical protein
+contig00001	1159804	1163145	GMIHNLDN_01071	1	hypothetical protein
+contig00001	1153607	1154539	GMIHNLDN_01064	1	hypothetical protein
+contig00001	1151888	1152733	GMIHNLDN_01062	1	hypothetical protein
+contig00001	1147258	1148148	GMIHNLDN_01057	1	1%2C4-dihydroxy-2-naphthoyl-CoA synthase
+contig00001	1568701	1570410	GMIHNLDN_01432	1	Phosphoglucomutase
+contig00001	1143875	1144384	GMIHNLDN_01054	1	hypothetical protein
+contig00001	1133158	1134039	GMIHNLDN_01039	1	hypothetical protein
+contig00001	1126793	1127926	GMIHNLDN_01032	1	Histidine biosynthesis bifunctional protein HisB
+contig00001	1116473	1117039	GMIHNLDN_01022	1	Elongation factor P
+contig00001	1110227	1111771	GMIHNLDN_01017	1	Regulator of RpoS
+contig00001	1106856	1108022	GMIHNLDN_01013	1	hypothetical protein
+contig00001	1096217	1098073	GMIHNLDN_01003	1	DNA gyrase subunit B
+contig00001	1094893	1095987	GMIHNLDN_01002	1	Ribosome-binding ATPase YchF
+contig00001	1084947	1085885	GMIHNLDN_00992	1	hypothetical protein
+contig00001	1081373	1084831	GMIHNLDN_00991	1	TonB-dependent receptor P39
+contig00001	1074175	1074774	GMIHNLDN_00983	1	GTP cyclohydrolase 1
+contig00001	1070405	1071133	GMIHNLDN_00978	1	5-oxoprolinase subunit B
+contig00001	1064837	1065658	GMIHNLDN_00974	1	hypothetical protein
+contig00001	1060747	1063146	GMIHNLDN_00972	1	Acyl-homoserine lactone acylase QuiP
+contig00001	1036199	1036522	GMIHNLDN_00947	1	hypothetical protein
+contig00001	1144534	1146045	GMIHNLDN_01055	1	hypothetical protein
+contig00001	1567720	1568670	GMIHNLDN_01431	1	Dodecaprenyl-phosphate galacturonate synthase
+contig00001	1539828	1542632	GMIHNLDN_01405	1	hypothetical protein
+contig00001	1536129	1536857	GMIHNLDN_01402	1	D-alanyl-D-alanine dipeptidase
+contig00001	1534945	1536126	GMIHNLDN_01401	1	hypothetical protein
+contig00001	1531338	1532420	GMIHNLDN_01397	1	tRNA N6-adenosine threonylcarbamoyltransferase
+contig00001	1526927	1531309	GMIHNLDN_01396	1	hypothetical protein
+contig00001	1516015	1516806	GMIHNLDN_01387	1	putative iron-sulfur-binding oxidoreductase FadF
+contig00001	1504129	1505163	GMIHNLDN_01378	1	hypothetical protein
+contig00001	1501679	1502983	GMIHNLDN_01376	1	hypothetical protein
+contig00001	1492814	1494250	GMIHNLDN_01370	1	Peptidoglycan O-acetyltransferase
+contig00001	1482315	1483379	GMIHNLDN_01361	1	hypothetical protein
+contig00001	1476823	1478022	GMIHNLDN_01355	1	hypothetical protein
+contig00001	1466637	1468988	GMIHNLDN_01348	1	Tyrosine-protein kinase ptk
+contig00001	1463137	1463859	GMIHNLDN_01343	1	hypothetical protein
+contig00001	1295307	1296020	GMIHNLDN_01200	1	Quercetin 2%2C3-dioxygenase
+contig00001	1444472	1445866	GMIHNLDN_01326	1	hypothetical protein
+contig00001	1442002	1442523	GMIHNLDN_01324	1	hypothetical protein
+contig00001	1434217	1435761	GMIHNLDN_01319	1	hypothetical protein
+contig00001	1428298	1429722	GMIHNLDN_01313	1	L-serine dehydratase 1
+contig00001	1420421	1422178	GMIHNLDN_01306	1	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase
+contig00001	1414229	1416259	GMIHNLDN_01300	1	hypothetical protein
+contig00001	1410494	1411549	GMIHNLDN_01296	1	2-succinylbenzoate--CoA ligase
+contig00001	1387603	1390002	GMIHNLDN_01278	1	hypothetical protein
+contig00001	1371219	1372688	GMIHNLDN_01264	1	hypothetical protein
+contig00001	1369948	1371156	GMIHNLDN_01263	1	hypothetical protein
+contig00001	1369254	1369829	GMIHNLDN_01262	1	UvrABC system protein A
+contig00001	1347393	1348643	GMIHNLDN_01241	1	L-threonine dehydratase biosynthetic IlvA
+contig00001	1345650	1347236	GMIHNLDN_01240	1	NADP-dependent glyceraldehyde-3-phosphate dehydrogenase
+contig00001	1327182	1327925	GMIHNLDN_01226	1	hypothetical protein
+contig00001	1324816	1326237	GMIHNLDN_01224	1	Undecaprenyl phosphate-alpha-4-amino-4-deoxy-L-arabinose arabinosyl transferase
+contig00001	1446681	1447490	GMIHNLDN_01328	1	Cyclopentanol dehydrogenase

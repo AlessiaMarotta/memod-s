@@ -1,0 +1,320 @@
+seqid	start	end	attribute	score	gene-annotation
+contig00001	1	6122	LKKNONAN_00006	18	hypothetical protein
+contig00001	738562	745015	LKKNONAN_00699	18	hypothetical protein
+contig00001	2505062	2505343	LKKNONAN_02361	5	Cation efflux system protein CusA
+contig00001	2611424	2612168	LKKNONAN_02449	5	Sensor histidine kinase RcsC
+contig00001	2476826	2477782	LKKNONAN_02334	4	Sensor histidine kinase CusS
+contig00001	35928	36349	LKKNONAN_00035	4	hypothetical protein
+contig00001	549938	550453	LKKNONAN_00489	4	50S ribosomal protein L25
+contig00001	1730952	1731336	LKKNONAN_01638	4	hypothetical protein
+contig00001	365737	366022	LKKNONAN_00324	4	hypothetical protein
+contig00001	1546119	1546400	LKKNONAN_01483	4	Phosphoribosylaminoimidazole-succinocarboxamide synthase
+contig00001	493315	493683	LKKNONAN_00432	3	hypothetical protein
+contig00001	1985932	1986044	LKKNONAN_01883	3	putative protein
+contig00001	637551	637995	LKKNONAN_00578	3	hypothetical protein
+contig00001	2676935	2677154	LKKNONAN_02505	3	Protein UmuD
+contig00001	1118319	1119239	LKKNONAN_01060	3	50S ribosomal protein L34
+contig00001	1070900	1071117	LKKNONAN_01012	3	hypothetical protein
+contig00001	1149263	1149556	LKKNONAN_01089	3	hypothetical protein
+contig00001	1718708	1718921	LKKNONAN_01627	3	hypothetical protein
+contig00001	1044056	1044449	LKKNONAN_00987	3	hypothetical protein
+contig00001	57019	57327	LKKNONAN_00051	3	Adenylosuccinate lyase
+contig00001	2512493	2513226	LKKNONAN_02366	3	Cobalt-zinc-cadmium resistance protein CzcC
+contig00001	88860	89315	LKKNONAN_00082	3	Methionine synthase
+contig00001	1344465	1344619	LKKNONAN_01281	3	hypothetical protein
+contig00001	1126634	1126905	LKKNONAN_01067	3	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG
+contig00001	1366775	1367401	LKKNONAN_01302	3	Carbamoyl-phosphate synthase small chain
+contig00001	1992938	1993114	LKKNONAN_01888	3	Cysteine synthase
+contig00001	444625	444812	LKKNONAN_00392	2	tRNA-cytidine(32) 2-sulfurtransferase
+contig00001	453512	454171	LKKNONAN_00398	2	Dihydrolipoyl dehydrogenase
+contig00001	2441220	2441803	LKKNONAN_02309	2	Chromosome partition protein Smc
+contig00001	2484161	2484708	LKKNONAN_02340	2	hypothetical protein
+contig00001	2351807	2352145	LKKNONAN_02226	2	Phosphoenolpyruvate synthase regulatory protein
+contig00001	2367203	2367424	LKKNONAN_02240	2	hypothetical protein
+contig00001	2382704	2383081	LKKNONAN_02253	2	2%2C4-dienoyl-CoA reductase
+contig00001	319965	320098	LKKNONAN_00291	2	Acid shock protein
+contig00001	2196477	2196659	LKKNONAN_02083	2	Multidrug resistance protein MexB
+contig00001	2256909	2257106	LKKNONAN_02136	2	HTH-type transcriptional regulator IscR
+contig00001	2335944	2336475	LKKNONAN_02212	2	hypothetical protein
+contig00001	2345928	2346228	LKKNONAN_02221	2	hypothetical protein
+contig00001	2030896	2031001	LKKNONAN_01926	2	hypothetical protein
+contig00001	1907478	1907797	LKKNONAN_01803	2	Transcriptional regulatory protein PmpR
+contig00001	1942885	1943139	LKKNONAN_01840	2	tRNA-specific adenosine deaminase
+contig00001	1987839	1988055	LKKNONAN_01885	2	Protein MtfA
+contig00001	1886080	1886576	LKKNONAN_01784	2	hypothetical protein
+contig00001	2034458	2034717	LKKNONAN_01930	2	hypothetical protein
+contig00001	2015548	2015872	LKKNONAN_01913	2	Flavodoxin FldP
+contig00001	555844	556173	LKKNONAN_00495	2	hypothetical protein
+contig00001	605742	606091	LKKNONAN_00547	2	hypothetical protein
+contig00001	2090559	2091018	LKKNONAN_01978	2	General stress protein 14
+contig00001	2175876	2176597	LKKNONAN_02064	2	hypothetical protein
+contig00001	2125037	2125177	LKKNONAN_02016	2	L-serine dehydratase TdcG
+contig00001	1501392	1501709	LKKNONAN_01437	2	hypothetical protein
+contig00001	1506467	1506601	LKKNONAN_01441	2	50S ribosomal protein L31
+contig00001	1526503	1526682	LKKNONAN_01462	2	Tol-Pal system protein TolR
+contig00001	1530837	1530936	LKKNONAN_01468	2	Phosphoglucosamine mutase
+contig00001	1625305	1625460	LKKNONAN_01545	2	hypothetical protein
+contig00001	1670695	1671204	LKKNONAN_01585	2	Phosphate-binding protein PstS
+contig00001	621596	621725	LKKNONAN_00563	2	Argininosuccinate lyase
+contig00001	730814	731588	LKKNONAN_00687	2	Type III pantothenate kinase
+contig00001	1764841	1765412	LKKNONAN_01668	2	Elongation factor P--(R)-beta-lysine ligase
+contig00001	747771	748005	LKKNONAN_00701	2	hypothetical protein
+contig00001	1703605	1703833	LKKNONAN_01614	2	putative hydrolase
+contig00001	884760	884885	LKKNONAN_00838	2	hypothetical protein
+contig00001	1232722	1232795	LKKNONAN_01178	2	hypothetical protein
+contig00001	824977	825206	LKKNONAN_00782	2	Ribosomal RNA large subunit methyltransferase H
+contig00001	880774	880969	LKKNONAN_00834	2	hypothetical protein
+contig00001	1401170	1401586	LKKNONAN_01335	2	Triosephosphate isomerase
+contig00001	1015021	1015385	LKKNONAN_00959	2	hypothetical protein
+contig00001	1146321	1146405	LKKNONAN_01086	2	Ribosomal RNA small subunit methyltransferase B
+contig00001	1195716	1195866	LKKNONAN_01142	2	hypothetical protein
+contig00001	905479	905784	LKKNONAN_00860	2	tRNA-dihydrouridine synthase B
+contig00001	985648	986042	LKKNONAN_00931	2	hypothetical protein
+contig00001	968170	968629	LKKNONAN_00915	2	hypothetical protein
+contig00001	962253	962646	LKKNONAN_00908	2	hypothetical protein
+contig00001	952723	953084	LKKNONAN_00899	2	tRNA (guanine-N(7)-)-methyltransferase
+contig00001	2547421	2547641	LKKNONAN_02399	2	hypothetical protein
+contig00001	2548014	2548115	LKKNONAN_02400	2	hypothetical protein
+contig00001	2595725	2595897	LKKNONAN_02440	2	Phosphoglycolate phosphatase
+contig00001	916222	916331	LKKNONAN_00870	2	hypothetical protein
+contig00001	244397	244541	LKKNONAN_00223	2	Cytidylate kinase
+contig00001	2488759	2489165	LKKNONAN_02343	2	Ubiquinol-cytochrome c reductase iron-sulfur subunit
+contig00001	164740	165001	LKKNONAN_00147	2	putative protein
+contig00001	242555	242728	LKKNONAN_00222	2	30S ribosomal protein S1
+contig00001	69257	69581	LKKNONAN_00064	1	Chaperone protein HtpG
+contig00001	85432	85802	LKKNONAN_00079	1	hypothetical protein
+contig00001	93483	93622	LKKNONAN_00084	1	hypothetical protein
+contig00001	110259	110399	LKKNONAN_00096	1	Prolyl endopeptidase
+contig00001	154687	154849	LKKNONAN_00137	1	4-hydroxy-3-methylbut-2-enyl diphosphate reductase
+contig00001	180428	180688	LKKNONAN_00161	1	Hypoxanthine-guanine phosphoribosyltransferase
+contig00001	195334	195662	LKKNONAN_00178	1	Ion-translocating oxidoreductase complex subunit A
+contig00001	219498	219602	LKKNONAN_00197	1	hypothetical protein
+contig00001	232698	232820	LKKNONAN_00209	1	Aspartate/prephenate aminotransferase
+contig00001	245229	245235	LKKNONAN_00224	1	Histidinol-phosphate aminotransferase
+contig00001	248760	248819	LKKNONAN_00226	1	hypothetical protein
+contig00001	2499709	2499970	LKKNONAN_02353	1	hypothetical protein
+contig00001	2536092	2536642	LKKNONAN_02388	1	hypothetical protein
+contig00001	2538145	2538419	LKKNONAN_02390	1	Protein MelA
+contig00001	2542210	2542311	LKKNONAN_02394	1	hypothetical protein
+contig00001	2556197	2556353	LKKNONAN_02406	1	hypothetical protein
+contig00001	2570782	2570965	LKKNONAN_02415	1	hypothetical protein
+contig00001	2576758	2576763	LKKNONAN_02420	1	Endolytic murein transglycosylase
+contig00001	2580015	2580215	LKKNONAN_02423	1	Acyl carrier protein
+contig00001	2586941	2587026	LKKNONAN_02432	1	putative ketoamine kinase
+contig00001	42331	42345	LKKNONAN_00040	1	putative enoyl-CoA hydratase echA8
+contig00001	948476	948497	LKKNONAN_00894	1	hypothetical protein
+contig00001	963109	963497	LKKNONAN_00909	1	hypothetical protein
+contig00001	965782	965892	LKKNONAN_00912	1	hypothetical protein
+contig00001	971220	971265	LKKNONAN_00918	1	hypothetical protein
+contig00001	971557	971583	LKKNONAN_00919	1	hypothetical protein
+contig00001	974583	975122	LKKNONAN_00922	1	hypothetical protein
+contig00001	983589	983823	LKKNONAN_00930	1	hypothetical protein
+contig00001	988110	988539	LKKNONAN_00932	1	hypothetical protein
+contig00001	990841	991048	LKKNONAN_00933	1	DNA helicase II
+contig00001	1002629	1002702	LKKNONAN_00946	1	Porphobilinogen deaminase
+contig00001	1026718	1027030	LKKNONAN_00969	1	Chorismate pyruvate-lyase
+contig00001	1027589	1027650	LKKNONAN_00970	1	Hydrogen peroxide-inducible genes activator
+contig00001	1032784	1033125	LKKNONAN_00977	1	L-threonine 3-dehydrogenase
+contig00001	1042139	1042171	LKKNONAN_00986	1	Phosphomethylpyrimidine synthase
+contig00001	1049847	1050101	LKKNONAN_00992	1	hypothetical protein
+contig00001	1058672	1058868	LKKNONAN_01000	1	hypothetical protein
+contig00001	1066980	1067050	LKKNONAN_01010	1	hypothetical protein
+contig00001	1075012	1075349	LKKNONAN_01017	1	hypothetical protein
+contig00001	1081022	1081124	LKKNONAN_01025	1	Transcriptional regulatory protein BaeR
+contig00001	1084298	1084488	LKKNONAN_01029	1	hypothetical protein
+contig00001	1086844	1087102	LKKNONAN_01033	1	IS91 family transposase ISMno24
+contig00001	1104235	1104498	LKKNONAN_01048	1	Xaa-Pro dipeptidase
+contig00001	1109126	1109290	LKKNONAN_01053	1	hypothetical protein
+contig00001	1111031	1111164	LKKNONAN_01055	1	Polyphosphate:ADP phosphotransferase
+contig00001	1119375	1119798	LKKNONAN_01061	1	Putative membrane protein insertion efficiency factor
+contig00001	1125903	1125940	LKKNONAN_01066	1	hypothetical protein
+contig00001	1150595	1150681	LKKNONAN_01090	1	hypothetical protein
+contig00001	1169202	1169213	LKKNONAN_01111	1	hypothetical protein
+contig00001	1184630	1184901	LKKNONAN_01128	1	RNA polymerase sigma factor RpoH
+contig00001	1194650	1194666	LKKNONAN_01140	1	hypothetical protein
+contig00001	1250732	1250913	LKKNONAN_01192	1	hypothetical protein
+contig00001	1284764	1284775	LKKNONAN_01222	1	2-octaprenyl-6-methoxyphenol hydroxylase
+contig00001	1289328	1289926	LKKNONAN_01227	1	putative binding protein component of ABC iron transporter
+contig00001	1302272	1302349	LKKNONAN_01238	1	RNA pyrophosphohydrolase
+contig00001	752201	752342	LKKNONAN_00705	1	hypothetical protein
+contig00001	762885	762950	LKKNONAN_00718	1	Rubredoxin
+contig00001	774034	774342	LKKNONAN_00728	1	2-aminomuconate deaminase
+contig00001	799936	799986	LKKNONAN_00756	1	Poly(A) polymerase I
+contig00001	844555	844626	LKKNONAN_00801	1	Polyribonucleotide nucleotidyltransferase
+contig00001	853321	853363	LKKNONAN_00808	1	Ribosome maturation factor RimP
+contig00001	891157	891378	LKKNONAN_00845	1	Thiol-disulfide oxidoreductase ResA
+contig00001	898542	898768	LKKNONAN_00852	1	Phosphate regulon transcriptional regulatory protein PhoB
+contig00001	899480	899873	LKKNONAN_00853	1	3-dehydroquinate dehydratase 1
+contig00001	903604	903771	LKKNONAN_00858	1	Ribosomal protein L11 methyltransferase
+contig00001	904660	904716	LKKNONAN_00859	1	hypothetical protein
+contig00001	915472	915582	LKKNONAN_00869	1	3-demethoxyubiquinol 3-hydroxylase
+contig00001	1304080	1304239	LKKNONAN_01241	1	hypothetical protein
+contig00001	1307200	1307401	LKKNONAN_01245	1	hypothetical protein
+contig00001	1314295	1314434	LKKNONAN_01253	1	ATP-dependent DNA helicase RecG
+contig00001	1317455	1317542	LKKNONAN_01255	1	hypothetical protein
+contig00001	1319572	1319847	LKKNONAN_01257	1	HTH-type transcriptional regulator CdhR
+contig00001	1326132	1326393	LKKNONAN_01264	1	hypothetical protein
+contig00001	1333945	1334069	LKKNONAN_01270	1	Bis(5'-nucleosyl)-tetraphosphatase%2C symmetrical
+contig00001	1335263	1335478	LKKNONAN_01272	1	NADP-dependent 3-hydroxy acid dehydrogenase YdfG
+contig00001	1357709	1357898	LKKNONAN_01295	1	Chaperone protein DnaK
+contig00001	1372865	1373012	LKKNONAN_01306	1	hypothetical protein
+contig00001	1393407	1393866	LKKNONAN_01327	1	hypothetical protein
+contig00001	1402806	1403057	LKKNONAN_01338	1	hypothetical protein
+contig00001	1405077	1405204	LKKNONAN_01342	1	hypothetical protein
+contig00001	1412495	1412680	LKKNONAN_01349	1	hypothetical protein
+contig00001	1424908	1424936	LKKNONAN_01363	1	hypothetical protein
+contig00001	1433762	1433901	LKKNONAN_01373	1	Type II secretion system protein C
+contig00001	1448892	1449088	LKKNONAN_01389	1	hypothetical protein
+contig00001	1477534	1477559	LKKNONAN_01415	1	3'-5' ssDNA/RNA exonuclease TatD
+contig00001	1485907	1486147	LKKNONAN_01421	1	hypothetical protein
+contig00001	1495401	1495834	LKKNONAN_01432	1	ATP-dependent protease ATPase subunit HslU
+contig00001	1523972	1524076	LKKNONAN_01457	1	Ferredoxin
+contig00001	1527100	1527208	LKKNONAN_01463	1	Formamidopyrimidine-DNA glycosylase
+contig00001	1545756	1545827	LKKNONAN_01482	1	hypothetical protein
+contig00001	1547508	1547766	LKKNONAN_01484	1	Aconitate/2-methylaconitate hydratase
+contig00001	1569822	1570216	LKKNONAN_01499	1	hypothetical protein
+contig00001	1572944	1574082	LKKNONAN_01503	1	RNA polymerase sigma factor RpoD
+contig00001	1579051	1579348	LKKNONAN_01507	1	tRNA N6-adenosine threonylcarbamoyltransferase
+contig00001	1582246	1582562	LKKNONAN_01510	1	Bicyclomycin resistance protein
+contig00001	1587672	1588030	LKKNONAN_01517	1	Undecaprenyl-diphosphatase
+contig00001	1613481	1613979	LKKNONAN_01536	1	Fe/S biogenesis protein NfuA
+contig00001	1633509	1633608	LKKNONAN_01556	1	DNA adenine methylase
+contig00001	1636602	1637023	LKKNONAN_01560	1	DNA repair protein RadA
+contig00001	1641962	1641987	LKKNONAN_01565	1	hypothetical protein
+contig00001	1665839	1666280	LKKNONAN_01583	1	Ferrienterobactin receptor
+contig00001	1674243	1674423	LKKNONAN_01589	1	hypothetical protein
+contig00001	1674892	1674939	LKKNONAN_01590	1	hypothetical protein
+contig00001	1682719	1682909	LKKNONAN_01596	1	hypothetical protein
+contig00001	1684644	1684831	LKKNONAN_01597	1	Tol-Pal system protein TolB
+contig00001	618629	618790	LKKNONAN_00560	1	Inner membrane protein YohC
+contig00001	639487	639695	LKKNONAN_00579	1	Elongation factor P-like protein
+contig00001	649799	649982	LKKNONAN_00592	1	tRNA dimethylallyltransferase
+contig00001	659957	660277	LKKNONAN_00602	1	Transcriptional regulatory protein ZraR
+contig00001	666522	666648	LKKNONAN_00606	1	Methylated-DNA--protein-cysteine methyltransferase
+contig00001	672699	672841	LKKNONAN_00613	1	hypothetical protein
+contig00001	673578	673607	LKKNONAN_00615	1	hypothetical protein
+contig00001	681159	681458	LKKNONAN_00622	1	Glutamine--tRNA ligase
+contig00001	683172	683422	LKKNONAN_00623	1	Exodeoxyribonuclease 7 small subunit
+contig00001	717351	717483	LKKNONAN_00673	1	DNA-directed RNA polymerase subunit beta'
+contig00001	726397	726474	LKKNONAN_00676	1	50S ribosomal protein L10
+contig00001	1688206	1688233	LKKNONAN_01599	1	putative malonic semialdehyde reductase RutE
+contig00001	1696972	1697150	LKKNONAN_01607	1	Small heat shock protein IbpA
+contig00001	1702243	1702369	LKKNONAN_01612	1	hypothetical protein
+contig00001	1714375	1714471	LKKNONAN_01624	1	hypothetical protein
+contig00001	1752611	1752759	LKKNONAN_01660	1	DNA topoisomerase 4 subunit B
+contig00001	1761183	1761317	LKKNONAN_01665	1	Cyclic-di-GMP receptor FimW
+contig00001	1783626	1783807	LKKNONAN_01681	1	hypothetical protein
+contig00001	1784051	1784079	LKKNONAN_01682	1	putative oxidoreductase
+contig00001	1791975	1792222	LKKNONAN_01689	1	3-ketoacyl-CoA thiolase FadI
+contig00001	1795983	1796201	LKKNONAN_01692	1	hypothetical protein
+contig00001	1802933	1803128	LKKNONAN_01699	1	hypothetical protein
+contig00001	1813542	1814356	LKKNONAN_01715	1	Trigger factor
+contig00001	1840729	1840882	LKKNONAN_01738	1	putative protein YcjX
+contig00001	1861728	1862144	LKKNONAN_01761	1	30S ribosomal protein S2
+contig00001	1864634	1864735	LKKNONAN_01764	1	Ribosome-recycling factor
+contig00001	1880433	1880555	LKKNONAN_01777	1	hypothetical protein
+contig00001	1886889	1887078	LKKNONAN_01785	1	Protein/nucleic acid deglycase HchA
+contig00001	1888238	1888300	LKKNONAN_01787	1	hypothetical protein
+contig00001	1898439	1898485	LKKNONAN_01797	1	Proline--tRNA ligase
+contig00001	1908542	1909091	LKKNONAN_01804	1	Crossover junction endodeoxyribonuclease RuvC
+contig00001	1912754	1912918	LKKNONAN_01808	1	hypothetical protein
+contig00001	1920933	1921038	LKKNONAN_01817	1	Acyl-CoA thioester hydrolase YbgC
+contig00001	1927124	1927216	LKKNONAN_01826	1	7-cyano-7-deazaguanine synthase
+contig00001	1943620	1943869	LKKNONAN_01841	1	Diaminopimelate decarboxylase
+contig00001	1952776	1952912	LKKNONAN_01848	1	Lipopolysaccharide export system permease protein LptF
+contig00001	1955090	1955247	LKKNONAN_01850	1	hypothetical protein
+contig00001	1958350	1958537	LKKNONAN_01853	1	hypothetical protein
+contig00001	1968547	1968594	LKKNONAN_01864	1	hypothetical protein
+contig00001	1969975	1970290	LKKNONAN_01867	1	hypothetical protein
+contig00001	1974960	1975269	LKKNONAN_01871	1	FKBP-type 22 kDa peptidyl-prolyl cis-trans isomerase
+contig00001	2001047	2001252	LKKNONAN_01899	1	hypothetical protein
+contig00001	2011147	2011452	LKKNONAN_01907	1	Fe(3+) ions import ATP-binding protein FbpC 2
+contig00001	2012524	2012735	LKKNONAN_01908	1	Glutaredoxin 4
+contig00001	2015067	2015316	LKKNONAN_01912	1	hypothetical protein
+contig00001	2028850	2028939	LKKNONAN_01925	1	Vitamin B12 transporter BtuB
+contig00001	467341	467827	LKKNONAN_00408	1	hypothetical protein
+contig00001	503892	504200	LKKNONAN_00444	1	30S ribosomal protein S9
+contig00001	505030	505326	LKKNONAN_00446	1	hypothetical protein
+contig00001	505669	505738	LKKNONAN_00447	1	hypothetical protein
+contig00001	509624	509728	LKKNONAN_00452	1	hypothetical protein
+contig00001	518077	518282	LKKNONAN_00463	1	RNA polymerase sigma-54 factor
+contig00001	536859	537003	LKKNONAN_00478	1	Cell shape-determining protein MreB
+contig00001	566451	566803	LKKNONAN_00503	1	hypothetical protein
+contig00001	567353	567434	LKKNONAN_00504	1	Lon protease
+contig00001	591465	591645	LKKNONAN_00526	1	hypothetical protein
+contig00001	592189	592244	LKKNONAN_00527	1	Protease HtpX
+contig00001	600636	600775	LKKNONAN_00539	1	50S ribosomal protein L9
+contig00001	2035720	2035755	LKKNONAN_01931	1	hypothetical protein
+contig00001	2045789	2046645	LKKNONAN_01945	1	RNA polymerase-associated protein RapA
+contig00001	2058430	2058773	LKKNONAN_01949	1	hypothetical protein
+contig00001	2066443	2066685	LKKNONAN_01960	1	hypothetical protein
+contig00001	2105853	2106402	LKKNONAN_01994	1	hypothetical protein
+contig00001	2118411	2118570	LKKNONAN_02009	1	hypothetical protein
+contig00001	2132757	2133146	LKKNONAN_02022	1	2-methylcitrate dehydratase (2-methyl-trans-aconitate forming)
+contig00001	2142951	2143116	LKKNONAN_02032	1	Gamma-glutamylputrescine oxidoreductase
+contig00001	2144401	2144706	LKKNONAN_02033	1	hypothetical protein
+contig00001	2150163	2150221	LKKNONAN_02038	1	hypothetical protein
+contig00001	2151977	2152060	LKKNONAN_02040	1	putative protein YbiI
+contig00001	2166105	2166775	LKKNONAN_02053	1	hypothetical protein
+contig00001	2184118	2184325	LKKNONAN_02074	1	hypothetical protein
+contig00001	2194021	2194116	LKKNONAN_02081	1	hypothetical protein
+contig00001	2203344	2204425	LKKNONAN_02089	1	hypothetical protein
+contig00001	2211154	2211563	LKKNONAN_02098	1	Succinate dehydrogenase cytochrome b556 subunit
+contig00001	2234258	2234305	LKKNONAN_02116	1	5'-deoxyadenosine deaminase
+contig00001	2244213	2244593	LKKNONAN_02124	1	4-hydroxyphenylpyruvate dioxygenase
+contig00001	2267150	2267530	LKKNONAN_02150	1	Glutamate 5-kinase 1
+contig00001	2275098	2275516	LKKNONAN_02156	1	hypothetical protein
+contig00001	2298352	2298718	LKKNONAN_02175	1	hypothetical protein
+contig00001	2301998	2302122	LKKNONAN_02178	1	hypothetical protein
+contig00001	2307437	2307588	LKKNONAN_02185	1	Aspartate/glutamate leucyltransferase
+contig00001	2321424	2321609	LKKNONAN_02200	1	hypothetical protein
+contig00001	2330525	2330610	LKKNONAN_02206	1	Nicotinamide-nucleotide amidohydrolase PncC
+contig00001	2331133	2331271	LKKNONAN_02207	1	Protein RecA
+contig00001	2335492	2335727	LKKNONAN_02210	1	Carbon storage regulator
+contig00001	2336929	2337054	LKKNONAN_02213	1	putative protein YbcJ
+contig00001	2337268	2337587	LKKNONAN_02214	1	hypothetical protein
+contig00001	2340189	2340372	LKKNONAN_02215	1	hypothetical protein
+contig00001	2340625	2340819	LKKNONAN_02216	1	putative ABC transporter ATP-binding protein
+contig00001	2345156	2345702	LKKNONAN_02220	1	hypothetical protein
+contig00001	2348322	2348396	LKKNONAN_02223	1	hypothetical protein
+contig00001	2355999	2356156	LKKNONAN_02229	1	hypothetical protein
+contig00001	2358544	2358669	LKKNONAN_02232	1	hypothetical protein
+contig00001	2387212	2387319	LKKNONAN_02256	1	hypothetical protein
+contig00001	2388016	2388102	LKKNONAN_02257	1	hypothetical protein
+contig00001	2392753	2392785	LKKNONAN_02260	1	hypothetical protein
+contig00001	268258	268375	LKKNONAN_00240	1	Segregation and condensation protein B
+contig00001	271504	271614	LKKNONAN_00243	1	putative protein YciO
+contig00001	293262	293283	LKKNONAN_00268	1	Nucleoside triphosphate pyrophosphohydrolase
+contig00001	308532	308623	LKKNONAN_00279	1	hypothetical protein
+contig00001	357112	357181	LKKNONAN_00318	1	Dihydroorotate dehydrogenase (quinone)
+contig00001	358181	358325	LKKNONAN_00319	1	DNA topoisomerase 1
+contig00001	411152	411394	LKKNONAN_00367	1	L-aspartate oxidase
+contig00001	431128	431321	LKKNONAN_00382	1	Dipeptide and tripeptide permease A
+contig00001	441498	441644	LKKNONAN_00389	1	Ribosomal RNA large subunit methyltransferase G
+contig00001	446189	446400	LKKNONAN_00394	1	Neutral endopeptidase
+contig00001	448495	448910	LKKNONAN_00395	1	hypothetical protein
+contig00001	455591	455727	LKKNONAN_00399	1	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex
+contig00001	2393509	2393665	LKKNONAN_02262	1	Lipoprotein-releasing system transmembrane protein LolE
+contig00001	2401176	2401500	LKKNONAN_02270	1	Tol-Pal system protein TolQ
+contig00001	2406815	2406905	LKKNONAN_02277	1	Arginine--tRNA ligase
+contig00001	2422693	2422948	LKKNONAN_02292	1	Na(+)/H(+) antiporter NhaD
+contig00001	2427124	2427390	LKKNONAN_02295	1	hypothetical protein
+contig00001	2432468	2433136	LKKNONAN_02303	1	hypothetical protein
+contig00001	2435273	2435448	LKKNONAN_02306	1	Cobalt-zinc-cadmium resistance protein CzcA
+contig00001	2443873	2444133	LKKNONAN_02311	1	Tn3 family transposase ISPa43
+contig00001	2447107	2447253	LKKNONAN_02312	1	hypothetical protein
+contig00001	2460778	2460901	LKKNONAN_02319	1	hypothetical protein
+contig00001	2469528	2469595	LKKNONAN_02328	1	hypothetical protein
+contig00001	2479890	2480085	LKKNONAN_02336	1	Copper resistance protein A
+contig00001	2487438	2487633	LKKNONAN_02342	1	putative cardiolipin synthase YwiE
+contig00001	2626496	2626950	LKKNONAN_02458	1	hypothetical protein
+contig00001	2627725	2627846	LKKNONAN_02459	1	hypothetical protein
+contig00001	2634206	2634385	LKKNONAN_02467	1	Cyclic di-GMP phosphodiesterase
+contig00001	2635604	2635761	LKKNONAN_02468	1	K(+)/H(+) antiporter NhaP2
+contig00001	2641180	2641367	LKKNONAN_02471	1	Transcription-repair-coupling factor
+contig00001	2649485	2649554	LKKNONAN_02477	1	Leucine dehydrogenase
+contig00001	2663770	2664319	LKKNONAN_02492	1	DNA translocase FtsK
+contig00001	2670080	2670243	LKKNONAN_02496	1	hypothetical protein
+contig00001	2670598	2670696	LKKNONAN_02497	1	Cold shock protein CspC
+contig00001	11137	11207	LKKNONAN_00013	1	Chaperone protein ClpB
+contig00001	2681138	2681384	LKKNONAN_02508	1	Ribosomal large subunit pseudouridine synthase E

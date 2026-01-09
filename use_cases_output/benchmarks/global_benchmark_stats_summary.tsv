@@ -1,0 +1,14 @@
+Task	Time_min_mean	Time_min_max	Time_min_std	RAM_GB_mean	RAM_GB_max
+basecalling	77.93	150.55	102.7	12.85	23.0
+emapper	20.43	20.5	0.1	8.56	8.58
+call_methylation	3.72	5.82	2.96	23.86	44.35
+gsea	0.86	1.0	0.21	0.56	0.58
+mapping_to_reference	0.82	1.59	1.08	3.47	6.54
+nanoplot_before_filtering	0.57	1.06	0.7	0.55	0.79
+prokka	0.56	0.68	0.17	0.06	0.06
+nanoplot_after_filtering	0.51	0.94	0.61	0.56	0.84
+filtlong	0.18	0.35	0.23	0.3	0.38
+mestudio	0.13	0.14	0.01	0.12	0.12
+circular_plots	0.11	0.14	0.04	0.15	0.15
+bam_to_fastq	0.08	0.15	0.1	0.0	0.01
+quast	0.02	0.02	0.0	0.09	0.09

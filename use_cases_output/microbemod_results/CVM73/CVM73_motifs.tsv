@@ -1,0 +1,5 @@
+	index	Motif	Motif_raw	Methylation_type	Genome_sites	Methylated_sites	Methylation_coverage	Average_Percent_Methylation_per_site	Methylated_position_1	Methylated_position_1_percent	Methylated_position_2	Methylated_position_2_percent
+0	0	GATC	1-MWNMTGATCVHNVHN	6mA	16628	16620	1.0	0.92	2	50.0	3	50.0
+1	1	RTAAGNNNNNTCC	3-RTAAGCNWYWTCCA	6mA	126	124	0.984	0.85	4	48.548	11	46.473
+2	2	No Motif Assigned	NA	6mA	NA	3672	NA	0.84	NA	NA	NA	NA
+3	0	No Motif Assigned	NA	4mC	NA	1299	NA	0.76	NA	NA	NA	NA

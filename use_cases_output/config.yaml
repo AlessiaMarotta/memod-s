@@ -1,0 +1,33 @@
+folder:
+  db_dir: db_dir
+  input_dir: /media/shared1/alessiam/memods_revision/memod-s/microbemod_data/input_pod5_5kHz
+  logs: logs
+  output_dir: pod5_5kHz_output
+  scripts: scripts
+params:
+  assembler: dragonflye
+  dmr_pairs: []
+  dmr_window: 50
+  dorado_fallback_models:
+  - dna_r10.4.1_e8.2_400bps_sup@v4.1.0
+  - dna_r10.4.1_e8.2_400bps_sup@v5.0.0_6mA@v1
+  - dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v1
+  dorado_model_tier: sup
+  dorado_modified_bases: 4mC_5mC 6mA
+  dorado_pu: cuda:all
+  dragonflye:
+    medaka_rounds: 1
+    model: r1041_e82_400bps_sup_v5.0.0
+    racon_rounds: 4
+  eggnog:
+    cpu: 16.0
+    db: /media/shared2/eggnog_database/
+    itype: proteins
+    target_orthologs: all
+  filtlong:
+    keep_percent: 90
+    min_length: 1000
+  sample:
+  - CVM73
+  - CVM74
+  sample_tab: pod5_5kHz_output/sample.tab

@@ -1,0 +1,42 @@
+seqid	start	end	attribute	score	gene-annotation
+contig00001	11208	13796	LKKNONAN_00013	2	Chaperone protein ClpB
+contig00001	468286	469155	LKKNONAN_00409	2	Nicotinate-nucleotide pyrophosphorylase [carboxylating]
+contig00001	2570966	2573821	LKKNONAN_02415	2	hypothetical protein
+contig00001	1572242	1572943	LKKNONAN_01501	2	hypothetical protein
+contig00001	780990	781418	LKKNONAN_00735	2	hypothetical protein
+contig00001	1728384	1730951	LKKNONAN_01637	2	hypothetical protein
+contig00001	62277	62984	LKKNONAN_00055	1	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB
+contig00001	341334	342923	LKKNONAN_00307	1	Peptide chain release factor RF3
+contig00001	337449	340337	LKKNONAN_00305	1	Vitamin B12 transporter BtuB
+contig00001	623023	623973	LKKNONAN_00564	1	N-acetyl-gamma-glutamyl-phosphate reductase
+contig00001	551257	551850	LKKNONAN_00490	1	Peptidyl-tRNA hydrolase
+contig00001	450145	452403	LKKNONAN_00396	1	Dipeptidyl aminopeptidase 4
+contig00001	377163	379052	LKKNONAN_00334	1	hypothetical protein
+contig00001	935143	937485	LKKNONAN_00881	1	hypothetical protein
+contig00001	1023349	1025901	LKKNONAN_00967	1	Glycerol-3-phosphate acyltransferase
+contig00001	650984	652744	LKKNONAN_00593	1	DNA mismatch repair protein MutL
+contig00001	646838	647899	LKKNONAN_00589	1	Modulator of FtsH protease HflK
+contig00001	1062543	1063079	LKKNONAN_01006	1	hypothetical protein
+contig00001	1198378	1199169	LKKNONAN_01143	1	hypothetical protein
+contig00001	1345234	1346754	LKKNONAN_01282	1	hypothetical protein
+contig00001	1272268	1273098	LKKNONAN_01207	1	hypothetical protein
+contig00001	1376665	1377153	LKKNONAN_01310	1	hypothetical protein
+contig00001	1387473	1389398	LKKNONAN_01322	1	ATP-dependent zinc metalloprotease FtsH
+contig00001	1027651	1028553	LKKNONAN_00970	1	Hydrogen peroxide-inducible genes activator
+contig00001	721783	725850	LKKNONAN_00674	1	DNA-directed RNA polymerase subunit beta
+contig00001	1436984	1438513	LKKNONAN_01375	1	Type II secretion system protein E
+contig00001	1419547	1420197	LKKNONAN_01358	1	hypothetical protein
+contig00001	1744547	1745491	LKKNONAN_01650	1	hypothetical protein
+contig00001	1596131	1597597	LKKNONAN_01523	1	Ribosomal RNA small subunit methyltransferase F
+contig00001	1848679	1849128	LKKNONAN_01745	1	Ribonuclease HI
+contig00001	2002493	2003020	LKKNONAN_01900	1	hypothetical protein
+contig00001	2168744	2169739	LKKNONAN_02055	1	Stress response kinase A
+contig00001	1803129	1804661	LKKNONAN_01699	1	hypothetical protein
+contig00001	2209864	2211153	LKKNONAN_02097	1	Citrate synthase
+contig00001	2298719	2300674	LKKNONAN_02175	1	hypothetical protein
+contig00001	2399160	2399720	LKKNONAN_02266	1	hypothetical protein
+contig00001	2379796	2380245	LKKNONAN_02250	1	hypothetical protein
+contig00001	2406906	2408672	LKKNONAN_02277	1	Arginine--tRNA ligase
+contig00001	2464982	2466151	LKKNONAN_02323	1	hypothetical protein
+contig00001	2540057	2540878	LKKNONAN_02392	1	hypothetical protein
+contig00001	2595898	2596536	LKKNONAN_02440	1	Phosphoglycolate phosphatase

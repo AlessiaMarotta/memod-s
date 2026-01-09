@@ -1,0 +1,48 @@
+seqid	start	end	attribute	score	gene-annotation
+contig00001	1	6030	GMIHNLDN_00006	4	hypothetical protein
+contig00001	409442	415772	GMIHNLDN_00377	4	Diacetyl reductase [(S)-acetoin forming]
+contig00001	1788688	1794971	GMIHNLDN_01596	4	Threonine--tRNA ligase
+contig00001	3098558	3099313	GMIHNLDN_02777	3	hypothetical protein
+contig00001	3093890	3094002	GMIHNLDN_02772	2	Acyl carrier protein AcpP
+contig00001	3331933	3338448	GMIHNLDN_02982	2	Vitamin B12 transporter BtuB
+contig00001	387931	388085	GMIHNLDN_00351	1	hypothetical protein
+contig00001	1023462	1024272	GMIHNLDN_00935	1	hypothetical protein
+contig00001	1111772	1112128	GMIHNLDN_01018	1	hypothetical protein
+contig00001	1268057	1268162	GMIHNLDN_01172	1	Thiol-disulfide oxidoreductase ResA
+contig00001	1272384	1272478	GMIHNLDN_01176	1	Acyl carrier protein phosphodiesterase
+contig00001	400221	400471	GMIHNLDN_00363	1	30S ribosomal protein S6
+contig00001	677229	677308	GMIHNLDN_00615	1	hypothetical protein
+contig00001	715421	715637	GMIHNLDN_00662	1	Ribonuclease Y
+contig00001	735438	735641	GMIHNLDN_00681	1	1%2C4-dihydroxy-2-naphthoyl-CoA hydrolase
+contig00001	1556277	1556708	GMIHNLDN_01420	1	Holliday junction ATP-dependent DNA helicase RuvB
+contig00001	1472860	1473190	GMIHNLDN_01352	1	UDP-N-acetylglucosamine 4-epimerase
+contig00001	1449208	1449667	GMIHNLDN_01331	1	Transcriptional regulatory protein BtsR
+contig00001	1276482	1276642	GMIHNLDN_01181	1	hypothetical protein
+contig00001	2020999	2021306	GMIHNLDN_01798	1	hypothetical protein
+contig00001	1588458	1588624	GMIHNLDN_01447	1	hypothetical protein
+contig00001	1756040	1756304	GMIHNLDN_01570	1	HTH-type transcriptional regulator DegA
+contig00001	1797810	1797905	GMIHNLDN_01599	1	50S ribosomal protein L20
+contig00001	2156337	2156493	GMIHNLDN_01926	1	3-oxoacyl-[acyl-carrier-protein] synthase 3
+contig00001	2201647	2202037	GMIHNLDN_01967	1	hypothetical protein
+contig00001	2217173	2217334	GMIHNLDN_01979	1	Ribulose-phosphate 3-epimerase
+contig00001	2307539	2307707	GMIHNLDN_02057	1	Electron transfer flavoprotein subunit beta
+contig00001	2511390	2511783	GMIHNLDN_02234	1	Ktr system potassium uptake protein B
+contig00001	2085773	2086018	GMIHNLDN_01871	1	TonB-dependent receptor P26
+contig00001	2089250	2089301	GMIHNLDN_01872	1	hypothetical protein
+contig00001	2126042	2126367	GMIHNLDN_01899	1	hypothetical protein
+contig00001	2694383	2694511	GMIHNLDN_02400	1	hypothetical protein
+contig00001	2655315	2655537	GMIHNLDN_02370	1	Deoxyguanosinetriphosphate triphosphohydrolase
+contig00001	2619567	2619671	GMIHNLDN_02340	1	hypothetical protein
+contig00001	2731152	2731312	GMIHNLDN_02437	1	hypothetical protein
+contig00001	2849093	2849307	GMIHNLDN_02564	1	hypothetical protein
+contig00001	2745745	2746129	GMIHNLDN_02453	1	GTPase HflX
+contig00001	3088580	3088892	GMIHNLDN_02767	1	HTH-type transcriptional activator RhaS
+contig00001	2742472	2742590	GMIHNLDN_02448	1	hypothetical protein
+contig00001	3077796	3077967	GMIHNLDN_02756	1	3-oxoacyl-[acyl-carrier-protein] synthase 3
+contig00001	3141354	3141611	GMIHNLDN_02805	1	HTH-type transcriptional activator RhaR
+contig00001	3318501	3318632	GMIHNLDN_02965	1	hypothetical protein
+contig00001	3302636	3302961	GMIHNLDN_02950	1	5-formyltetrahydrofolate cyclo-ligase
+contig00001	3321099	3321257	GMIHNLDN_02968	1	Protein tas
+contig00001	3350884	3351010	GMIHNLDN_02993	1	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase
+contig00001	3384260	3384317	GMIHNLDN_03024	1	hypothetical protein
+contig00001	3579970	3580191	GMIHNLDN_03232	1	Type III pantothenate kinase

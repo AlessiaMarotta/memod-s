@@ -1,0 +1,6 @@
+	index	Motif	Motif_raw	Methylation_type	Genome_sites	Methylated_sites	Methylation_coverage	Average_Percent_Methylation_per_site	Methylated_position_1	Methylated_position_1_percent	Methylated_position_2	Methylated_position_2_percent
+0	0	AAAAGRG	1-HWAAAAGRGYWWDWW	6mA	2669	576	0.216	0.83	4	98.616	3	1.211
+1	1	No Motif Assigned	NA	6mA	NA	292	NA	0.81	NA	NA	NA	NA
+2	0	WGGNCCW	1-HWDHWGGWCCWDHWD	5mC	2586	1150	0.445	0.84	3	50.0	5	50.0
+3	1	WNCATGNNNW	2-WYWDCATGDNHWDNW	5mC	2775	984	0.355	0.8	6	51.005	3	48.172
+4	2	No Motif Assigned	NA	5mC	NA	810	NA	0.81	NA	NA	NA	NA
