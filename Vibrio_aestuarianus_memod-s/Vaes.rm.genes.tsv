@@ -1,0 +1,34 @@
+Operon	Gene	System Type	Gene type	HMM	Evalue	REBASE homolog	Homolog identity(%)	Homolog methylation	Homolog motif
+RM Operon #1	contig00001_7	RM_Type_I	MT	Type_I_MTases_FAM_0	1.2e-153	M.Vna16373I	95.596	m6A	TAACNNNNNTRCC
+RM Operon #1	contig00001_8	RM_Type_I	SP	Type_I_S_06	8.7e-50	S.Vna16373I	69.949		TAACNNNNNTRCC
+RM Operon #1	contig00001_11	RM_Type_I	RE	Type_I_REases_FAM_0.einsi_trimmed	2.3e-179	Vce7224ORFEP	97.368		
+RM Operon #10	contig00003_112	RM_Type_I	MT	Type_I_MTases_FAM_0	1.2e-153	M.Vna16373I	95.596	m6A	TAACNNNNNTRCC
+RM Operon #10	contig00003_113	RM_Type_I	SP	Type_I_S_06	8.7e-50	S.Vna16373I	69.949		TAACNNNNNTRCC
+RM Operon #10	contig00003_116	RM_Type_I	RE	Type_I_REases_FAM_0.einsi_trimmed	5.6e-16	VniSFn1ORF2017P	64.241		
+RM Operon #11	contig00004_8	RM_Type_I	MT	Type_I_MTases_FAM_0	1.2e-153	M.Vna16373I	95.596	m6A	TAACNNNNNTRCC
+RM Operon #11	contig00004_9	RM_Type_I	SP	Type_I_S_06	8.7e-50	S.Vna16373I	69.949		TAACNNNNNTRCC
+RM Operon #11	contig00004_12	RM_Type_I	RE	Type_I_REases_FAM_0.einsi_trimmed	1.7e-179	Vce7224ORFEP	97.462		
+RM Operon #2	contig00001_319	RM_Type_I	MT	Type_I_MTases_FAM_0	2e-176	M.VspSS3ORF430P	98.168	m6A	
+RM Operon #2	contig00001_317	RM_Type_I	SP	Type_I_S_51	4.9e-55	S.VvuYORF816P	63.839		
+RM Operon #2	contig00001_316	RM_Type_I	RE	Type_I_REases_FAM_0.einsi_trimmed	1.8e-209	VvuYORF816P	97.665		
+RM Operon #3	contig00001_1015	RM_Type_I	MT	Type_I_MTases_FAM_3	4.3e-280	M.Vsp19031ORFBP	97.647	m6A	
+RM Operon #3	contig00001_1016	RM_Type_I	SP	Type_I_S_52	6e-87	S.AveHm21ORF11475P	68.879		
+RM Operon #3	contig00001_1017	RM_Type_I	RE	Type_I_REases_FAM_1.einsi_trimmed	0.0	Vsp19031ORFBP	98.605		
+RM Operon #4	contig00001_2082	RM_Type_IV	RE	putative_typeiv	3.7e-137	Van11008ORF4200P	87.037		
+RM Operon #5	contig00001_2492	RM_Type_II	MT	Type_II_MTases_FAM_1	1.5e-56	M.Vcr22240ORFGP	99.31		CAGCTG
+RM Operon #5	contig00001_2491	RM_Type_II	RE	Type_II_REase18	3.6e-14	Vcr22240ORFGP	100.0		CAGCTG
+RM Operon #6	contig00001_2810	RM_Type_I	MT	Type_I_MTases_FAM_0	1.2e-153	M.Vna16373I	95.596	m6A	TAACNNNNNTRCC
+RM Operon #6	contig00001_2811	RM_Type_I	SP	Type_I_S_06	8.7e-50	S.Vna16373I	69.949		TAACNNNNNTRCC
+RM Operon #6	contig00001_2814	RM_Type_I	RE	Type_I_REases_FAM_0.einsi_trimmed	1.7e-95	Vce7224ORFEP	96.934		
+RM Operon #7	contig00002_992	RM_Type_I	MT	Type_I_MTases_FAM_0	1.2e-153	M.Vna16373I	95.596	m6A	TAACNNNNNTRCC
+RM Operon #7	contig00002_993	RM_Type_I	SP	Type_I_S_06	8.7e-50	S.Vna16373I	69.949		TAACNNNNNTRCC
+RM Operon #7	contig00002_996	RM_Type_I	RE	Type_I_REases_FAM_0.einsi_trimmed	1.7e-179	Vce7224ORFEP	97.462		
+RM Operon #8	contig00003_9	RM_Type_I	MT	Type_I_MTases_FAM_0	1.2e-153	M.Vna16373I	95.596	m6A	TAACNNNNNTRCC
+RM Operon #8	contig00003_10	RM_Type_I	SP	Type_I_S_06	8.7e-50	S.Vna16373I	69.949		TAACNNNNNTRCC
+RM Operon #8	contig00003_13	RM_Type_I	RE	Type_I_REases_FAM_0.einsi_trimmed	1.7e-179	Vce7224ORFEP	97.462		
+RM Operon #9	contig00003_83	RM_Type_II	MT	Type_II_MTases_FAM_2	1e-100	M.AtaSE63ORF3660P	69.444	m5C	
+RM Operon #9	contig00003_84	RM_Type_IV	RE	Type_IV_21-RM_Type_IV__Type_IV_REases	6.6e-96	PbaE1086McrB2P	71.461		
+Singleton #1	contig00001_175	RM_Type_II	MT	Type_II_MTases_FAM_4	9.5e-91	M.VspQ67DamP	92.391	m6A	
+Singleton #2	contig00001_1505	RM_Type_I	RE	Type_I_REases_FAM_2.einsi_trimmed	1.8e-15				
+Singleton #3	contig00001_1722	RM_Type_II	MT	Type_II_MTases_FAM_4	2.5e-19	M.Vfu1225ORFDP	89.963		
+Singleton #4	contig00002_775	RM_Type_II	MT	Type_II_MTases_FAM_1	9.7e-42	M.Vsp722ORFAP	100.0		
