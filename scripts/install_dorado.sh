@@ -17,6 +17,7 @@ mkdir -p "${INSTALL_DIR}"
 cd "${INSTALL_DIR}"
 
 if [[ ! -d "${DORADO_NAME}" ]]; then
+    echo "Dorado installation may require several minutes due to the size of the package."
     wget https://cdn.oxfordnanoportal.com/software/analysis/${DORADO_TAR}
     tar -xzf "${DORADO_TAR}"
     rm "${DORADO_TAR}"
