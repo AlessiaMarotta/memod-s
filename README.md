@@ -46,52 +46,61 @@ Run `memod-s` with *--help* or *-h* arguments to see usage instructions:
 ```
 Welcome to memod-s
 usage: memod-s [-h] -i INPUT_DIRECTORY [-o OUTPUT_DIRECTORY] [-ml FILTLONG_MIN_LENGTH] [-kp FILTLONG_KEEP_PERCENT] [-rr RACON_ROUNDS]
-                [-ed EGGNOG_DB] [-ab] [-ab_dir ABRICATE_DB_DIR] [-ab_db ABRICATE_DB_NAME]
-                [-dm DORADO_MODELS [DORADO_MODELS ...]] [-dp DORADO_PU] [--dmr_window DMR_WINDOW] [--dmr_pairs [DMR_PAIRS ...]] [-q]
+               [-as {dragonflye,canu,raven}] [-ed EGGNOG_DB] [-ab] [-ab_dir ABRICATE_DB_DIR] [-ab_db ABRICATE_DB_NAME] [-dt {fast,hac,sup}]
+               [-dmb DORADO_MODIFIED_BASES] [-dp DORADO_PU] [-dm DORADO_FALLBACK_MODELS [DORADO_FALLBACK_MODELS ...]]
+               [--dmr_window DMR_WINDOW] [--dmr_pairs DMR_PAIRS [DMR_PAIRS ...]] [-q]
 
 Snakefile wrapper for memod-s. For more details visit: https://github.com/AlessiaMarotta/memod-s
 
 options:
   -h, --help            show this help message and exit
-  -i INPUT_DIRECTORY, --input_directory INPUT_DIRECTORY
-                        input directory containing FAST5 or POD5 files. (default: None)
-  -o OUTPUT_DIRECTORY, --output_directory OUTPUT_DIRECTORY
-                        output directory. (default: ./memod)
+  -i, --input_directory INPUT_DIRECTORY
+                        input directory containing FAST5, POD5 files or bam file already basecalled. (default: None)
+  -o, --output_directory OUTPUT_DIRECTORY
+                        output directory. (default: /media/shared1/alessiam/memods_revision/memod-s/memod)
 
 filtering options:
-  -ml FILTLONG_MIN_LENGTH, --filtlong_min_length FILTLONG_MIN_LENGTH
+  -ml, --filtlong_min_length FILTLONG_MIN_LENGTH
                         minimum read length for filtlong. (default: 1000)
-  -kp FILTLONG_KEEP_PERCENT, --filtlong_keep_percent FILTLONG_KEEP_PERCENT
+  -kp, --filtlong_keep_percent FILTLONG_KEEP_PERCENT
                         percentage of best reads to keep. (default: 90)
 
 assembly options:
-  -rr RACON_ROUNDS, --racon_rounds RACON_ROUNDS
+  -rr, --racon_rounds RACON_ROUNDS
                         number of racon polishing rounds. (default: 4)
+  -as, --assembler {dragonflye,canu,raven}
+                        Assembler to use for genome assembly. (default: dragonflye)
 
 annotation options:
-  -ed EGGNOG_DB, --eggnog_db EGGNOG_DB
+  -ed, --eggnog_db EGGNOG_DB
                         path to eggNOG database. (default: eggnog_db)
   -ab, --abricate       use abricate for resistance gene analysis. (default: False)
-  -ab_dir ABRICATE_DB_DIR, --abricate_db_dir ABRICATE_DB_DIR
+  -ab_dir, --abricate_db_dir ABRICATE_DB_DIR
                         directory for abricate databases. (default: abricate_db_dir)
-  -ab_db ABRICATE_DB_NAME, --abricate_db_name ABRICATE_DB_NAME
+  -ab_db, --abricate_db_name ABRICATE_DB_NAME
                         abricate database name. (default: vfdb)
 
-dorado models:
-  -dm DORADO_MODELS [DORADO_MODELS ...], --dorado_models DORADO_MODELS [DORADO_MODELS ...]
+dorado parameters:
+  -dt, --dorado_model_tier {fast,hac,sup}
+                        Accuracy tier for Auto-Discovery mode. (default: sup) (default: sup)
+  -dmb, --dorado_modified_bases DORADO_MODIFIED_BASES
+                        Modified bases (default: '4mC_5mC 6mA') (default: 4mC_5mC 6mA)
+  -dp, --dorado_pu DORADO_PU
+                        GPU/CPU (default: cuda:all)
+  -dm, --dorado_fallback_models DORADO_FALLBACK_MODELS [DORADO_FALLBACK_MODELS ...]
                         list of dorado models for basecalling. (default: ['dna_r10.4.1_e8.2_400bps_sup@v4.1.0',
                         'dna_r10.4.1_e8.2_400bps_sup@v5.0.0_6mA@v1', 'dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v1'])
-  -dp DORADO_PU, --dorado_pu DORADO_PU
-                         If you don't have a GPU available, enter "cpu" as the processing unit to use for Dorado. (default: "cuda:all")
 
 DMRs options:
   --dmr_window DMR_WINDOW
                         lenght of DMR window (bp) (default: 50)
   --dmr_pairs DMR_PAIRS [DMR_PAIRS ...]
-                        Pairs of samples for Differentially Methylation Regions Analysis. Format: sample1,sample2 sample3,sample4 (default: None)
+                        Pairs of samples for Differentially Methylation Regions Analysis. Format: sample1,sample2 sample3,sample4 (default:
+                        None)
 
 general options:
   -q, --quiet           suppress non-essential output. (default: False)
+
 
 
 ```
@@ -108,8 +117,6 @@ general options:
         --filtlong_min_length 1500 \
         --filtlong_keep_percent 80 \
         --racon_rounds 5 \
-        --dorado_models dna_r10.4.1_e8.2_400bps_sup@v5.0.0_6mA@v1 \
-            dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v1 \
         --ab ---ab_dir /path/to/abricate/db -ab_db vfdb \
         --dmr_window 50 --dmr_pairs sample1,sample2
 ```
@@ -125,7 +132,7 @@ general options:
 5. Quality check with [NanoPlot](https://github.com/wdecoster/NanoPlot)
 6. Quality filtering with [Filtlong](https://github.com/rrwick/Filtlong)
 7. Quality check after fitlering with [NanoPlot](https://github.com/wdecoster/NanoPlot)
-8. Assembly with [Dragonflye](https://github.com/rpetit3/dragonflye)
+8. Assembly with [Dragonflye](https://github.com/rpetit3/dragonflye) or [Canu](https://github.com/marbl/canu) or [Raven](https://github.com/lbcb-sci/raven)
 9. Assembly evaluation with [quast](https://github.com/ablab/quast)
 10. Genome annotation with [prokka](https://github.com/tseemann/prokka)
 11. Functional annotation with [eggnog-mapper](https://github.com/eggnogdb/eggnog-mapper)
