@@ -16,7 +16,7 @@ It combines genome-wide methylation profiles with genomic features, providing in
 
 ## ⚙️ Installation
 
-To set up `memod-s`, you first need to create an environment where Snakemake will be installed. Then, you can clone the repository and run the workflow. 
+To set up `memod-s`, you first need to create an environment where all necessary packages will be installed. Then, you can clone the repository and run the workflow. 
 Create a dedicated environment for `memod-s` using [mamba package manager](https://github.com/mamba-org/mamba):
 
 ```
@@ -107,12 +107,12 @@ general options:
 🛠 Basic usage, to run `memod-s` with default parameters:
 
 ```
-./memod-s -i /path/to/your/input_dir/with/fast5/or/pod5
+./memod-s -i /path/to/your/input_dir
 ```
 🔬 More advanced usage:
 
 ```
-./memod-s --input_directory /path/to/your/input_dir/with/fast5/or/pod5 \
+./memod-s --input_directory /path/to/your/input_dir \
         --output_directory /path/to/output_dir \
         --filtlong_min_length 1500 \
         --filtlong_keep_percent 80 \
