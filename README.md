@@ -11,7 +11,7 @@
 The workflow covers all critical steps, from basecalling, quality control, genome assembly, and annotation to methylation analysis.
 It combines genome-wide methylation profiles with genomic features, providing insights into bacterial methylation patterns and their potential biological implications.
 
-<img width="1920" height="1080" alt="input" src="https://github.com/user-attachments/assets/2edafa64-2d20-4d31-afee-cb03260a121e" />
+<img width="1958" height="1117" alt="image" src="https://github.com/user-attachments/assets/b9165896-05f0-4790-8f8e-fafbc54e2ca6" />
 
 
 ## ⚙️ Installation
