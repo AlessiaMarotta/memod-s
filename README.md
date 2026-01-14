@@ -20,10 +20,10 @@ To set up `memod-s`, you first need to create an environment where Snakemake wil
 Create a dedicated environment for `memod-s` using [mamba package manager](https://github.com/mamba-org/mamba):
 
 ```
-mamba create -n memod-s -c bioconda snakemake
+mamba env create -f memod-s.yaml
 ```
 
-This will create an environment called `memod-s` and install Snakemake.
+This will create an environment called `memod-s` and install all necessary packages.
 
 Then, activate the environment:
 ```
