@@ -17,23 +17,26 @@ It combines genome-wide methylation profiles with genomic features, providing in
 ## ⚙️ Installation
 
 To set up `memod-s`, you first need to create an environment where all necessary packages will be installed. Then, you can clone the repository and run the workflow. 
-Create a dedicated environment for `memod-s` using [mamba package manager](https://github.com/mamba-org/mamba):
+Clone the repo:
 
+```
+git clone https://github.com/AlessiaMarotta/memod-s.git
+cd memod-s/envs
+```
+Create a dedicated environment for `memod-s` using [mamba package manager](https://github.com/mamba-org/mamba):
 ```
 mamba env create -f memod-s.yaml
 ```
-
 This will create an environment called `memod-s` and install all necessary packages.
 
 Then, activate the environment:
 ```
 mamba activate memod-s
 ```
-And clone the repo:
+And:
 
 ```
-git clone https://github.com/AlessiaMarotta/memod-s.git
-cd memod-s
+cd ..
 bash setup.sh
 ```
 ## 🔧 Usage
