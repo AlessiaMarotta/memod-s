@@ -674,7 +674,6 @@ dependencies:
       - iso8601==2.1.0
       - lib-pod5==0.3.35
       - matplotlib==3.10.8
-      - microbemod==1.1.0
       - more-itertools==10.8.0
       - pillow==12.1.0
       - pod5==0.3.35
