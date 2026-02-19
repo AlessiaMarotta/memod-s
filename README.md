@@ -29,9 +29,12 @@ mamba env create -f memod-s.yaml
 ```
 This will create an environment called `memod-s` and install all necessary packages.
 
-Then, activate the environment:
+Then, activate the environment with mamba or conda:
 ```
 mamba activate memod-s
+```
+```
+conda activate memod-s
 ```
 And:
 
